@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import parksData from '../../../data/parks.json';
+import type { Park } from '../types';
+
+const parks = parksData as Park[];
+const allStates = new Set<string>();
+parks.forEach(park => {
+  const parkStates = park.state.split(',').map(s => s.trim());
+  parkStates.forEach(s => allStates.add(s));
+});
+const sortedStates = Array.from(allStates).sort();
+---
+
+<Layout>
+  <main class="container mx-auto px-4 py-12 max-w-4xl">
+    <h1 class="text-4xl font-bold text-gray-900 mb-6 text-center">Accessible Outdoor Directory</h1>
+    <p class="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+      Discover wheelchair-accessible national parks, trails, and campgrounds.
+    </p>
+
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+      <h2 class="text-2xl font-semibold mb-6">Browse by State</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {sortedStates.map(state => (
+          <a 
+            href={`/states/${state}`}
+            class="flex items-center justify-center p-4 rounded-lg bg-gray-50 hover:bg-green-50 hover:text-green-700 hover:border-green-200 border border-transparent transition-all font-medium text-lg"
+          >
+            {state}
+          </a>
+        ))}
+      </div>
+    </div>
+  </main>
+</Layout>

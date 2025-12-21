@@ -1,0 +1,50 @@
+[
+  {
+    "id": "yosemite",
+    "name": "Yosemite National Park",
+    "state": "CA",
+    "lat": 37.8651,
+    "lon": -119.5383,
+    "accessible_restrooms": true,
+    "accessible_parking": true,
+    "accessible_trails": true,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "verified"
+  },
+  {
+    "id": "yellowstone",
+    "name": "Yellowstone National Park",
+    "state": "WY,MT,ID",
+    "lat": 44.428,
+    "lon": -110.5885,
+    "accessible_restrooms": true,
+    "accessible_parking": true,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "verified"
+  },
+  {
+    "id": "acadia",
+    "name": "Acadia National Park",
+    "state": "ME",
+    "lat": 44.3386,
+    "lon": -68.2733,
+    "accessible_restrooms": false,
+    "accessible_parking": true,
+    "accessible_trails": true,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  }
+]

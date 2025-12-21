@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Park",
+  "description": "A park or outdoor location with accessibility information",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the park (e.g. NPS park code)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name of the park"
+    },
+    "state": {
+      "type": "string",
+      "description": "State code(s) (e.g. 'CA' or 'CA,NV')"
+    },
+    "lat": {
+      "type": "number",
+      "description": "Latitude"
+    },
+    "lon": {
+      "type": "number",
+      "description": "Longitude"
+    },
+    "accessible_restrooms": {
+      "type": "boolean",
+      "description": "Has wheelchair-accessible restrooms"
+    },
+    "accessible_parking": {
+      "type": "boolean",
+      "description": "Has accessible parking spaces"
+    },
+    "accessible_trails": {
+      "type": "boolean",
+      "description": "Has paved or wheelchair-friendly trails"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["nps", "manual", "osm"],
+      "description": "Data source"
+    },
+    "affiliate_links": {
+      "type": "object",
+      "properties": {
+        "gear": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "lodging": {
+          "type": ["string", "null"],
+          "format": "uri"
+        }
+      },
+      "required": ["gear", "lodging"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["verified", "needs_review"],
+      "description": "Verification status"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "state",
+    "lat",
+    "lon",
+    "accessible_restrooms",
+    "accessible_parking",
+    "accessible_trails",
+    "source",
+    "affiliate_links",
+    "status"
+  ]
+}

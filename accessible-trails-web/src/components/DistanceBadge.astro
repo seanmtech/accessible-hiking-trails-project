@@ -1,0 +1,193 @@
+---
+interface Props {
+  lat: number;
+  lon: number;
+}
+
+const { lat, lon } = Astro.props;
+---
+
+<div class="distance-badge text-sm text-gray-500 mt-3 pt-3 border-t border-gray-100" data-lat={lat} data-lon={lon}>
+  <div class="distance-display hidden flex items-center gap-1 text-green-700">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+    <span class="font-medium value"></span> 
+    <span>miles away</span>
+    <button class="text-xs text-gray-400 hover:text-gray-600 ml-2 underline reset-location-btn">Change</button>
+  </div>
+  
+  <div class="zip-fallback hidden">
+    <p class="text-xs text-gray-400 mb-1">See distance from you:</p>
+    <div class="flex gap-2 items-center">
+      <button class="text-xs bg-green-50 text-green-700 px-2 py-1 rounded hover:bg-green-100 transition-colors enable-geo-btn flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        Locate Me
+      </button>
+      <span class="text-xs text-gray-300">or</span>
+      <input 
+        type="text" 
+        placeholder="Zip Code" 
+        class="zip-input border border-gray-300 rounded px-2 py-1 text-xs w-20 focus:border-green-500 focus:outline-none"
+        maxlength="5"
+        pattern="[0-9]*"
+      />
+    </div>
+  </div>
+</div>
+
+<script>
+  // Haversine formula to calculate distance in miles
+  function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
+    const R = 3958.8; // Radius of the Earth in miles
+    const dLat = (lat2 - lat1) * (Math.PI / 180);
+    const dLon = (lon2 - lon1) * (Math.PI / 180);
+    const a = 
+      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) * 
+      Math.sin(dLon / 2) * Math.sin(dLon / 2); 
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)); 
+    return R * c;
+  }
+
+  class DistanceBadge {
+    element: HTMLElement;
+    lat: number;
+    lon: number;
+    displayEl: HTMLElement;
+    valueEl: HTMLElement;
+    fallbackEl: HTMLElement;
+    zipInput: HTMLInputElement;
+    geoBtn: HTMLButtonElement;
+    resetBtn: HTMLButtonElement;
+
+    constructor(element: Element) {
+      this.element = element as HTMLElement;
+      this.lat = parseFloat(this.element.dataset.lat || '0');
+      this.lon = parseFloat(this.element.dataset.lon || '0');
+      this.displayEl = this.element.querySelector('.distance-display') as HTMLElement;
+      this.valueEl = this.element.querySelector('.value') as HTMLElement;
+      this.fallbackEl = this.element.querySelector('.zip-fallback') as HTMLElement;
+      this.zipInput = this.element.querySelector('.zip-input') as HTMLInputElement;
+      this.geoBtn = this.element.querySelector('.enable-geo-btn') as HTMLButtonElement;
+      this.resetBtn = this.element.querySelector('.reset-location-btn') as HTMLButtonElement;
+
+      this.init();
+    }
+
+    init() {
+      // Check if we have a stored location
+      const storedLat = localStorage.getItem('user_lat');
+      const storedLon = localStorage.getItem('user_lon');
+
+      if (storedLat && storedLon) {
+        this.updateDistance(parseFloat(storedLat), parseFloat(storedLon));
+      } else {
+        this.showFallback();
+      }
+
+      this.zipInput?.addEventListener('change', (e) => this.handleZip((e.target as HTMLInputElement).value));
+      this.geoBtn?.addEventListener('click', () => this.requestLocation());
+      this.resetBtn?.addEventListener('click', () => this.resetLocation());
+    }
+
+    updateDistance(userLat: number, userLon: number) {
+      const dist = calculateDistance(userLat, userLon, this.lat, this.lon);
+      if (this.valueEl) this.valueEl.textContent = dist.toFixed(1);
+      this.displayEl?.classList.remove('hidden');
+      this.fallbackEl?.classList.add('hidden');
+    }
+
+    showFallback() {
+      this.fallbackEl?.classList.remove('hidden');
+      this.displayEl?.classList.add('hidden');
+    }
+
+    resetLocation() {
+      localStorage.removeItem('user_lat');
+      localStorage.removeItem('user_lon');
+      window.dispatchEvent(new CustomEvent('location-reset'));
+    }
+
+    requestLocation() {
+      if (!navigator.geolocation) return;
+      
+      this.geoBtn.textContent = 'Locating...';
+      
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+          localStorage.setItem('user_lat', latitude.toString());
+          localStorage.setItem('user_lon', longitude.toString());
+          
+          window.dispatchEvent(new CustomEvent('location-updated', { 
+            detail: { lat: latitude, lon: longitude } 
+          }));
+          this.geoBtn.textContent = 'Locate Me';
+        },
+        (err) => {
+          console.error(err);
+          this.geoBtn.textContent = 'Error';
+          setTimeout(() => this.geoBtn.textContent = 'Locate Me', 2000);
+        }
+      );
+    }
+
+    async handleZip(zip: string) {
+      if (zip.length !== 5) return;
+      
+      try {
+        this.zipInput.disabled = true;
+        const res = await fetch(`https://api.zippopotam.us/us/${zip}`);
+        if (!res.ok) throw new Error('Invalid Zip');
+        const data = await res.json();
+        const place = data.places[0];
+        const lat = parseFloat(place.latitude);
+        const lon = parseFloat(place.longitude);
+        
+        localStorage.setItem('user_lat', lat.toString());
+        localStorage.setItem('user_lon', lon.toString());
+        
+        window.dispatchEvent(new CustomEvent('location-updated', { 
+           detail: { lat, lon } 
+        }));
+      } catch (e) {
+        console.error(e);
+        this.zipInput.classList.add('border-red-500');
+      } finally {
+        this.zipInput.disabled = false;
+      }
+    }
+  }
+
+  // Global event listeners
+  window.addEventListener('location-updated', (e: any) => {
+    const { lat, lon } = e.detail;
+    document.querySelectorAll('.distance-badge').forEach(el => {
+      const badgeLat = parseFloat((el as HTMLElement).dataset.lat || '0');
+      const badgeLon = parseFloat((el as HTMLElement).dataset.lon || '0');
+      
+      const R = 3958.8; 
+      const dLat = (badgeLat - lat) * (Math.PI / 180);
+      const dLon = (badgeLon - lon) * (Math.PI / 180);
+      const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat * (Math.PI / 180)) * Math.cos(badgeLat * (Math.PI / 180)) * 
+                Math.sin(dLon / 2) * Math.sin(dLon / 2); 
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)); 
+      const dist = R * c;
+
+      const valEl = el.querySelector('.value');
+      if (valEl) valEl.textContent = dist.toFixed(1);
+      el.querySelector('.distance-display')?.classList.remove('hidden');
+      el.querySelector('.zip-fallback')?.classList.add('hidden');
+    });
+  });
+
+  window.addEventListener('location-reset', () => {
+    document.querySelectorAll('.distance-badge').forEach(el => {
+      el.querySelector('.distance-display')?.classList.add('hidden');
+      el.querySelector('.zip-fallback')?.classList.remove('hidden');
+    });
+  });
+
+  // Init all badges
+  document.querySelectorAll('.distance-badge').forEach(el => new DistanceBadge(el));
+</script>

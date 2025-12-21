@@ -131,7 +131,7 @@
 - "Set up a `/data` folder and a `/scripts` folder at the root."
 - "Write a Python script called `fetch_nps.py` to download and normalize National Park accessibility data from the NPS API into `parks.json`."
 - "Create a file called `manual_overrides.json` that can be merged with the automated data before build time."
-- "Define a reusable JSON schema or TypeScript interface for park data with fields like name, state, lat/lon, and accessibility tags."
+- "Define a reusable JSON schema for park data with fields like name, state, lat/lon, and accessibility tags."
 
 ### UI Build
 

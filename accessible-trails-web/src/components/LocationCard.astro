@@ -1,0 +1,52 @@
+---
+import type { Park } from '../types';
+import DistanceBadge from './DistanceBadge.astro';
+
+interface Props {
+  park: Park;
+}
+
+const { park } = Astro.props;
+---
+
+<article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border border-gray-100">
+  <header class="mb-4">
+    <h2 class="text-xl font-bold text-gray-900 leading-tight">
+      <a href={`/location/${park.id}`} class="hover:underline decoration-green-600 underline-offset-2">
+        {park.name}
+      </a>
+    </h2>
+    <p class="text-gray-500 text-sm mt-1 flex items-center gap-1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      {park.state}
+    </p>
+  </header>
+
+  <div class="grid grid-cols-3 gap-2 text-center mb-4">
+    <!-- Restrooms -->
+    <div class={`flex flex-col items-center p-2 rounded ${park.accessible_restrooms ? 'bg-green-50 text-green-800' : 'bg-gray-50 text-gray-400'}`} title={park.accessible_restrooms ? "Accessible Restrooms Available" : "Restroom accessibility unknown or unavailable"}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
+        <path d="M9 11V6a3 3 0 1 1 6 0v5"/><path d="M6 11v-2a4 4 0 0 1 8 0v2"/><path d="M6 11h8"/><path d="M9 11v10"/><path d="M15 11v10"/>
+      </svg>
+      <span class="text-xs font-medium">Restrooms</span>
+    </div>
+
+    <!-- Parking -->
+    <div class={`flex flex-col items-center p-2 rounded ${park.accessible_parking ? 'bg-green-50 text-green-800' : 'bg-gray-50 text-gray-400'}`} title={park.accessible_parking ? "Accessible Parking Available" : "Parking accessibility unknown or unavailable"}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/>
+      </svg>
+      <span class="text-xs font-medium">Parking</span>
+    </div>
+
+    <!-- Trails -->
+    <div class={`flex flex-col items-center p-2 rounded ${park.accessible_trails ? 'bg-green-50 text-green-800' : 'bg-gray-50 text-gray-400'}`} title={park.accessible_trails ? "Accessible Trails Available" : "Trail accessibility unknown or unavailable"}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
+        <path d="M13.73 21a2 2 0 0 1-3.46 0l-8-14A2 2 0 0 1 4 4h16a2 2 0 0 1 1.73 3l-8 14z"/>
+      </svg>
+      <span class="text-xs font-medium">Trails</span>
+    </div>
+  </div>
+
+  <DistanceBadge lat={park.lat} lon={park.lon} />
+</article>

@@ -1,0 +1,52 @@
+---
+---
+
+<form id="filter-form" class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 mb-6">
+  <h3 class="font-semibold text-gray-900 mb-3">Filter by Accessibility</h3>
+  <div class="flex flex-col gap-3 sm:flex-row sm:gap-6">
+    <label class="flex items-center gap-2 cursor-pointer">
+      <input type="checkbox" name="accessible_restrooms" class="w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500" />
+      <span class="text-gray-700">Accessible Restrooms</span>
+    </label>
+    
+    <label class="flex items-center gap-2 cursor-pointer">
+      <input type="checkbox" name="accessible_parking" class="w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500" />
+      <span class="text-gray-700">Accessible Parking</span>
+    </label>
+    
+    <label class="flex items-center gap-2 cursor-pointer">
+      <input type="checkbox" name="accessible_trails" class="w-4 h-4 text-green-600 rounded border-gray-300 focus:ring-green-500" />
+      <span class="text-gray-700">Accessible Trails</span>
+    </label>
+  </div>
+</form>
+
+<script>
+  const form = document.getElementById('filter-form') as HTMLFormElement;
+  const checkboxes = form.querySelectorAll('input[type="checkbox"]');
+
+  // Initialize state from URL params
+  const urlParams = new URLSearchParams(window.location.search);
+  checkboxes.forEach((checkbox) => {
+    const input = checkbox as HTMLInputElement;
+    if (urlParams.has(input.name)) {
+      input.checked = true;
+    }
+  });
+
+  // Update URL and reload on change
+  form.addEventListener('change', () => {
+    const params = new URLSearchParams(window.location.search);
+    
+    checkboxes.forEach((checkbox) => {
+      const input = checkbox as HTMLInputElement;
+      if (input.checked) {
+        params.set(input.name, 'true');
+      } else {
+        params.delete(input.name);
+      }
+    });
+
+    window.location.search = params.toString();
+  });
+</script>

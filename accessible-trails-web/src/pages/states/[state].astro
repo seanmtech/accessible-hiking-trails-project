@@ -1,0 +1,102 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import LocationCard from '../../components/LocationCard.astro';
+import FilterPanel from '../../components/FilterPanel.astro';
+import parksData from '../../../../data/parks.json';
+import type { Park } from '../../types';
+
+export async function getStaticPaths() {
+  const parks = parksData as Park[];
+  // Extract unique states. Some parks have multiple states "WY,MT,ID"
+  const allStates = new Set<string>();
+  
+  parks.forEach(park => {
+    const parkStates = park.state.split(',').map(s => s.trim());
+    parkStates.forEach(s => allStates.add(s));
+  });
+
+  return Array.from(allStates).map(state => ({
+    params: { state },
+    props: { 
+      stateName: state,
+      parks: parks.filter(p => p.state.includes(state))
+    }
+  }));
+}
+
+const { stateName, parks } = Astro.props;
+---
+
+<Layout>
+  <main class="container mx-auto px-4 py-8 max-w-4xl">
+    <div class="mb-8">
+      <a href="/" class="text-green-600 hover:underline mb-4 inline-block">&larr; Back to all states</a>
+      <h1 class="text-3xl font-bold text-gray-900">Accessible Parks in {stateName}</h1>
+      <p class="text-gray-600 mt-2">Found {parks.length} locations</p>
+    </div>
+
+    <FilterPanel />
+
+    <div class="grid gap-6 md:grid-cols-2" id="parks-grid">
+      {parks.map((park) => (
+        <div 
+          class="park-item" 
+          data-restrooms={park.accessible_restrooms}
+          data-parking={park.accessible_parking}
+          data-trails={park.accessible_trails}
+        >
+          <LocationCard park={park} />
+        </div>
+      ))}
+    </div>
+    
+    <div id="no-results" class="hidden text-center py-12 text-gray-500">
+      <p class="text-lg">No parks match your selected filters.</p>
+      <button id="clear-filters" class="mt-4 text-green-600 hover:underline">Clear filters</button>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  function filterParks() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const requireRestrooms = urlParams.has('accessible_restrooms');
+    const requireParking = urlParams.has('accessible_parking');
+    const requireTrails = urlParams.has('accessible_trails');
+
+    const parkItems = document.querySelectorAll('.park-item');
+    let visibleCount = 0;
+
+    parkItems.forEach((item) => {
+      const el = item as HTMLElement;
+      const hasRestrooms = el.dataset.restrooms === 'true';
+      const hasParking = el.dataset.parking === 'true';
+      const hasTrails = el.dataset.trails === 'true';
+
+      let isVisible = true;
+      if (requireRestrooms && !hasRestrooms) isVisible = false;
+      if (requireParking && !hasParking) isVisible = false;
+      if (requireTrails && !hasTrails) isVisible = false;
+
+      if (isVisible) {
+        el.style.display = 'block';
+        visibleCount++;
+      } else {
+        el.style.display = 'none';
+      }
+    });
+
+    const noResults = document.getElementById('no-results');
+    if (noResults) {
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+  }
+
+  // Run on load
+  filterParks();
+
+  // Handle clear filters button
+  document.getElementById('clear-filters')?.addEventListener('click', () => {
+    window.location.search = '';
+  });
+</script>
