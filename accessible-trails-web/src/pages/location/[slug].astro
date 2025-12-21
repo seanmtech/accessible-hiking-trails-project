@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import DistanceBadge from '../../components/DistanceBadge.astro';
+import AdSlot from '../../components/AdSlot.astro';
 import parksData from '../../../../data/parks.json';
 import type { Park } from '../../types';
 
@@ -23,9 +24,46 @@ const statusColors = {
   verified: 'bg-green-100 text-green-800',
   needs_review: 'bg-yellow-100 text-yellow-800'
 };
+
+const title = `${park.name} - Accessible Hiking & Trails in ${park.state}`;
+const description = `Find wheelchair accessible restrooms, parking, and trails at ${park.name} in ${park.state}. Plan your accessible outdoor trip today.`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Park",
+  "name": park.name,
+  "description": description,
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": park.lat,
+    "longitude": park.lon
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": park.state
+  },
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Wheelchair Accessible Restrooms",
+      "value": park.accessible_restrooms
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Accessible Parking",
+      "value": park.accessible_parking
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Accessible Trails",
+      "value": park.accessible_trails
+    }
+  ]
+};
 ---
 
-<Layout>
+<Layout title={title} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <main class="container mx-auto px-4 py-8 max-w-3xl">
     <div class="mb-6">
       <a href={`/states/${park.state.split(',')[0].trim()}`} class="text-green-600 hover:underline">&larr; Back to {park.state} Parks</a>
@@ -120,11 +158,45 @@ const statusColors = {
         </div>
       </section>
 
-      <!-- Placeholder for Affiliate/Ads -->
-      <section class="bg-gray-50 rounded-xl border border-gray-200 p-6 flex items-center justify-center text-center">
-        <div>
-          <p class="text-gray-400 text-sm mb-2">Sponsored</p>
-          <p class="text-gray-500 font-medium">Gear & Lodging recommendations coming soon.</p>
+      <!-- Affiliate / Ads -->
+      <section class="space-y-6">
+        <!-- Ad Unit -->
+        <AdSlot slotId="park-detail-sidebar" className="w-full" />
+
+        <!-- Gear Affiliate -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+          <h3 class="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 10.18a5.93 5.93 0 1 1-1.9-5.19"/><path d="M12 2a8 8 0 0 0-8 8c0 2.76 1.34 5.2 3.4 6.7L12 22l4.6-5.3A8 8 0 0 0 12 2Z"/></svg>
+            Recommended Gear
+          </h3>
+          {park.affiliate_links.gear ? (
+            <a href={park.affiliate_links.gear} target="_blank" rel="noopener noreferrer" class="block p-4 bg-gray-50 rounded border border-gray-200 hover:border-green-300 transition-colors">
+              <p class="font-medium text-green-700">Shop Accessible Outdoor Gear &rarr;</p>
+              <p class="text-sm text-gray-500 mt-1">Support this project by shopping via our partner.</p>
+            </a>
+          ) : (
+            <div class="p-4 bg-gray-50 rounded border border-gray-200 border-dashed text-center">
+              <p class="text-sm text-gray-400">Gear recommendations coming soon.</p>
+            </div>
+          )}
+        </div>
+
+        <!-- Lodging Affiliate -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+          <h3 class="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4 8 4v14"/><path d="M8 9v2"/><path d="M8 13v2"/><path d="M8 17v2"/><path d="M16 9v2"/><path d="M16 13v2"/><path d="M16 17v2"/></svg>
+            Nearby Accessible Stays
+          </h3>
+          {park.affiliate_links.lodging ? (
+            <a href={park.affiliate_links.lodging} target="_blank" rel="noopener noreferrer" class="block p-4 bg-gray-50 rounded border border-gray-200 hover:border-green-300 transition-colors">
+              <p class="font-medium text-green-700">Find Accessible Hotels & Cabins &rarr;</p>
+              <p class="text-sm text-gray-500 mt-1">Book your stay near {park.name}.</p>
+            </a>
+          ) : (
+            <div class="p-4 bg-gray-50 rounded border border-gray-200 border-dashed text-center">
+              <p class="text-sm text-gray-400">Lodging partners coming soon.</p>
+            </div>
+          )}
         </div>
       </section>
     </div>
