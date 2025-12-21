@@ -114,7 +114,17 @@ def save_data(parks):
     
     with open(OUTPUT_FILE, "w") as f:
         json.dump(parks, f, indent=2)
-    print(f"Successfully saved {len(parks)} parks to {OUTPUT_FILE}")
+    
+    # Summary
+    total = len(parks)
+    needs_review = sum(1 for p in parks if p["status"] == "needs_review")
+    verified = total - needs_review
+    
+    print(f"Successfully saved {total} parks to {OUTPUT_FILE}")
+    print(f"Summary: {verified} verified, {needs_review} needs_review")
+    
+    if needs_review > 0:
+        print("::warning:: Some parks need manual review. Check data/parks.json")
 
 def apply_overrides(parks):
     if not os.path.exists(OVERRIDES_FILE):
