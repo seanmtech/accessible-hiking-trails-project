@@ -13,20 +13,20 @@
   - [x] Build + deploy commands
   - [x] Contribution guide for yourself/collaborators
 
-- [ ] Add a Python script `scripts/validate_data.py` that:
-  - [ ] Validates `parks.json` against schema
-  - [ ] Flags missing fields or invalid booleans
-  - [ ] Ensures unique `id`s
-  - [ ] Returns non-zero exit if validation fails
+- [x] Add a Python script `scripts/validate_data.py` that:
+  - [x] Validates `parks.json` against schema
+  - [x] Flags missing fields or invalid booleans
+  - [x] Ensures unique `id`s
+  - [x] Returns non-zero exit if validation fails
 
-- [ ] Add GitHub Action to run `validate_data.py` on every pull request
+- [x] Add GitHub Action to run `validate_data.py` on every pull request
 
 ### 🧠 Data Deep Dive (New)
-- [ ] Implement "Deep Dive" accessibility fetching in `fetch_nps.py`:
-  - [ ] Query `/amenities/parksplaces` for "Wheelchair Accessible"
-  - [ ] Categorize places into Trails, Parking, Camping, Lodging
-  - [ ] Update `parks.json` schema
-- [ ] Update Frontend to display detailed accessibility lists
+- [x] Implement "Deep Dive" accessibility fetching in `fetch_nps.py`:
+  - [x] Query `/amenities/parksplaces` for "Wheelchair Accessible"
+  - [x] Categorize places into Trails, Parking, Camping, Lodging
+  - [x] Update `parks.json` schema
+- [x] Update Frontend to display detailed accessibility lists
 
 - [ ] Run full NPS import via `fetch_nps.py` using your API key
   - [ ] Save updated dataset to `data/parks.json`

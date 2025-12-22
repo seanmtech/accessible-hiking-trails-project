@@ -1,3 +1,17 @@
+export interface AccessibilityPlace {
+  name: string;
+  url: string;
+}
+
+export interface AccessibilityDetails {
+  trails: AccessibilityPlace[];
+  parking: AccessibilityPlace[];
+  camping: AccessibilityPlace[];
+  lodging: AccessibilityPlace[];
+  restrooms: AccessibilityPlace[];
+  general: AccessibilityPlace[];
+}
+
 export interface Park {
   id: string;
   name: string;
@@ -13,4 +27,5 @@ export interface Park {
     lodging: string | null;
   };
   status: 'verified' | 'needs_review';
+  accessibility_details?: AccessibilityDetails;
 }

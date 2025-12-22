@@ -13,7 +13,58 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Civilian Conservation Corps Memorial Plaque",
+          "url": "https://www.nps.gov/places/ccc-plaque.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Jordan Pond House",
+          "url": "https://www.nps.gov/places/jordan-pond-house.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Carroll Homestead",
+          "url": "https://www.nps.gov/places/carroll-homestead.htm"
+        },
+        {
+          "name": "Sieur de Monts Nature Center",
+          "url": "https://www.nps.gov/places/sieur-de-monts-nature-center.htm"
+        },
+        {
+          "name": "Wild Gardens of Acadia",
+          "url": "https://www.nps.gov/places/wild-gardens-of-acadia.htm"
+        },
+        {
+          "name": "Cadillac Mountain",
+          "url": "https://www.nps.gov/places/cadillac-mountain.htm"
+        },
+        {
+          "name": "Rockefeller Hall",
+          "url": "https://www.nps.gov/places/rockefeller-hall.htm"
+        },
+        {
+          "name": "Access: Hulls Cove Visitor Center",
+          "url": "https://www.nps.gov/places/axs_hcvc.htm"
+        },
+        {
+          "name": "Access: Schooner Head Overlook",
+          "url": "https://www.nps.gov/places/axs_schooner.htm"
+        },
+        {
+          "name": "Acadia Gateway Center",
+          "url": "https://www.nps.gov/places/acadia-gateway-center.htm"
+        }
+      ]
+    }
   },
   {
     "id": "arch",
@@ -23,13 +74,39 @@
     "lon": -109.5863666,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Courthouse Wash Panel Trail",
+          "url": "https://www.nps.gov/places/courthouse-wash-panel.htm"
+        },
+        {
+          "name": "Balanced Rock Viewpoint and Trail",
+          "url": "https://www.nps.gov/places/balanced-rock-viewing-area.htm"
+        },
+        {
+          "name": "Double Arch Viewpoint and Trail",
+          "url": "https://www.nps.gov/places/double-arch.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Panorama Point Viewing Area",
+          "url": "https://www.nps.gov/places/panorama-point-viewing-area.htm"
+        }
+      ]
+    }
   },
   {
     "id": "badl",
@@ -45,7 +122,93 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Big Badlands Overlook",
+          "url": "https://www.nps.gov/places/big-badlands-overlook.htm"
+        },
+        {
+          "name": "Door Trailhead",
+          "url": "https://www.nps.gov/places/door-trail.htm"
+        },
+        {
+          "name": "Window Trailhead",
+          "url": "https://www.nps.gov/places/window-trail.htm"
+        },
+        {
+          "name": "White River Valley Overlook",
+          "url": "https://www.nps.gov/places/white-river-valley-overlook.htm"
+        },
+        {
+          "name": "Bigfoot Pass Overlook",
+          "url": "https://www.nps.gov/places/bigfoot-pass-overlook.htm"
+        },
+        {
+          "name": "Panorama Point Overlook",
+          "url": "https://www.nps.gov/places/panorama-point.htm"
+        },
+        {
+          "name": "Prairie Wind Overlook",
+          "url": "https://www.nps.gov/places/prairie-wind-overlook.htm"
+        },
+        {
+          "name": "Burns Basin Overlook",
+          "url": "https://www.nps.gov/places/burns-basin-overlook.htm"
+        },
+        {
+          "name": "Homestead Overlook",
+          "url": "https://www.nps.gov/places/homestead-overlook.htm"
+        },
+        {
+          "name": "Conata Basin Overlook",
+          "url": "https://www.nps.gov/places/conata-basin-overlook.htm"
+        },
+        {
+          "name": "Yellow Mounds Overlook",
+          "url": "https://www.nps.gov/places/yellow-mounds-overlook.htm"
+        },
+        {
+          "name": "Conata Picnic Area",
+          "url": "https://www.nps.gov/places/conata-picnic-area.htm"
+        },
+        {
+          "name": "Ancient Hunters Overlook",
+          "url": "https://www.nps.gov/places/ancient-hunters.htm"
+        },
+        {
+          "name": "Pinnacles Overlook",
+          "url": "https://www.nps.gov/places/pinnacles-overlook.htm"
+        },
+        {
+          "name": "Amphitheater",
+          "url": "https://www.nps.gov/places/amphitheater.htm"
+        },
+        {
+          "name": "Fossil Exhibit Trailhead",
+          "url": "https://www.nps.gov/places/fossil-exhibit-trailhead.htm"
+        },
+        {
+          "name": "Cliff Shelf Trailhead",
+          "url": "https://www.nps.gov/places/cliff-shelf-trailhead.htm"
+        },
+        {
+          "name": "Wayside: Alligator",
+          "url": "https://www.nps.gov/places/badl_waysidealligator.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Cedar Pass Lodge",
+          "url": "https://www.nps.gov/places/cedar-pass-lodge.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "bibe",
@@ -55,13 +218,197 @@
     "lon": -103.2297897,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Rio Grande Village Nature Trail",
+          "url": "https://www.nps.gov/places/rio-grande-village-nature-trail.htm"
+        },
+        {
+          "name": "Window View Trail",
+          "url": "https://www.nps.gov/places/window-view-trail.htm"
+        },
+        {
+          "name": "Rio Grande Village Nature Trail Stop #1",
+          "url": "https://www.nps.gov/places/rio-grande-village-nature-trail-stop-1.htm"
+        },
+        {
+          "name": "Rio Grande Village Nature Trail Stop #2",
+          "url": "https://www.nps.gov/places/rio-grande-village-nature-trail-stop-2.htm"
+        },
+        {
+          "name": "Rio Grande Village Nature Trail Stop #3",
+          "url": "https://www.nps.gov/places/rio-grande-village-nature-trail-stop-3.htm"
+        },
+        {
+          "name": "Lost Mine Trail Stop #1",
+          "url": "https://www.nps.gov/places/lost-mine-trail-stop-1.htm"
+        },
+        {
+          "name": "Window Trail Stop #1",
+          "url": "https://www.nps.gov/places/window-trail-stop-1.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Signs of Life Exhibit",
+          "url": "https://www.nps.gov/places/signs-of-life-exhibit.htm"
+        },
+        {
+          "name": "Volcanic Landscape Exhibit",
+          "url": "https://www.nps.gov/places/volcanic-landscape-exhibit.htm"
+        },
+        {
+          "name": "Volcanic Origins Exhibit",
+          "url": "https://www.nps.gov/places/volcanic-origins-exhibit.htm"
+        },
+        {
+          "name": "Finding the Way Exhibit",
+          "url": "https://www.nps.gov/places/finding-the-way-exhibit.htm"
+        },
+        {
+          "name": "Santa Elena Canyon Exhibit",
+          "url": "https://www.nps.gov/places/santa-elena-canyon-exhibit.htm"
+        },
+        {
+          "name": "River Running Exhibit",
+          "url": "https://www.nps.gov/places/river-running-exhibit.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Fossil Discovery Exhibit",
+          "url": "https://www.nps.gov/places/fossil-discovery-exhibit.htm"
+        },
+        {
+          "name": "Chisos Mountains Lodge",
+          "url": "https://www.nps.gov/places/chisos-lodge.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Chisos Mountains Exhibit",
+          "url": "https://www.nps.gov/places/chisos-mountains-wayside.htm"
+        },
+        {
+          "name": "Badlands Exhibit",
+          "url": "https://www.nps.gov/places/badlands-wayside.htm"
+        },
+        {
+          "name": "Persimmon Gap Entrance ",
+          "url": "https://www.nps.gov/places/persimmon-gap-entrance.htm"
+        },
+        {
+          "name": "Maverick Entrance ",
+          "url": "https://www.nps.gov/places/maverick-entrance.htm"
+        },
+        {
+          "name": "Invisible Wildlife Exhibit",
+          "url": "https://www.nps.gov/places/invisible-wildlife.htm"
+        },
+        {
+          "name": "Flash Flood Exhibit",
+          "url": "https://www.nps.gov/places/flash-flood-wayside.htm"
+        },
+        {
+          "name": "Restoring Park Land Exhibit",
+          "url": "https://www.nps.gov/places/restoring-park-land-exhibit.htm"
+        },
+        {
+          "name": "Vertical Scenery Exhibit",
+          "url": "https://www.nps.gov/places/vertical-scenery-wayside.htm"
+        },
+        {
+          "name": "Fins of Fire Exhibit",
+          "url": "https://www.nps.gov/places/fins-of-fire-exhibit.htm"
+        },
+        {
+          "name": "Tree Zone Exhibit",
+          "url": "https://www.nps.gov/places/tree-zone-exhibit.htm"
+        },
+        {
+          "name": "Maverick Information Board",
+          "url": "https://www.nps.gov/places/maverick-bulletin-board.htm"
+        },
+        {
+          "name": "Sotol Vista",
+          "url": "https://www.nps.gov/places/sotol-vista.htm"
+        },
+        {
+          "name": "Chisos Basin Amphitheater",
+          "url": "https://www.nps.gov/places/chisos-amphitheater.htm"
+        },
+        {
+          "name": "Homer Wilson Ranch Overlook",
+          "url": "https://www.nps.gov/places/homer-wilson-ranch-overlook.htm"
+        },
+        {
+          "name": "Goat Mountain Exhibit",
+          "url": "https://www.nps.gov/places/goat-mountain-exhibit.htm"
+        },
+        {
+          "name": "Persimmon Gap",
+          "url": "https://www.nps.gov/places/persimmon-gap.htm"
+        },
+        {
+          "name": "Rio Grande Village Store",
+          "url": "https://www.nps.gov/places/rio-grande-village-store.htm"
+        },
+        {
+          "name": "Daniels Ranch",
+          "url": "https://www.nps.gov/places/daniels-ranch.htm"
+        },
+        {
+          "name": "Mule Ears Overlook",
+          "url": "https://www.nps.gov/places/mule-ears-overlook.htm"
+        },
+        {
+          "name": "Cerro Castellan Exhibit",
+          "url": "https://www.nps.gov/places/cerro-castellan-exhibit.htm"
+        },
+        {
+          "name": "Desert Mountain Overlook",
+          "url": "https://www.nps.gov/places/desert-mountain-overlook.htm"
+        },
+        {
+          "name": "Santa Elena Canyon River Takeout",
+          "url": "https://www.nps.gov/places/santa-elena-canyon-river-takeout.htm"
+        },
+        {
+          "name": "Animal Highways Exhibit",
+          "url": "https://www.nps.gov/places/animal-highways.htm"
+        },
+        {
+          "name": "Chihuahuan Desert Exhibit",
+          "url": "https://www.nps.gov/places/chihuahuan-desert-exhibit.htm"
+        },
+        {
+          "name": "What Lies Ahead Exhibit",
+          "url": "https://www.nps.gov/places/what-lies-ahead-exhibit.htm"
+        },
+        {
+          "name": "Sunken Block Exhibit",
+          "url": "https://www.nps.gov/places/sunken-block-exhibit.htm"
+        },
+        {
+          "name": "Ancient Oceans Exhibit",
+          "url": "https://www.nps.gov/places/ancient-oceans-exhibit.htm"
+        },
+        {
+          "name": "Time Capsule Exhibit",
+          "url": "https://www.nps.gov/places/time-capsule-exhibit.htm"
+        }
+      ]
+    }
   },
   {
     "id": "bisc",
@@ -77,7 +424,15 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "blca",
@@ -93,7 +448,25 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Tomichi Overlook",
+          "url": "https://www.nps.gov/places/overlook_tomichi.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Sunset View Overlook at Black Canyon",
+          "url": "https://www.nps.gov/places/overlook_sunsetview.htm"
+        }
+      ]
+    }
   },
   {
     "id": "brca",
@@ -109,7 +482,102 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Farview Point",
+          "url": "https://www.nps.gov/places/000/farview-point.htm"
+        },
+        {
+          "name": "North Campground Picnic Area",
+          "url": "https://www.nps.gov/places/000/north-campground-picnic-area.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Sunrise Hotel",
+          "url": "https://www.nps.gov/places/000/sunrise-hotel.htm"
+        },
+        {
+          "name": "Sunset Hotel",
+          "url": "https://www.nps.gov/places/000/sunset-hotel.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Rainbow Point",
+          "url": "https://www.nps.gov/places/000/rainbow-point.htm"
+        },
+        {
+          "name": "Yovimpa Point",
+          "url": "https://www.nps.gov/places/000/yovimpa-point.htm"
+        },
+        {
+          "name": "Black Birch Canyon",
+          "url": "https://www.nps.gov/places/000/black-birch-canyon.htm"
+        },
+        {
+          "name": "Ponderosa Canyon",
+          "url": "https://www.nps.gov/places/000/ponderosa-canyon.htm"
+        },
+        {
+          "name": "Agua Canyon",
+          "url": "https://www.nps.gov/places/000/agua-canyon.htm"
+        },
+        {
+          "name": "Natural Bridge",
+          "url": "https://www.nps.gov/places/000/natural-bridge.htm"
+        },
+        {
+          "name": "Whiteman Bench Picnic Area",
+          "url": "https://www.nps.gov/places/000/whiteman-bench-picnic-area.htm"
+        },
+        {
+          "name": "Swamp Canyon",
+          "url": "https://www.nps.gov/places/000/swamp-canyon.htm"
+        },
+        {
+          "name": "Bryce Canyon Shuttle Station",
+          "url": "https://www.nps.gov/places/000/bryce-canyon-shuttle-station.htm"
+        },
+        {
+          "name": "Fairyland Point",
+          "url": "https://www.nps.gov/places/000/fairyland-point.htm"
+        },
+        {
+          "name": "Bryce Point",
+          "url": "https://www.nps.gov/places/000/bryce-point.htm"
+        },
+        {
+          "name": "Paria View",
+          "url": "https://www.nps.gov/places/000/paria-view.htm"
+        },
+        {
+          "name": "Inspiration Point.",
+          "url": "https://www.nps.gov/places/000/inspiration-point-viewpoint.htm"
+        },
+        {
+          "name": "Sunset Point",
+          "url": "https://www.nps.gov/places/000/sunset-point.htm"
+        },
+        {
+          "name": "Bryce Canyon General Store",
+          "url": "https://www.nps.gov/places/000/bryce-canyon-general-store.htm"
+        },
+        {
+          "name": "Visitor Center",
+          "url": "https://www.nps.gov/places/000/visitor-center.htm"
+        },
+        {
+          "name": "Bryce Canyon Association Bookstore",
+          "url": "https://www.nps.gov/places/bryce-canyon-association-bookstore.htm"
+        }
+      ]
+    }
   },
   {
     "id": "cany",
@@ -119,13 +587,31 @@
     "lon": -109.8801624,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Grand View Point Overlook and Trail",
+          "url": "https://www.nps.gov/places/grand-view-point.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Green River Overlook",
+          "url": "https://www.nps.gov/places/green-river-overlook.htm"
+        }
+      ]
+    }
   },
   {
     "id": "care",
@@ -141,7 +627,20 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Petroglyph Panel",
+          "url": "https://www.nps.gov/places/petroglyph-panel.htm"
+        }
+      ]
+    }
   },
   {
     "id": "cave",
@@ -157,7 +656,20 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Rattlesnake Springs",
+          "url": "https://www.nps.gov/places/rattlesnake-springs.htm"
+        }
+      ]
+    }
   },
   {
     "id": "chis",
@@ -173,7 +685,15 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "cong",
@@ -189,7 +709,15 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "crla",
@@ -205,7 +733,37 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [
+        {
+          "name": "Crater Lake Lodge ",
+          "url": "https://www.nps.gov/places/crater-lake-lodge.htm"
+        },
+        {
+          "name": "Cabins at Mazama Village",
+          "url": "https://www.nps.gov/places/mazama-cabins.htm"
+        },
+        {
+          "name": "Pinnacles",
+          "url": "https://www.nps.gov/places/pinnacles.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Crater Lake Natural History Association Park Store",
+          "url": "https://www.nps.gov/places/crater-lake-nha-park-store.htm"
+        },
+        {
+          "name": "Goodbye Picnic Area",
+          "url": "https://www.nps.gov/places/goodbye-picnic-area.htm"
+        }
+      ]
+    }
   },
   {
     "id": "cuva",
@@ -215,13 +773,261 @@
     "lon": -81.57116722,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Hunt House Trailhead",
+          "url": "https://www.nps.gov/places/000/hunt-house-trailhead.htm"
+        },
+        {
+          "name": "Kendall Lake Trailhead Information",
+          "url": "https://www.nps.gov/places/000/kendall-lake-trailhead.htm"
+        },
+        {
+          "name": "Lock 39 Trailhead Information",
+          "url": "https://www.nps.gov/places/000/lock-39-trailhead-information.htm"
+        },
+        {
+          "name": "Botzum Trailhead Information",
+          "url": "https://www.nps.gov/places/000/botzum-trailhead.htm"
+        },
+        {
+          "name": "Ledges Trailhead Information",
+          "url": "https://www.nps.gov/places/000/ledges-trailhead.htm"
+        },
+        {
+          "name": "Red Lock Trailhead",
+          "url": "https://www.nps.gov/places/000/red-lock-trailhead.htm"
+        },
+        {
+          "name": "Everett Covered Bridge Trailhead Information",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm"
+        },
+        {
+          "name": "Pine Hollow Trailhead Information",
+          "url": "https://www.nps.gov/places/000/pine-hollow-trailhead.htm"
+        },
+        {
+          "name": "Ira Trailhead Exhibits",
+          "url": "https://www.nps.gov/places/ira-trailhead-exhibits.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Lock 29 Trailhead Information",
+          "url": "https://www.nps.gov/places/000/lock-29-trailhead.htm"
+        },
+        {
+          "name": "Lock 39",
+          "url": "https://www.nps.gov/places/000/lock-39.htm"
+        },
+        {
+          "name": "Canal Exploration Center Trailhead",
+          "url": "https://www.nps.gov/places/000/canal-exploration-center-trailhead.htm"
+        },
+        {
+          "name": "Station Road Bridge Exhibits",
+          "url": "https://www.nps.gov/places/000/station-road-bridge-exhibits.htm"
+        },
+        {
+          "name": "Mule Power Panel and Statue",
+          "url": "https://www.nps.gov/places/000/mule-power-panel-and-statue.htm"
+        },
+        {
+          "name": "Ira Trailhead Information",
+          "url": "https://www.nps.gov/places/000/ira-trailhead.htm"
+        },
+        {
+          "name": "Kendall Lake Pier and Shelter",
+          "url": "https://www.nps.gov/places/000/kendall-lake-pier-and-shelter.htm"
+        },
+        {
+          "name": "Boston Mill Station",
+          "url": "https://www.nps.gov/places/000/boston-mill-station.htm"
+        },
+        {
+          "name": "Rockside Station",
+          "url": "https://www.nps.gov/places/000/rockside-station.htm"
+        },
+        {
+          "name": "Happy Days Lodge",
+          "url": "https://www.nps.gov/places/000/happy-days-lodge.htm"
+        },
+        {
+          "name": "Canal Exploration Center Station",
+          "url": "https://www.nps.gov/places/000/canal-exploration-center-station.htm"
+        },
+        {
+          "name": "Akron Northside Station",
+          "url": "https://www.nps.gov/places/000/akron-northside-station.htm"
+        },
+        {
+          "name": "Ledges Shelter and Exhibits",
+          "url": "https://www.nps.gov/places/000/ledges-shelter.htm"
+        },
+        {
+          "name": "Station Road Bridge Trailhead Information",
+          "url": "https://www.nps.gov/places/000/station-road-bridge-trailhead.htm"
+        },
+        {
+          "name": "Octagon Shelter and Exhibits",
+          "url": "https://www.nps.gov/places/000/octagon-shelter.htm"
+        },
+        {
+          "name": "Brecksville Station",
+          "url": "https://www.nps.gov/places/000/brecksville-station.htm"
+        },
+        {
+          "name": "Moody and Thomas Mill Site",
+          "url": "https://www.nps.gov/places/000/moody-and-thomas-mill.htm"
+        },
+        {
+          "name": "Horseshoe Pond Trailhead Information",
+          "url": "https://www.nps.gov/places/000/horseshoe-pond-trailhead.htm"
+        },
+        {
+          "name": "Brandywine Falls Trailhead Information",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm"
+        },
+        {
+          "name": "Restoring the Cuyahoga River Exhibits",
+          "url": "https://www.nps.gov/places/000/restoring-the-cuyahoga-river.htm"
+        },
+        {
+          "name": "Lock 38 at Canal Exploration Center",
+          "url": "https://www.nps.gov/places/000/lock-38-canal-exploration-center.htm"
+        },
+        {
+          "name": "Boston Store Trailhead",
+          "url": "https://www.nps.gov/places/boston-store-trailhead.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Happy Days Lodge",
+          "url": "https://www.nps.gov/places/000/happy-days-lodge.htm"
+        },
+        {
+          "name": "Lock 38 at Canal Exploration Center",
+          "url": "https://www.nps.gov/places/000/lock-38-canal-exploration-center.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Bath Road Heronry",
+          "url": "https://www.nps.gov/places/bath-road-heronry.htm"
+        },
+        {
+          "name": "Boston Village Exhibits",
+          "url": "https://www.nps.gov/places/000/boston-village-exhibits.htm"
+        },
+        {
+          "name": "Stanford House",
+          "url": "https://www.nps.gov/places/000/stanford-house.htm"
+        },
+        {
+          "name": "Waste Weir",
+          "url": "https://www.nps.gov/places/000/waste-weir.htm"
+        },
+        {
+          "name": "South Park Exhibits",
+          "url": "https://www.nps.gov/places/000/south-park-exhibits.htm"
+        },
+        {
+          "name": "Cuyahoga River and Prehistoric People",
+          "url": "https://www.nps.gov/places/000/cuyahoga-river-and-prehistoric-people.htm"
+        },
+        {
+          "name": "Pilgerruh Panel",
+          "url": "https://www.nps.gov/places/000/pilgerruh-panel.htm"
+        },
+        {
+          "name": "Tavern and Store Panel",
+          "url": "https://www.nps.gov/places/000/tavern-and-store-panel.htm"
+        },
+        {
+          "name": "Gleason Farm Panel",
+          "url": "https://www.nps.gov/places/000/gleason-farm-panel.htm"
+        },
+        {
+          "name": "Alexander-Wilson Mill",
+          "url": "https://www.nps.gov/places/000/alexander-wilson-mill.htm"
+        },
+        {
+          "name": "Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge-and-wayside.htm"
+        },
+        {
+          "name": "Botzum Station",
+          "url": "https://www.nps.gov/places/000/botzum-station.htm"
+        },
+        {
+          "name": "Mudcatcher",
+          "url": "https://www.nps.gov/places/000/mudcatcher.htm"
+        },
+        {
+          "name": "Lock 32",
+          "url": "https://www.nps.gov/places/000/lock-32.htm"
+        },
+        {
+          "name": "Peninsula Depot",
+          "url": "https://www.nps.gov/places/000/peninsula-depot.htm"
+        },
+        {
+          "name": "Lock 26",
+          "url": "https://www.nps.gov/places/000/lock-26.htm"
+        },
+        {
+          "name": "Boston Street View Panel",
+          "url": "https://www.nps.gov/places/000/boston-street-view-panel.htm"
+        },
+        {
+          "name": "Frazee House Towpath Panel",
+          "url": "https://www.nps.gov/places/000/frazee-house-towpath-panel.htm"
+        },
+        {
+          "name": "Lock 36",
+          "url": "https://www.nps.gov/places/000/lock-36.htm"
+        },
+        {
+          "name": "Lock 35",
+          "url": "https://www.nps.gov/places/000/lock-35.htm"
+        },
+        {
+          "name": "Happy Days Historic Sign",
+          "url": "https://www.nps.gov/places/000/happy-days-historic-sign.htm"
+        },
+        {
+          "name": "Tinkers Creek Aqueduct",
+          "url": "https://www.nps.gov/places/000/tinkers-creek-aqueduct.htm"
+        },
+        {
+          "name": "Lock 37 and Flood Gate",
+          "url": "https://www.nps.gov/places/000/lock-37-and-flood-gate.htm"
+        },
+        {
+          "name": "Pinery Feeder",
+          "url": "https://www.nps.gov/places/pinery-feeder.htm"
+        },
+        {
+          "name": "Hunt House and Outdoor Exhibits",
+          "url": "https://www.nps.gov/places/hunt-house-and-outdoor-exhibits.htm"
+        },
+        {
+          "name": "Old Canal Bed Panel",
+          "url": "https://www.nps.gov/places/old-canal-bed-panel.htm"
+        }
+      ]
+    }
   },
   {
     "id": "deva",
@@ -237,7 +1043,57 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [
+        {
+          "name": "The Inn at Death Valley",
+          "url": "https://www.nps.gov/places/the-inn-at-death-valley.htm"
+        },
+        {
+          "name": "The Ranch at Death Valley",
+          "url": "https://www.nps.gov/places/the-ranch-at-death-valley.htm"
+        },
+        {
+          "name": "Stovepipe Wells Village",
+          "url": "https://www.nps.gov/places/stovepipe-wells-village.htm"
+        },
+        {
+          "name": "Panamint Springs Resort",
+          "url": "https://www.nps.gov/places/panamint-springs-resort.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Badwater Basin",
+          "url": "https://www.nps.gov/places/badwater-basin.htm"
+        },
+        {
+          "name": "Zabriskie Point",
+          "url": "https://www.nps.gov/places/zabriskie-point-scenic-viewpoint.htm"
+        },
+        {
+          "name": "Father Crowley Vista Point- Rainbow Canyon",
+          "url": "https://www.nps.gov/places/father-crowley-vista-point-rainbow-canyon.htm"
+        },
+        {
+          "name": "Harmony Borax Works",
+          "url": "https://www.nps.gov/places/harmony-borax-works.htm"
+        },
+        {
+          "name": "Dantes View",
+          "url": "https://www.nps.gov/places/dantes-view.htm"
+        },
+        {
+          "name": "Salt Creek",
+          "url": "https://www.nps.gov/places/salt-creek.htm"
+        }
+      ]
+    }
   },
   {
     "id": "dena",
@@ -253,7 +1109,37 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [
+        {
+          "name": "Kantishna",
+          "url": "https://www.nps.gov/places/dena-kantishna.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Denali's Historic Headquarters",
+          "url": "https://www.nps.gov/places/dena-hq-historic-district.htm"
+        },
+        {
+          "name": "Denali's Mountain Vista",
+          "url": "https://www.nps.gov/places/dena-mountain-vista.htm"
+        },
+        {
+          "name": "Riley Creek Picnic Area",
+          "url": "https://www.nps.gov/places/dena-riley-picnic-area.htm"
+        },
+        {
+          "name": "Denali Park Store & Morino Grill",
+          "url": "https://www.nps.gov/places/dena-park-store-morino-grill.htm"
+        }
+      ]
+    }
   },
   {
     "id": "drto",
@@ -269,7 +1155,33 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Garden Key",
+          "url": "https://www.nps.gov/places/garden-key.htm"
+        },
+        {
+          "name": "Fort Jefferson Dungeon",
+          "url": "https://www.nps.gov/places/fort-jefferson-dungeon.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Dock House and Information",
+          "url": "https://www.nps.gov/places/garden-key-dock-house.htm"
+        },
+        {
+          "name": "Garden Key",
+          "url": "https://www.nps.gov/places/garden-key.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "ever",
@@ -279,13 +1191,109 @@
     "lon": -80.88200301,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Anhinga Trail",
+          "url": "https://www.nps.gov/places/anhinga-trail.htm"
+        },
+        {
+          "name": "Gumbo Limbo Trail",
+          "url": "https://www.nps.gov/places/gumbo-limbo-trail.htm"
+        },
+        {
+          "name": "Pinelands Trail",
+          "url": "https://www.nps.gov/places/pinelands-trail.htm"
+        },
+        {
+          "name": "West Lake Boardwalk",
+          "url": "https://www.nps.gov/places/west-lake-boardwalk.htm"
+        },
+        {
+          "name": "Shark Valley Tram Trail",
+          "url": "https://www.nps.gov/places/shark-valley-tram-trail.htm"
+        },
+        {
+          "name": "Bobcat Boardwalk Trail",
+          "url": "https://www.nps.gov/places/bobcat-boardwalk-trail.htm"
+        },
+        {
+          "name": "Guy Bradley Trail",
+          "url": "https://www.nps.gov/places/guy-bradley-trail.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Shark Valley Observation Tower",
+          "url": "https://www.nps.gov/places/shark-valley-observation-tower.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Historic Nike Missile Site",
+          "url": "https://www.nps.gov/places/historic-nike-missile-site.htm"
+        },
+        {
+          "name": "Royal Palm",
+          "url": "https://www.nps.gov/places/royal-palm.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Paurotis Pond",
+          "url": "https://www.nps.gov/places/paurotis-pond.htm"
+        },
+        {
+          "name": "West Lake",
+          "url": "https://www.nps.gov/places/west-lake.htm"
+        },
+        {
+          "name": "Flamingo Marina",
+          "url": "https://www.nps.gov/places/flamingo-marina.htm"
+        },
+        {
+          "name": "Flamingo Fish Cleaning Station",
+          "url": "https://www.nps.gov/places/flamingo-fish-cleaning-station.htm"
+        },
+        {
+          "name": "Pa-hay-Okee",
+          "url": "https://www.nps.gov/places/pa-hay-okee.htm"
+        },
+        {
+          "name": "Mahogany Hammock",
+          "url": "https://www.nps.gov/places/mahogany-hammock.htm"
+        },
+        {
+          "name": "Mrazek Pond",
+          "url": "https://www.nps.gov/places/mrazek-pond.htm"
+        },
+        {
+          "name": "HM-69 Integrated Fire Control",
+          "url": "https://www.nps.gov/places/hm-69-integrated-fire-control.htm"
+        },
+        {
+          "name": "HM-69 Security Down Range",
+          "url": "https://www.nps.gov/places/hm-69-security-down-range.htm"
+        },
+        {
+          "name": "HM-69 Sentry Dog Kennels",
+          "url": "https://www.nps.gov/places/hm-69-sentry-dog-kennels.htm"
+        },
+        {
+          "name": "HM-69 Mosquito Painting",
+          "url": "https://www.nps.gov/places/hm-69-mosquito-painting.htm"
+        }
+      ]
+    }
   },
   {
     "id": "gaar",
@@ -301,7 +1309,15 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "jeff",
@@ -317,7 +1333,24 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [
+        {
+          "name": "Old Courthouse",
+          "url": "https://www.nps.gov/places/old-courthouse.htm"
+        },
+        {
+          "name": "Gateway Arch Monument",
+          "url": "https://www.nps.gov/places/gateway-arch-monument.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "glba",
@@ -333,7 +1366,20 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [
+        {
+          "name": "The Historic Glacier Bay Lodge",
+          "url": "https://www.nps.gov/places/the-historic-glacier-bay-lodge.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "glac",
@@ -343,13 +1389,117 @@
     "lon": -113.8009306,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Running Eagle Falls Nature Trail",
+          "url": "https://www.nps.gov/places/running-eagle-falls-nature-trail.htm"
+        },
+        {
+          "name": "Running Eagle Falls Trailhead",
+          "url": "https://www.nps.gov/places/running-eagle-falls-trailhead.htm"
+        },
+        {
+          "name": "Forest and Fire Nature Trail",
+          "url": "https://www.nps.gov/places/forest-fire-nature-trail.htm"
+        },
+        {
+          "name": "Trail of the Cedars",
+          "url": "https://www.nps.gov/places/trail-of-the-cedars.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Many Glacier Hotel",
+          "url": "https://www.nps.gov/places/manyglacierhotel.htm"
+        },
+        {
+          "name": "Village Inn at Apgar",
+          "url": "https://www.nps.gov/places/village-inn-at-apgar.htm"
+        },
+        {
+          "name": "Swiftcurrent Motor Inn and Cabins",
+          "url": "https://www.nps.gov/places/swiftcurrent-motor-inn-and-cabins.htm"
+        },
+        {
+          "name": "Rising Sun Motor Inn and Cabins",
+          "url": "https://www.nps.gov/places/rising-sun-motor-inn-and-cabins.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Lake McDonald Lodge",
+          "url": "https://www.nps.gov/places/lakemcdonaldlodge.htm"
+        },
+        {
+          "name": "Many Glacier Hotel",
+          "url": "https://www.nps.gov/places/manyglacierhotel.htm"
+        },
+        {
+          "name": "Village Inn at Apgar",
+          "url": "https://www.nps.gov/places/village-inn-at-apgar.htm"
+        },
+        {
+          "name": "Swiftcurrent Motor Inn and Cabins",
+          "url": "https://www.nps.gov/places/swiftcurrent-motor-inn-and-cabins.htm"
+        },
+        {
+          "name": "Rising Sun Motor Inn and Cabins",
+          "url": "https://www.nps.gov/places/rising-sun-motor-inn-and-cabins.htm"
+        },
+        {
+          "name": "Many Glacier Hotel Lobby",
+          "url": "https://www.nps.gov/places/many-glacier-hotel-lobby.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "St. Mary Visitor Center",
+          "url": "https://www.nps.gov/places/st-mary-visitor-center.htm"
+        },
+        {
+          "name": "Apgar Visitor Center",
+          "url": "https://www.nps.gov/places/apgar-visitor-center.htm"
+        },
+        {
+          "name": "Logan Pass Causes and Consequences Exhibit",
+          "url": "https://www.nps.gov/places/logan-pass-causes-and-consequences-exhibit.htm"
+        },
+        {
+          "name": "Logan Pass Trio of Geology and Climate Exhibits",
+          "url": "https://www.nps.gov/places/logan-pass-trio-of-geology-and-climate-exhibits.htm"
+        },
+        {
+          "name": "Logan Pass Ramp Exhibit about Snowpack",
+          "url": "https://www.nps.gov/places/logan-pass-ramp-exhibit-about-snowpack.htm"
+        },
+        {
+          "name": "Fire Through Time",
+          "url": "https://www.nps.gov/places/fire-through-time-glacier.htm"
+        },
+        {
+          "name": "Fire in the Park",
+          "url": "https://www.nps.gov/places/fire-in-the-park-glacier.htm"
+        },
+        {
+          "name": "Fire on the Rise",
+          "url": "https://www.nps.gov/places/fire-on-the-rise-glacier.htm"
+        },
+        {
+          "name": "St. Mary Visitor Center: Montana's Prairieland",
+          "url": "https://www.nps.gov/places/st-mary-visitor-center-geology-tour.htm"
+        }
+      ]
+    }
   },
   {
     "id": "grca",
@@ -359,13 +1509,305 @@
     "lon": -112.121516363,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "South Kaibab Trailhead Bus Stop - Kaibab Rim (Orange) Route",
+          "url": "https://www.nps.gov/places/000/south-kaibab-trailhead-kaibab-rim-orange-route.htm"
+        },
+        {
+          "name": "Trail of Time: Verkamp's Visitor Center Portal",
+          "url": "https://www.nps.gov/places/000/trail-of-time-verkamps-visitor-center-portal.htm"
+        },
+        {
+          "name": "Trail of Time: Headquarters Portal (Parking Lot A)",
+          "url": "https://www.nps.gov/places/000/trail-of-time-headquarters-portal-parking-lot-a.htm"
+        },
+        {
+          "name": "Trail of Time: The Main Trail of Time Portal",
+          "url": "https://www.nps.gov/places/000/trail-of-time-the-main-trail-of-time-portal.htm"
+        },
+        {
+          "name": "Trail of Time: The Million Year Walk Portal",
+          "url": "https://www.nps.gov/places/000/trail-of-time-the-million-year-walk-portal.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Park Store at the Visitor Center - Grand Canyon Conservancy",
+          "url": "https://www.nps.gov/places/000/grand-canyon-conservancy-park-store.htm"
+        },
+        {
+          "name": "Mather Campground Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/mather-campground-village-blue-route.htm"
+        },
+        {
+          "name": "Camper Services \u2014 Laundry and Showers",
+          "url": "https://www.nps.gov/places/000/camper-services-and-camp-store.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Bright Angel Lodge",
+          "url": "https://www.nps.gov/places/000/bright-angel-lodge.htm"
+        },
+        {
+          "name": "Kachina Lodge",
+          "url": "https://www.nps.gov/places/000/kachina-lodge.htm"
+        },
+        {
+          "name": "El Tovar Hotel",
+          "url": "https://www.nps.gov/places/000/el-tovar-hotel.htm"
+        },
+        {
+          "name": "Maswik Lodge",
+          "url": "https://www.nps.gov/places/000/maswik-lodge.htm"
+        },
+        {
+          "name": "Thunderbird Lodge",
+          "url": "https://www.nps.gov/places/000/thunderbird-lodge.htm"
+        },
+        {
+          "name": "Buckey O'Neill Cabin",
+          "url": "https://www.nps.gov/places/000/buckey-oneill-cabin.htm"
+        },
+        {
+          "name": "Yavapai Lodge",
+          "url": "https://www.nps.gov/places/000/yavapai-lodge.htm"
+        },
+        {
+          "name": "Bright Angel Lodge Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/bright-angel-lodge-village-blue-route.htm"
+        },
+        {
+          "name": "Maswik Lodge Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/maswik-lodge-village-blue-route.htm"
+        },
+        {
+          "name": "Train Depot and El Tovar Hotel - Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/train-depot-village-blue-route.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Maricopa Point",
+          "url": "https://www.nps.gov/places/000/maricopa-point.htm"
+        },
+        {
+          "name": "Lipan Point",
+          "url": "https://www.nps.gov/places/000/lipan-point.htm"
+        },
+        {
+          "name": "Village East Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/village-east-village-blue-route.htm"
+        },
+        {
+          "name": "Desert View Point and 1956 Aviation Memorial",
+          "url": "https://www.nps.gov/places/000/desert-view-point-1956-aviation-accident-memorial.htm"
+        },
+        {
+          "name": "Center Road Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/center-road-village-blue-route.htm"
+        },
+        {
+          "name": "Pipe Creek Vista",
+          "url": "https://www.nps.gov/places/000/pipe-creek-vista.htm"
+        },
+        {
+          "name": "Yaki Point",
+          "url": "https://www.nps.gov/places/000/yaki-point.htm"
+        },
+        {
+          "name": "Duck on a Rock",
+          "url": "https://www.nps.gov/places/000/duck-on-a-rock.htm"
+        },
+        {
+          "name": "Thor's Overlook",
+          "url": "https://www.nps.gov/places/000/scenic-overlook.htm"
+        },
+        {
+          "name": "Grandview Point",
+          "url": "https://www.nps.gov/places/000/grandview-point.htm"
+        },
+        {
+          "name": "No Name Point",
+          "url": "https://www.nps.gov/places/000/scenic-overlook-1.htm"
+        },
+        {
+          "name": "Desert View Market & Deli",
+          "url": "https://www.nps.gov/places/000/desert-view-market-deli.htm"
+        },
+        {
+          "name": "Desert View Trading Post",
+          "url": "https://www.nps.gov/places/000/desert-view-trading-post.htm"
+        },
+        {
+          "name": "Desert View Gas Station",
+          "url": "https://www.nps.gov/places/000/desert-view-gas-station.htm"
+        },
+        {
+          "name": "The Lookout",
+          "url": "https://www.nps.gov/places/000/the-lookout.htm"
+        },
+        {
+          "name": "Hopi House and El Tovar Waysides",
+          "url": "https://www.nps.gov/places/000/hopi-house-and-el-tovar-waysides.htm"
+        },
+        {
+          "name": "Verkamp's Visitor Center",
+          "url": "https://www.nps.gov/places/000/verkamps-visitor-center.htm"
+        },
+        {
+          "name": "Train Depot",
+          "url": "https://www.nps.gov/places/000/train-depot.htm"
+        },
+        {
+          "name": "Backcountry Information Center",
+          "url": "https://www.nps.gov/places/000/backcountry-information-center.htm"
+        },
+        {
+          "name": "Shrine of the Ages - Westbound Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/shrine-of-the-ages-westbound-village-blue-route.htm"
+        },
+        {
+          "name": "Shrine of the Ages",
+          "url": "https://www.nps.gov/places/000/shrine-of-the-ages.htm"
+        },
+        {
+          "name": "McKee Amphitheater",
+          "url": "https://www.nps.gov/places/000/mckee-amphitheater.htm"
+        },
+        {
+          "name": "Animal Life Appeared About 630 Million Years Ago",
+          "url": "https://www.nps.gov/places/000/animal-life-appeared-about-630-million-years-ago.htm"
+        },
+        {
+          "name": "Yavapai Geology Museum",
+          "url": "https://www.nps.gov/places/000/yavapai-geology-museum.htm"
+        },
+        {
+          "name": "Yavapai Geology Museum Bus Stop - Kaibab Rim (Orange) Route",
+          "url": "https://www.nps.gov/places/000/yavapai-geology-museum-kaibab-rim-orange-route.htm"
+        },
+        {
+          "name": "Canyon Adventures Bike Tours & Caf\u00e9 \u2014Visitor Center Plaza",
+          "url": "https://www.nps.gov/places/000/bright-angel-bicycles-caf-at-mather-point.htm"
+        },
+        {
+          "name": "Grand Canyon Visitor Center Shuttle Bus Terminal",
+          "url": "https://www.nps.gov/places/000/grand-canyon-visitor-center-shuttle-bus-terminal.htm"
+        },
+        {
+          "name": "Hermits Rest National Historic Landmark Plaque",
+          "url": "https://www.nps.gov/places/000/hermits-rest-national-historic-landmark-plaque.htm"
+        },
+        {
+          "name": "Monument Creek Vista Bus Stop - Hermits Rest (Red) Route",
+          "url": "https://www.nps.gov/places/000/monument-creek-vista-hermit-road-red-route.htm"
+        },
+        {
+          "name": "Pima Point",
+          "url": "https://www.nps.gov/places/000/pima-point.htm"
+        },
+        {
+          "name": "Mohave Point Bus Stop - Hermits Rest (Red) Route",
+          "url": "https://www.nps.gov/places/000/mohave-point-hermit-road-red-route.htm"
+        },
+        {
+          "name": "Hopi Point Bus Stop - Hermits Rest (Red) Route",
+          "url": "https://www.nps.gov/places/000/hopi-point-hermit-road-red-route.htm"
+        },
+        {
+          "name": "Mather Point",
+          "url": "https://www.nps.gov/places/000/mather-point.htm"
+        },
+        {
+          "name": "Powell Point Bus Stop - Hermits Rest (Red) Route",
+          "url": "https://www.nps.gov/places/000/powell-point-hermit-road-red-route.htm"
+        },
+        {
+          "name": "Village Transfer Station - Hermit Road (Red) Route",
+          "url": "https://www.nps.gov/places/000/village-route-transfer-hermit-road-red-route.htm"
+        },
+        {
+          "name": "Canyon Village Market & Deli",
+          "url": "https://www.nps.gov/places/000/canyon-village-market-deli.htm"
+        },
+        {
+          "name": "United States Post Office",
+          "url": "https://www.nps.gov/places/000/united-states-post-office.htm"
+        },
+        {
+          "name": "Market Plaza ATM Machines",
+          "url": "https://www.nps.gov/places/000/chase.htm"
+        },
+        {
+          "name": "North Country Healthcare - Grand Canyon Clinic",
+          "url": "https://www.nps.gov/places/000/north-country-healthcare-grand-canyon-clinic.htm"
+        },
+        {
+          "name": "Hopi Point",
+          "url": "https://www.nps.gov/places/000/hopi-point.htm"
+        },
+        {
+          "name": "Backcountry Information Center Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/backcountry-information-center-village-blue-route.htm"
+        },
+        {
+          "name": "Pima Point Bus Stop - Hermits Rest (Red) Route",
+          "url": "https://www.nps.gov/places/000/pima-point-hermit-road-red-route.htm"
+        },
+        {
+          "name": "Mather Point Bus Stop - Kaibab Rim (Orange) Route",
+          "url": "https://www.nps.gov/places/000/mather-point-kaibab-rim-orange-route.htm"
+        },
+        {
+          "name": "Pipe Creek Vista Bus Stop - Kaibab/Rim (Orange) Route",
+          "url": "https://www.nps.gov/places/000/pipe-creek-vista-kaibab-rim-orange-route.htm"
+        },
+        {
+          "name": "Yaki Point Bus Stop - Kaibab Rim (Orange) Route",
+          "url": "https://www.nps.gov/places/000/yaki-point-kaibab-rim-orange-route.htm"
+        },
+        {
+          "name": "Market Plaza - Eastbound Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/market-plaza-eastbound-village-blue-route.htm"
+        },
+        {
+          "name": "Shrine of the Ages Eastbound - Bus Stop - Village (Blue) Route",
+          "url": "https://www.nps.gov/places/000/shrine-of-the-ages-eastbound-village-blue-route.htm"
+        },
+        {
+          "name": "Cape Royal",
+          "url": "https://www.nps.gov/places/000/cape-royal.htm"
+        },
+        {
+          "name": "Walhalla Overlook",
+          "url": "https://www.nps.gov/places/000/walhalla-overlook.htm"
+        },
+        {
+          "name": "Edge of Vastness Wayside",
+          "url": "https://www.nps.gov/places/edge-of-vastness-wayside.htm"
+        },
+        {
+          "name": "Mather Amphitheater at Mather Point",
+          "url": "https://www.nps.gov/places/000/mather-point-amphitheater.htm"
+        },
+        {
+          "name": "Village Amphitheater (South Rim)",
+          "url": "https://www.nps.gov/places/000/village-amphitheater.htm"
+        }
+      ]
+    }
   },
   {
     "id": "grte",
@@ -373,15 +1815,445 @@
     "state": "WY",
     "lat": 43.81853565,
     "lon": -110.7054666,
-    "accessible_restrooms": false,
-    "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_restrooms": true,
+    "accessible_parking": true,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Taggart Lake Trailhead",
+          "url": "https://www.nps.gov/places/000/taggart-lake-trailhead.htm"
+        },
+        {
+          "name": "Jackson Hole Mountain Resort Aerial Tram Trailhead",
+          "url": "https://www.nps.gov/places/000/jackson-hole-mountain-resort-aerial-tram-trailhead.htm"
+        },
+        {
+          "name": "Colter Bay Lakeshore Trail",
+          "url": "https://www.nps.gov/places/000/colter-bay-lakeshore-trail.htm"
+        },
+        {
+          "name": "Flagg Canyon Trailhead",
+          "url": "https://www.nps.gov/places/000/flagg-canyon-trailhead.htm"
+        }
+      ],
+      "parking": [
+        {
+          "name": "Jackson Lake Dam Parking and Picnic Area",
+          "url": "https://www.nps.gov/places/000/jackson-lake-dam-picnic-area.htm"
+        },
+        {
+          "name": "Mormon Row South Parking",
+          "url": "https://www.nps.gov/places/000/mormon-row-south-parking.htm"
+        }
+      ],
+      "camping": [
+        {
+          "name": "Grassy Lake Road Campsites",
+          "url": "https://www.nps.gov/places/grassy-lake-road-campsites.htm"
+        },
+        {
+          "name": "Jenny Lake & Park Orientation",
+          "url": "https://www.nps.gov/places/jenny-lake-park-information-panels.htm"
+        },
+        {
+          "name": "Discovery Spot: Wildlife Walk",
+          "url": "https://www.nps.gov/places/discovery-spot-wildlife-walk.htm"
+        },
+        {
+          "name": "Discovery Spot: River Survival",
+          "url": "https://www.nps.gov/places/discovery-spot-river-survival.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Headwaters Lodge",
+          "url": "https://www.nps.gov/places/000/headwaters-lodge.htm"
+        },
+        {
+          "name": "Colter Bay Cabins",
+          "url": "https://www.nps.gov/places/000/colter-bay-cabins.htm"
+        },
+        {
+          "name": "Jenny Lake Lodge",
+          "url": "https://www.nps.gov/places/000/jenny-lake-lodge.htm"
+        },
+        {
+          "name": "Signal Mountain Lodge",
+          "url": "https://www.nps.gov/places/000/signal-mountain-lodge.htm"
+        },
+        {
+          "name": "Jackson Lake Lodge",
+          "url": "https://www.nps.gov/places/000/jackson-lake-lodge.htm"
+        },
+        {
+          "name": "Jackson Lake Lodge Backdeck",
+          "url": "https://www.nps.gov/places/000/jackson-lake-lodge-backdeck.htm"
+        },
+        {
+          "name": "Jackson Lake Lodge Dining & Shops",
+          "url": "https://www.nps.gov/places/jackson-lake-lodge-dining-shops.htm"
+        }
+      ],
+      "restrooms": [
+        {
+          "name": "Jenny Lake Restrooms",
+          "url": "https://www.nps.gov/places/jenny-lake-restrooms.htm"
+        }
+      ],
+      "general": [
+        {
+          "name": "Moose Post Office",
+          "url": "https://www.nps.gov/places/000/moose-post-office.htm"
+        },
+        {
+          "name": "Colter Bay Visitor Center",
+          "url": "https://www.nps.gov/places/000/colter-bay-visitor-center.htm"
+        },
+        {
+          "name": "Flagg Ranch Information Station",
+          "url": "https://www.nps.gov/places/000/flagg-ranch-information-station.htm"
+        },
+        {
+          "name": "Glacier View Turnout",
+          "url": "https://www.nps.gov/places/000/glacier-view-turnout.htm"
+        },
+        {
+          "name": "Pacific Creek Landing",
+          "url": "https://www.nps.gov/places/000/pacific-creek-landing.htm"
+        },
+        {
+          "name": "Oxbow Bend Turnout",
+          "url": "https://www.nps.gov/places/000/oxbow-bend-turnout.htm"
+        },
+        {
+          "name": "Snake River Overlook",
+          "url": "https://www.nps.gov/places/000/snake-river-overlook.htm"
+        },
+        {
+          "name": "Teton Point Turnout",
+          "url": "https://www.nps.gov/places/000/teton-point-turnout.htm"
+        },
+        {
+          "name": "Windy Point Turnout",
+          "url": "https://www.nps.gov/places/000/windy-point-turnout.htm"
+        },
+        {
+          "name": "Albright View Turnout",
+          "url": "https://www.nps.gov/places/000/albright-view-turnout.htm"
+        },
+        {
+          "name": "Gros Ventre Pathway Hub",
+          "url": "https://www.nps.gov/places/000/gros-ventre-pathway-access.htm"
+        },
+        {
+          "name": "Cathedral Group Turnout",
+          "url": "https://www.nps.gov/places/000/cathedral-group-turnout.htm"
+        },
+        {
+          "name": "Teton Glacier Turnout",
+          "url": "https://www.nps.gov/places/000/teton-glacier-turnout.htm"
+        },
+        {
+          "name": "Elk Ranch Flats Turnout",
+          "url": "https://www.nps.gov/places/000/elk-ranch-flats-turnout.htm"
+        },
+        {
+          "name": "Lower Willow Flats Overlook",
+          "url": "https://www.nps.gov/places/000/lower-willow-flats-overlook.htm"
+        },
+        {
+          "name": "Sawmill Ponds Overlook",
+          "url": "https://www.nps.gov/places/000/sawmill-ponds-overlook.htm"
+        },
+        {
+          "name": "Upper Willow Flats Overlook",
+          "url": "https://www.nps.gov/places/000/upper-willow-flats-overlook.htm"
+        },
+        {
+          "name": "Sleeping Indian Turnout",
+          "url": "https://www.nps.gov/places/000/sleeping-indian-turnout.htm"
+        },
+        {
+          "name": "Jackson Lake Overlook",
+          "url": "https://www.nps.gov/places/000/jackson-lake-overlook.htm"
+        },
+        {
+          "name": "Arizona Meadows Turnout",
+          "url": "https://www.nps.gov/places/000/arizona-meadows-turnout.htm"
+        },
+        {
+          "name": "Dornans Pathway Access",
+          "url": "https://www.nps.gov/places/000/dornans-pathway-access.htm"
+        },
+        {
+          "name": "Mount Moran Turnout",
+          "url": "https://www.nps.gov/places/000/mount-moran-turnout.htm"
+        },
+        {
+          "name": "John D. Rockefeller, Jr. Memorial Parkway South Turnout",
+          "url": "https://www.nps.gov/places/000/john-d-rockefeller-jr-memorial-parkway-south-turnout.htm"
+        },
+        {
+          "name": "Path of the Pronghorn Turnout",
+          "url": "https://www.nps.gov/places/000/path-of-the-pronghorn-turnout.htm"
+        },
+        {
+          "name": "Jackson Hole Airport",
+          "url": "https://www.nps.gov/places/000/jackson-hole-airport.htm"
+        },
+        {
+          "name": "Sargents Bay Picnic Area",
+          "url": "https://www.nps.gov/places/000/sargents-bay-picnic-area.htm"
+        },
+        {
+          "name": "South Boundary Turnout",
+          "url": "https://www.nps.gov/places/000/south-boundary-turnout.htm"
+        },
+        {
+          "name": "Chapel of the Transfiguration",
+          "url": "https://www.nps.gov/places/000/chapel-of-the-transfiguration.htm"
+        },
+        {
+          "name": "Ditch Creek Pathway Access",
+          "url": "https://www.nps.gov/places/000/ditch-creek-pathway-access.htm"
+        },
+        {
+          "name": "Lake Creek Overlook",
+          "url": "https://www.nps.gov/places/000/lake-creek-overlook.htm"
+        },
+        {
+          "name": "Waterfall Experience",
+          "url": "https://www.nps.gov/places/000/waterfall-experience.htm"
+        },
+        {
+          "name": "Chapel of the Sacred Heart",
+          "url": "https://www.nps.gov/places/000/chapel-of-the-sacred-heart.htm"
+        },
+        {
+          "name": "Gros Ventre Amphitheater",
+          "url": "https://www.nps.gov/places/000/gros-ventre-amphitheater.htm"
+        },
+        {
+          "name": "Menors Ferry District",
+          "url": "https://www.nps.gov/places/000/menors-ferry-district.htm"
+        },
+        {
+          "name": "Mormon Row",
+          "url": "https://www.nps.gov/places/000/mormon-row.htm"
+        },
+        {
+          "name": "Dornans",
+          "url": "https://www.nps.gov/places/000/dornans.htm"
+        },
+        {
+          "name": "Jackson Lake Dam Overlook",
+          "url": "https://www.nps.gov/places/000/jackson-lake-dam-overlook.htm"
+        },
+        {
+          "name": "Grand Teton Medical Clinic",
+          "url": "https://www.nps.gov/places/000/grand-teton-medical-clinic.htm"
+        },
+        {
+          "name": "Colter Bay General Store & Launderette",
+          "url": "https://www.nps.gov/places/000/colter-bay-general-store-launderette.htm"
+        },
+        {
+          "name": "Colter Bay Convenience Store",
+          "url": "https://www.nps.gov/places/000/colter-bay-convenience-store.htm"
+        },
+        {
+          "name": "Grand Teton North Boundary Turnout",
+          "url": "https://www.nps.gov/places/000/grand-teton-north-boundary-turnout.htm"
+        },
+        {
+          "name": "Menors Ferry - East Side",
+          "url": "https://www.nps.gov/places/000/menors-ferry-east-side.htm"
+        },
+        {
+          "name": "Mountain View Turnout",
+          "url": "https://www.nps.gov/places/000/mountain-view-turnout.htm"
+        },
+        {
+          "name": "Colter Bay Amphitheater",
+          "url": "https://www.nps.gov/places/000/colter-bay-amphitheater.htm"
+        },
+        {
+          "name": "Jenny Lake Overlook",
+          "url": "https://www.nps.gov/places/000/jenny-lake-overlook.htm"
+        },
+        {
+          "name": "Potholes Turnout",
+          "url": "https://www.nps.gov/places/000/potholes-turnout.htm"
+        },
+        {
+          "name": "Kelly Post Office",
+          "url": "https://www.nps.gov/places/000/kelly-post-office.htm"
+        },
+        {
+          "name": "T.A. Moulton Barn",
+          "url": "https://www.nps.gov/places/000/t-a-moulton-barn.htm"
+        },
+        {
+          "name": "String Lake Picnic Area",
+          "url": "https://www.nps.gov/places/000/string-lake-picnic-area.htm"
+        },
+        {
+          "name": "Huck Fire Turnout",
+          "url": "https://www.nps.gov/places/000/huck-fire-turnout.htm"
+        },
+        {
+          "name": "Jenny Lake East Shore Boat Dock",
+          "url": "https://www.nps.gov/places/000/jenny-lake-boat-dock.htm"
+        },
+        {
+          "name": "Leeks Pizzeria",
+          "url": "https://www.nps.gov/places/000/leeks-pizzeria.htm"
+        },
+        {
+          "name": "Mud Flats Picnic Area",
+          "url": "https://www.nps.gov/places/000/mud-flats-picnic-area.htm"
+        },
+        {
+          "name": "Jenny Lake Pathway Hub",
+          "url": "https://www.nps.gov/places/000/jenny-lake-pathway-access.htm"
+        },
+        {
+          "name": "East Boundary Turnout",
+          "url": "https://www.nps.gov/places/000/east-boundary-turnout.htm"
+        },
+        {
+          "name": "Colter Bay Marina & Boat Launch",
+          "url": "https://www.nps.gov/places/000/colter-bay-marina-boat-launch.htm"
+        },
+        {
+          "name": "John D. Rockefeller, Jr. Memorial Parkway North Turnout",
+          "url": "https://www.nps.gov/places/000/john-d-rockefeller-jr-memorial-parkway-north-turnout.htm"
+        },
+        {
+          "name": "Taggart Pathway Access",
+          "url": "https://www.nps.gov/places/000/taggart-pathway-access.htm"
+        },
+        {
+          "name": "Jackson Lake Dam Boat Launch",
+          "url": "https://www.nps.gov/places/000/jackson-lake-dam-launch.htm"
+        },
+        {
+          "name": "Moose Pathway Hub",
+          "url": "https://www.nps.gov/places/000/moose-pathway-access.htm"
+        },
+        {
+          "name": "Cottonwood Creek Overlook",
+          "url": "https://www.nps.gov/places/000/cottonwood-creek-overlook.htm"
+        },
+        {
+          "name": "Stephen Leek Homestead",
+          "url": "https://www.nps.gov/places/000/stephen-leek-homestead.htm"
+        },
+        {
+          "name": "The Ferry",
+          "url": "https://www.nps.gov/places/000/the-ferry.htm"
+        },
+        {
+          "name": "Transportation Barn",
+          "url": "https://www.nps.gov/places/000/transportation-barn.htm"
+        },
+        {
+          "name": "Signal Mountain Restaurants & Gift Shops",
+          "url": "https://www.nps.gov/places/000/signal-mountain-restaurants-gift-shops.htm"
+        },
+        {
+          "name": "Signal Mountain General Store",
+          "url": "https://www.nps.gov/places/000/signal-mountain-general-store.htm"
+        },
+        {
+          "name": "Jenny Lake Donor Area",
+          "url": "https://www.nps.gov/places/jenny-lake-donor-wall.htm"
+        },
+        {
+          "name": "Jenny Lake Gateway to Wilderness",
+          "url": "https://www.nps.gov/places/jenny-lake-gateway-to-wilderness.htm"
+        },
+        {
+          "name": "Jenny Lake Plaza",
+          "url": "https://www.nps.gov/places/jenny-lake-interpretive-signs-bronze-map.htm"
+        },
+        {
+          "name": "Jenny Lake Climbing Exhibit",
+          "url": "https://www.nps.gov/places/jenny-lake-climbing-exhibit.htm"
+        },
+        {
+          "name": "Teewinot Overlook",
+          "url": "https://www.nps.gov/places/teewinot-overlook.htm"
+        },
+        {
+          "name": "Rock Beach",
+          "url": "https://www.nps.gov/places/rock-beach.htm"
+        },
+        {
+          "name": "Outlet Overlook",
+          "url": "https://www.nps.gov/places/outlet-overlook.htm"
+        },
+        {
+          "name": "Discovery Spot: Black Bear",
+          "url": "https://www.nps.gov/places/discovery-spot-black-bear.htm"
+        },
+        {
+          "name": "Discovery Spot: Woodpecker/Beetle",
+          "url": "https://www.nps.gov/places/discovery-spot-woodpecker-beetle.htm"
+        },
+        {
+          "name": "Discovery Spot: Gopher/Marten",
+          "url": "https://www.nps.gov/places/discovery-spot-gopher-marten.htm"
+        },
+        {
+          "name": "Discovery Spot: Moose",
+          "url": "https://www.nps.gov/places/discovery-spot-moose.htm"
+        },
+        {
+          "name": "Jenny Lake Orientation",
+          "url": "https://www.nps.gov/places/jenny-lake-orientation.htm"
+        },
+        {
+          "name": "Moose Landing",
+          "url": "https://www.nps.gov/places/moose-landing.htm"
+        },
+        {
+          "name": "Fishing Platforms",
+          "url": "https://www.nps.gov/places/fishing-platforms.htm"
+        },
+        {
+          "name": "A World of Fish",
+          "url": "https://www.nps.gov/places/a-complicated-history.htm"
+        },
+        {
+          "name": "A River's Story",
+          "url": "https://www.nps.gov/places/a-river-s-story.htm"
+        },
+        {
+          "name": "Discovery Spot: Wild Connections",
+          "url": "https://www.nps.gov/places/discovery-spot-wild-connections.htm"
+        },
+        {
+          "name": "A River Changed",
+          "url": "https://www.nps.gov/places/a-river-changed.htm"
+        },
+        {
+          "name": "A Boat's Purpose",
+          "url": "https://www.nps.gov/places/a-boat-s-purpose.htm"
+        },
+        {
+          "name": "Moose Orientation",
+          "url": "https://www.nps.gov/places/moose-orientation.htm"
+        }
+      ]
+    }
   },
   {
     "id": "grba",
@@ -391,13 +2263,49 @@
     "lon": -114.2579782,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Bristlecone, Alpine Lake and Sky Island Forest Trailhead",
+          "url": "https://www.nps.gov/places/bristlecone-alpine-lake-and-sky-island-forest-trailhead.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Upper Lehman Creek Campground - Pi\u00f1on Juniper (Stop 3)",
+          "url": "https://www.nps.gov/places/upper-lehman-creek-campground-and-picnic-area.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Great Basin Visitor Center - Desert Shrub (Stop 1)",
+          "url": "https://www.nps.gov/places/great-basin-visitor-center.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Astronomy Ampitheater",
+          "url": "https://www.nps.gov/places/astronomy-ampitheater.htm"
+        },
+        {
+          "name": "Mather Overlook",
+          "url": "https://www.nps.gov/places/mather-overlook.htm"
+        },
+        {
+          "name": "Wheeler Peak Overlook",
+          "url": "https://www.nps.gov/places/wheeler-overlook.htm"
+        }
+      ]
+    }
   },
   {
     "id": "grsa",
@@ -413,7 +2321,15 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "grsm",
@@ -429,7 +2345,36 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Big Creek Picnic Area",
+          "url": "https://www.nps.gov/places/big-creek-picnic-area.htm"
+        },
+        {
+          "name": "Cades Cove Picnic Area",
+          "url": "https://www.nps.gov/places/cades-cove-picnic-area.htm"
+        },
+        {
+          "name": "Collins Creek Picnic Area",
+          "url": "https://www.nps.gov/places/collins-creek-picnic-area.htm"
+        },
+        {
+          "name": "Metcalf Bottoms Picnic Area",
+          "url": "https://www.nps.gov/places/metcalf-bottoms-picnic-area.htm"
+        },
+        {
+          "name": "John Oliver Place",
+          "url": "https://www.nps.gov/places/john-oliver-place.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "gumo",
@@ -439,13 +2384,43 @@
     "lon": -104.885527,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "McKittrick Canyon Trailhead",
+          "url": "https://www.nps.gov/places/gumo_mckittrick_canyon_trailhead.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Manzanita Spring",
+          "url": "https://www.nps.gov/places/gumo_manzanita_spring.htm"
+        },
+        {
+          "name": "Frijole Ranch Museum",
+          "url": "https://www.nps.gov/places/gumo_frijole_ranch_museum.htm"
+        },
+        {
+          "name": "The Pinery",
+          "url": "https://www.nps.gov/places/gumo_the_pinery.htm"
+        },
+        {
+          "name": "The Frijole Ranch Orchard",
+          "url": "https://www.nps.gov/places/gumo_frijoleranch_orchard.htm"
+        }
+      ]
+    }
   },
   {
     "id": "hale",
@@ -461,7 +2436,24 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Hosmer Grove Picnic Shelter",
+          "url": "https://www.nps.gov/places/hosmer-grove-picnic-shelter.htm"
+        },
+        {
+          "name": "Pu\u02bbu\u02bbula\u02bbula",
+          "url": "https://www.nps.gov/places/puuulaula.htm"
+        }
+      ]
+    }
   },
   {
     "id": "havo",
@@ -477,7 +2469,58 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Eruption Viewing from U\u0113kahuna",
+          "url": "https://www.nps.gov/places/eruption-viewing-from-uekahuna.htm"
+        },
+        {
+          "name": "Eruption Viewing from K\u012blauea Overlook (Kapalikapuokamohoali\u02bbi)",
+          "url": "https://www.nps.gov/places/eruption-viewing-from-kapalikapuokamohoalii.htm"
+        },
+        {
+          "name": "Eruption Viewing near Keanak\u0101ko\u02bbi Overlook",
+          "url": "https://www.nps.gov/places/eruption-viewing-at-keanakakoi.htm"
+        },
+        {
+          "name": "Eruption Viewing from Wahinekapu",
+          "url": "https://www.nps.gov/places/eruption-viewing-from-wahinekapu.htm"
+        },
+        {
+          "name": "Eruption Viewing from K\u016bpina\u02bbi Pali",
+          "url": "https://www.nps.gov/places/eruption-viewing-from-kupinai-pali.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Volcano House",
+          "url": "https://www.nps.gov/places/volcano-house.htm"
+        },
+        {
+          "name": "Eruption Viewing from U\u0113kahuna",
+          "url": "https://www.nps.gov/places/eruption-viewing-from-uekahuna.htm"
+        },
+        {
+          "name": "Eruption Viewing from K\u012blauea Overlook (Kapalikapuokamohoali\u02bbi)",
+          "url": "https://www.nps.gov/places/eruption-viewing-from-kapalikapuokamohoalii.htm"
+        },
+        {
+          "name": "Eruption Viewing near Welcome Center",
+          "url": "https://www.nps.gov/places/eruption-viewing-near-welcome-center.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Pu\u02bbupua\u02bbi Overlook",
+          "url": "https://www.nps.gov/places/puupuai.htm"
+        }
+      ]
+    }
   },
   {
     "id": "hosp",
@@ -493,7 +2536,50 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Hot Springs Mountain Tower",
+          "url": "https://www.nps.gov/places/hot-springs-mountain-tower.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Hot Springs Mountain Tower",
+          "url": "https://www.nps.gov/places/hot-springs-mountain-tower.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Buckstaff Bathhouse",
+          "url": "https://www.nps.gov/places/buckstaff-bathhouse.htm"
+        },
+        {
+          "name": "Quapaw Bathhouse",
+          "url": "https://www.nps.gov/places/quapaw-bathhouse.htm"
+        },
+        {
+          "name": "Hot Water Cascade",
+          "url": "https://www.nps.gov/places/hot-water-cascade.htm"
+        },
+        {
+          "name": "Arlington Lawn",
+          "url": "https://www.nps.gov/places/arlington-lawn.htm"
+        },
+        {
+          "name": "Grand Promenade ",
+          "url": "https://www.nps.gov/places/grand-promenade.htm"
+        },
+        {
+          "name": "Ozark Bathhouse ",
+          "url": "https://www.nps.gov/places/ozark-bathhouse.htm"
+        }
+      ]
+    }
   },
   {
     "id": "indu",
@@ -503,13 +2589,76 @@
     "lon": -87.09647445,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Paul H. Douglas Trail through Miller Woods",
+          "url": "https://www.nps.gov/places/paul-h-douglas-trail.htm"
+        },
+        {
+          "name": "Great Marsh Trail (North)",
+          "url": "https://www.nps.gov/places/great-marsh-trail-north.htm"
+        },
+        {
+          "name": "Calumet Dunes Trail",
+          "url": "https://www.nps.gov/places/calumet-dunes-trail.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Paul H. Douglas Center",
+          "url": "https://www.nps.gov/places/paul-h-douglas-center.htm"
+        },
+        {
+          "name": "Tolleston Dunes Overlook",
+          "url": "https://www.nps.gov/places/tolleston-dunes-overlook.htm"
+        },
+        {
+          "name": "Portage Lakefront and Riverwalk Pavilion",
+          "url": "https://www.nps.gov/places/portage-lakefront-and-riverwalk-pavilion.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Paul H. Douglas Center",
+          "url": "https://www.nps.gov/places/paul-h-douglas-center.htm"
+        },
+        {
+          "name": "Portage Lakefront and Riverwalk Trail",
+          "url": "https://www.nps.gov/places/portage-lakefront-and-riverwalk-trail.htm"
+        },
+        {
+          "name": "West Beach Trails",
+          "url": "https://www.nps.gov/places/west-beach-trails.htm"
+        },
+        {
+          "name": "Dune Ridge Trail",
+          "url": "https://www.nps.gov/places/dune-ridge-trail.htm"
+        },
+        {
+          "name": "West Beach",
+          "url": "https://www.nps.gov/places/west-beach-beaches.htm"
+        },
+        {
+          "name": "Portage Lakefront and Riverwalk Beach",
+          "url": "https://www.nps.gov/places/portage-lakefront-beach.htm"
+        },
+        {
+          "name": "Portage Lakefront and Riverwalk Pavilion",
+          "url": "https://www.nps.gov/places/portage-lakefront-and-riverwalk-pavilion.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "isro",
@@ -525,7 +2674,20 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Isle Royale National Park",
+          "url": "https://www.nps.gov/places/isle-royale-national-park.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "jotr",
@@ -541,7 +2703,60 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Keys View",
+          "url": "https://www.nps.gov/places/keys-view.htm"
+        },
+        {
+          "name": "Cholla Cactus Garden",
+          "url": "https://www.nps.gov/places/cholla-cactus-garden.htm"
+        },
+        {
+          "name": "Hidden Valley Picnic Area",
+          "url": "https://www.nps.gov/places/hidden-valley-picnic-area.htm"
+        },
+        {
+          "name": "Oasis of Mara",
+          "url": "https://www.nps.gov/places/oasis-of-mara.htm"
+        },
+        {
+          "name": "Start Here (Joshua Tree Visitor Center)",
+          "url": "https://www.nps.gov/places/start-here-joshua-tree-visitor-center.htm"
+        },
+        {
+          "name": "Ecology (Hidden Valley)",
+          "url": "https://www.nps.gov/places/ecology-hidden-valley.htm"
+        },
+        {
+          "name": "Cholla Cactus (Cholla Cactus Garden)",
+          "url": "https://www.nps.gov/places/cholla-cactus-cholla-cactus-garden.htm"
+        },
+        {
+          "name": "Start Here (Joshua Tree National Park Visitor Center)",
+          "url": "https://www.nps.gov/places/start-here-joshua-tree-national-park-visitor-center.htm"
+        },
+        {
+          "name": "Orientation (Joshua Tree National Park Visitor Center)",
+          "url": "https://www.nps.gov/places/orientation-joshua-tree-national-park-visitor-center.htm"
+        },
+        {
+          "name": "Continuing Your Journey (Joshua Tree National Park Visitor Center)",
+          "url": "https://www.nps.gov/places/continuing-your-journey-joshua-tree-national-park-visitor-center.htm"
+        },
+        {
+          "name": "Orientation (Cottonwood Visitor Center)",
+          "url": "https://www.nps.gov/places/orientation-cottonwood-visitor-center.htm"
+        }
+      ]
+    }
   },
   {
     "id": "katm",
@@ -557,7 +2772,24 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Brooks Camp Visitor Center - A Historic View",
+          "url": "https://www.nps.gov/places/brooks-camp-visitor-center-a-historic-view.htm"
+        },
+        {
+          "name": "Brooks Camp Auditorium",
+          "url": "https://www.nps.gov/places/brooks-camp-auditorium.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "kefj",
@@ -573,7 +2805,32 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Exit Glacier 1926 sign",
+          "url": "https://www.nps.gov/places/exit-glacier-1926-sign.htm"
+        },
+        {
+          "name": "Exit Glacier Overflowing Ice wayside",
+          "url": "https://www.nps.gov/places/exit-glacier-overflowing-ice-wayside.htm"
+        },
+        {
+          "name": "Exit Glacier Stone Kiosk",
+          "url": "https://www.nps.gov/places/exit-glacier-stone-kiosk.htm"
+        },
+        {
+          "name": "Exit Glacier Pavilion and 1917 sign",
+          "url": "https://www.nps.gov/places/exit-glacier-pavilion-and-1917-sign.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "kova",
@@ -589,7 +2846,40 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Fireweed Wayside at Western Arctic National Parklands",
+          "url": "https://www.nps.gov/places/fireweed-wayside-at-western-arctic-national-parklands.htm"
+        },
+        {
+          "name": "Sourdock at Western Arctic National Parklands",
+          "url": "https://www.nps.gov/places/sourdock-at-western-arctic-national-parklands.htm"
+        },
+        {
+          "name": "Feltleaf Willow at Western Arctic National Parklands",
+          "url": "https://www.nps.gov/places/feltleaf-willow-at-western-arctic-national-parklands.htm"
+        },
+        {
+          "name": "Stinkweed at Western Arctic National Parklands",
+          "url": "https://www.nps.gov/places/stinkweed-at-western-arctic-national-parklands.htm"
+        },
+        {
+          "name": "Angelica at Western Arctic National Parklands",
+          "url": "https://www.nps.gov/places/angelica-at-western-arctic-national-parklands.htm"
+        },
+        {
+          "name": "Lingonberry at Western Arctic National Parklands",
+          "url": "https://www.nps.gov/places/lingonberry-at-western-arctic-national-parklands.htm"
+        }
+      ]
+    }
   },
   {
     "id": "lacl",
@@ -605,7 +2895,15 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "lavo",
@@ -621,7 +2919,38 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Manzanita Lake Area",
+          "url": "https://www.nps.gov/places/manzanita-lake-area.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Lassen Peak Scenic Vista",
+          "url": "https://www.nps.gov/places/lassen-peak-scenic-vista.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Loomis Museum",
+          "url": "https://www.nps.gov/places/loomis-museum.htm"
+        },
+        {
+          "name": "Lassen Crossroads",
+          "url": "https://www.nps.gov/places/lassen-crossroads.htm"
+        },
+        {
+          "name": "Devastated Area",
+          "url": "https://www.nps.gov/places/devastated-area.htm"
+        }
+      ]
+    }
   },
   {
     "id": "maca",
@@ -637,7 +2966,33 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [
+        {
+          "name": "The Lodge at Mammoth Cave",
+          "url": "https://www.nps.gov/places/the-lodge-at-mammoth-cave.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Old Guide's Cemetery",
+          "url": "https://www.nps.gov/places/old-guide-s-cemetery.htm"
+        },
+        {
+          "name": "Green River Ferry",
+          "url": "https://www.nps.gov/places/green-river-ferry.htm"
+        },
+        {
+          "name": "Mammoth Cave Park Store",
+          "url": "https://www.nps.gov/places/mammoth-cave-park-store.htm"
+        }
+      ]
+    }
   },
   {
     "id": "meve",
@@ -653,7 +3008,85 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Mesa Top Loop Road",
+          "url": "https://www.nps.gov/places/mesatoploopdrive.htm"
+        },
+        {
+          "name": "Spruce Tree House Overlook",
+          "url": "https://www.nps.gov/places/sth_overlook.htm"
+        },
+        {
+          "name": "Navajo Canyon View",
+          "url": "https://www.nps.gov/places/navajo-canyon-view.htm"
+        },
+        {
+          "name": "Cliff Palace Loop Road",
+          "url": "https://www.nps.gov/places/cliff-palace-loop-road.htm"
+        },
+        {
+          "name": "Hemenway House Overlook",
+          "url": "https://www.nps.gov/places/hemenway-house-overlook.htm"
+        },
+        {
+          "name": "Balcony House Parking Area",
+          "url": "https://www.nps.gov/places/balcony-house-parking-area.htm"
+        },
+        {
+          "name": "Introduction & Pithouse",
+          "url": "https://www.nps.gov/places/pithouse.htm"
+        },
+        {
+          "name": "Square Tower House",
+          "url": "https://www.nps.gov/places/square-tower-house.htm"
+        },
+        {
+          "name": "Mesa Top Loop (Introduction)",
+          "url": "https://www.nps.gov/places/mesa-top-loop-introduction.htm"
+        },
+        {
+          "name": "Mesa Top Sites",
+          "url": "https://www.nps.gov/places/mesa-top-sites.htm"
+        },
+        {
+          "name": "Sun Point Pueblo",
+          "url": "https://www.nps.gov/places/sun-point-pueblo.htm"
+        },
+        {
+          "name": "Sun Point View",
+          "url": "https://www.nps.gov/places/sun-point-view.htm"
+        },
+        {
+          "name": "Oak Tree House",
+          "url": "https://www.nps.gov/places/oak-tree-house.htm"
+        },
+        {
+          "name": "Fire Temple & New Fire House",
+          "url": "https://www.nps.gov/places/fire-temple-new-fire-house.htm"
+        },
+        {
+          "name": "Sun Temple",
+          "url": "https://www.nps.gov/places/sun-temple.htm"
+        },
+        {
+          "name": "Cliff Palace View",
+          "url": "https://www.nps.gov/places/cliff-palace-view.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Far View Lodge",
+          "url": "https://www.nps.gov/places/farviewlodge.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "mora",
@@ -669,7 +3102,54 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Paradise",
+          "url": "https://www.nps.gov/places/paradise.htm"
+        },
+        {
+          "name": "Ohanapecosh",
+          "url": "https://www.nps.gov/places/ohanapecosh.htm"
+        },
+        {
+          "name": "Cougar Rock Picnic Area",
+          "url": "https://www.nps.gov/places/cougar-rock-picnic-area.htm"
+        },
+        {
+          "name": "Longmire Service Station",
+          "url": "https://www.nps.gov/places/longmire-service-station.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "National Park Inn in Longmire",
+          "url": "https://www.nps.gov/places/national-park-inn.htm"
+        },
+        {
+          "name": "Paradise Inn",
+          "url": "https://www.nps.gov/places/paradise-inn.htm"
+        },
+        {
+          "name": "Longmire",
+          "url": "https://www.nps.gov/places/longmire.htm"
+        },
+        {
+          "name": "Paradise",
+          "url": "https://www.nps.gov/places/paradise.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "White River Picnic Area",
+          "url": "https://www.nps.gov/places/white-river-picnic-area.htm"
+        }
+      ]
+    }
   },
   {
     "id": "neri",
@@ -685,7 +3165,24 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Thurmond Historic District",
+          "url": "https://www.nps.gov/places/thurmond-historic-district.htm"
+        },
+        {
+          "name": "Richmond Hamilton Farm",
+          "url": "https://www.nps.gov/places/richmond-hamilton-farm.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "noca",
@@ -701,7 +3198,29 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "North Cascades Lodge at Stehekin",
+          "url": "https://www.nps.gov/places/north-cascades-lodge-at-stehekin.htm"
+        },
+        {
+          "name": "Rainbow Falls, North Cascades",
+          "url": "https://www.nps.gov/places/rainbow-falls-north-cascades.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Gorge Creek Falls",
+          "url": "https://www.nps.gov/places/gorge-creek-falls.htm"
+        }
+      ]
+    }
   },
   {
     "id": "olym",
@@ -709,15 +3228,260 @@
     "state": "WA",
     "lat": 47.80392754,
     "lon": -123.6663848,
-    "accessible_restrooms": false,
+    "accessible_restrooms": true,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Hoh Restrooms and Campground Registration - Loop A",
+          "url": "https://www.nps.gov/places/000/hoh-restrooms-and-campground-registration-loop-a.htm"
+        },
+        {
+          "name": "Hoh Restrooms and Campground Registration - Loop C",
+          "url": "https://www.nps.gov/places/000/hoh-restrooms-and-campground-registration-loop-c.htm"
+        },
+        {
+          "name": "Hoh Restrooms and Campground Registration - Loop B",
+          "url": "https://www.nps.gov/places/000/hoh-restrooms-and-campground-registration-loop-b.htm"
+        },
+        {
+          "name": "Rain Forest Nature Trailhead - U.S. Forest Service",
+          "url": "https://www.nps.gov/places/000/rainforest-nature-trailhead-usfs.htm"
+        },
+        {
+          "name": "Maple Glade Rain Forest Trailhead",
+          "url": "https://www.nps.gov/places/000/maple-glade-rain-forest-trailhead.htm"
+        },
+        {
+          "name": "July Creek Picnic Area Trailhead",
+          "url": "https://www.nps.gov/places/000/july-creek-picnic-area-trailhead.htm"
+        },
+        {
+          "name": "Beach 4 - Trailhead and Parking Area",
+          "url": "https://www.nps.gov/places/000/beach-4-trailhead-and-parking-area.htm"
+        },
+        {
+          "name": "Mora Restrooms and Campground Registration - Loop D",
+          "url": "https://www.nps.gov/places/000/mora-restrooms-and-campground-registration-loop-d.htm"
+        },
+        {
+          "name": "Sol Duc Falls Trail",
+          "url": "https://www.nps.gov/places/000/sol-duc-falls-trail.htm"
+        },
+        {
+          "name": "Sol Duc Restrooms and Campground Registration - Loop B",
+          "url": "https://www.nps.gov/places/000/sol-duc-restrooms-and-campground-registration-loop-b.htm"
+        },
+        {
+          "name": "Sol Duc Restrooms and Campground Registration - Loop A",
+          "url": "https://www.nps.gov/places/000/sol-duc-restrooms-and-campground-registration-loop-a.htm"
+        },
+        {
+          "name": "Fairholme Restroom and Campground Registration - Loop A",
+          "url": "https://www.nps.gov/places/000/fairholme-restroom-and-campground-registration-loop-a.htm"
+        },
+        {
+          "name": "Fairholme Restrooms and Campground Registration - Loop B",
+          "url": "https://www.nps.gov/places/000/fairholme-restrooms-and-campground-registration-loop-b.htm"
+        },
+        {
+          "name": "Moments in Time trailhead - Marymere",
+          "url": "https://www.nps.gov/places/000/moments-in-time-trailhead-marymere.htm"
+        },
+        {
+          "name": "Trailhead from NatureBridge to Moments in Time Trail",
+          "url": "https://www.nps.gov/places/000/trailhead-from-naturebridge-to-moments-in-time-trail.htm"
+        },
+        {
+          "name": "Madison Falls Trailhead",
+          "url": "https://www.nps.gov/places/000/madison-falls-trailhead.htm"
+        },
+        {
+          "name": "Elwha Dam Overlook Trailhead",
+          "url": "https://www.nps.gov/places/000/elwha-dam-overlook-trailhead.htm"
+        },
+        {
+          "name": "Meadow Loop Trailhead",
+          "url": "https://www.nps.gov/places/000/meadow-loop-trailhead.htm"
+        },
+        {
+          "name": "Heart o' the Hills Restroom and Campground Registration - Loop A",
+          "url": "https://www.nps.gov/places/000/heart-o-the-hills-restroom-and-campground-registration-loop-a.htm"
+        },
+        {
+          "name": "Living Forest Trailhead",
+          "url": "https://www.nps.gov/places/000/living-forest-trailhead.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Gatton Creek Campground - U.S. Forest Service",
+          "url": "https://www.nps.gov/places/000/gatton-creek-campground-u-s-forest-service.htm"
+        },
+        {
+          "name": "South Beach Restroom and Campground Registration",
+          "url": "https://www.nps.gov/places/000/south-beach-restroom-and-campground-registration.htm"
+        },
+        {
+          "name": "Sol Duc Campground",
+          "url": "https://www.nps.gov/places/000/sol-duc-campground.htm"
+        },
+        {
+          "name": "Sol Duc RV Park",
+          "url": "https://www.nps.gov/places/000/sol-duc-rv-park.htm"
+        },
+        {
+          "name": "Quilcene Ranger Station - U.S. Forest Service",
+          "url": "https://www.nps.gov/places/000/quilcene-ranger-station-u-s-forest-service.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "The Lost Resort Lodge",
+          "url": "https://www.nps.gov/places/000/the-lost-resort-lodge.htm"
+        },
+        {
+          "name": "Lake Quinault Lodge",
+          "url": "https://www.nps.gov/places/000/lake-quinault-lodge.htm"
+        },
+        {
+          "name": "Kalaloch Lodge",
+          "url": "https://www.nps.gov/places/000/kalaloch-lodge.htm"
+        },
+        {
+          "name": "Lake Crescent Lodge",
+          "url": "https://www.nps.gov/places/000/lake-crescent-lodge.htm"
+        },
+        {
+          "name": "Restroom, Log Cabin Resort",
+          "url": "https://www.nps.gov/places/000/restroom-log-cabin-resort.htm"
+        },
+        {
+          "name": "Log Cabin Resort - Main Lodge",
+          "url": "https://www.nps.gov/places/000/log-cabin-resort-main-lodge.htm"
+        }
+      ],
+      "restrooms": [
+        {
+          "name": "Hoh Entrance Station Restroom",
+          "url": "https://www.nps.gov/places/000/hoh-entrance-station-restroom.htm"
+        },
+        {
+          "name": "Restroom, Staircase Ranger Station Area",
+          "url": "https://www.nps.gov/places/000/restroom-staircase-ranger-station-area.htm"
+        }
+      ],
+      "general": [
+        {
+          "name": "Dungeness National Wildlife Refuge",
+          "url": "https://www.nps.gov/places/000/dungeness-national-wildlife-refuge.htm"
+        },
+        {
+          "name": "Hoodsport Wilderness Information Center",
+          "url": "https://www.nps.gov/places/000/hoodsport-wilderness-information-center.htm"
+        },
+        {
+          "name": "Makah Cultural Institute and Research Center",
+          "url": "https://www.nps.gov/places/000/makah-cultural-institute-and-research-center.htm"
+        },
+        {
+          "name": "Hoh Amphitheater",
+          "url": "https://www.nps.gov/places/000/hoh-amphitheater.htm"
+        },
+        {
+          "name": "South Shore Quinault Ranger Station - USFS - NPS",
+          "url": "https://www.nps.gov/places/000/south-shore-quinault-ranger-station-usfs-nps.htm"
+        },
+        {
+          "name": "Quinault Rain Forest Ranger Station",
+          "url": "https://www.nps.gov/places/000/quinault-rain-forest-ranger-station.htm"
+        },
+        {
+          "name": "Kalaloch Ranger Station",
+          "url": "https://www.nps.gov/places/000/kalaloch-ranger-station.htm"
+        },
+        {
+          "name": "Ruby Beach",
+          "url": "https://www.nps.gov/places/000/ruby-beach.htm"
+        },
+        {
+          "name": "Rialto Beach",
+          "url": "https://www.nps.gov/places/000/rialto-beach.htm"
+        },
+        {
+          "name": "Mora Amphitheater",
+          "url": "https://www.nps.gov/places/000/mora-amphitheater.htm"
+        },
+        {
+          "name": "Sol Duc Hot Springs Resort",
+          "url": "https://www.nps.gov/places/000/sol-duc-hot-springs-resort.htm"
+        },
+        {
+          "name": "Salmon Cascades",
+          "url": "https://www.nps.gov/places/000/salmon-cascades.htm"
+        },
+        {
+          "name": "Sol Duc Entrance Interpretive Exhibit",
+          "url": "https://www.nps.gov/places/000/sol-duc-entrance-interpretive-exhibit.htm"
+        },
+        {
+          "name": "North Shore Day Use Area",
+          "url": "https://www.nps.gov/places/000/north-shore-day-use-area.htm"
+        },
+        {
+          "name": "Fairholme Store",
+          "url": "https://www.nps.gov/places/000/fairholme-store.htm"
+        },
+        {
+          "name": "La Poel Picnic Area",
+          "url": "https://www.nps.gov/places/000/la-poel-picnic-area.htm"
+        },
+        {
+          "name": "Lake Crescent - East Beach",
+          "url": "https://www.nps.gov/places/000/lake-crescent-east-beach.htm"
+        },
+        {
+          "name": "Elwha Ranger Station",
+          "url": "https://www.nps.gov/places/000/elwha-ranger-station.htm"
+        },
+        {
+          "name": "Madison Falls",
+          "url": "https://www.nps.gov/places/000/madison-falls.htm"
+        },
+        {
+          "name": "Elwha Dam Interpretive Site",
+          "url": "https://www.nps.gov/places/000/elwha-dam-interpretive-site.htm"
+        },
+        {
+          "name": "Elwha Klallam Heritage Center",
+          "url": "https://www.nps.gov/places/000/elwha-klallam-heritage-center.htm"
+        },
+        {
+          "name": "Hurricane Hill Picnic Area B",
+          "url": "https://www.nps.gov/places/000/hurricane-hill-picnic-area-b.htm"
+        },
+        {
+          "name": "Hurricane Hill Picnic Area A",
+          "url": "https://www.nps.gov/places/000/hurricane-hill-picnic-area-a.htm"
+        },
+        {
+          "name": "Lake Cushman Day Use Area Site 5",
+          "url": "https://www.nps.gov/places/000/lake-cushman-day-use-area-site-5.htm"
+        },
+        {
+          "name": "Staircase Ranger Station",
+          "url": "https://www.nps.gov/places/000/staircase-ranger-station.htm"
+        }
+      ]
+    }
   },
   {
     "id": "pefo",
@@ -727,13 +3491,137 @@
     "lon": -109.7877678,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Tawa Trail",
+          "url": "https://www.nps.gov/places/tawa-trail.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Giant Logs",
+          "url": "https://www.nps.gov/places/giant-logs.htm"
+        },
+        {
+          "name": "Kachina Point",
+          "url": "https://www.nps.gov/places/kachina-point.htm"
+        },
+        {
+          "name": "Puerco Pueblo",
+          "url": "https://www.nps.gov/places/puerco-pueblo.htm"
+        },
+        {
+          "name": "Painted Desert Community Complex National Historic Landmark",
+          "url": "https://www.nps.gov/places/painted-desert-community-complex-nhl.htm"
+        },
+        {
+          "name": "Crystal Forest Trail",
+          "url": "https://www.nps.gov/places/crystal-forest-trail.htm"
+        },
+        {
+          "name": "Agate House Trail",
+          "url": "https://www.nps.gov/places/agate-house-trail.htm"
+        },
+        {
+          "name": "Giant Logs Trail",
+          "url": "https://www.nps.gov/places/giant-logs-trail.htm"
+        },
+        {
+          "name": "Painted Desert Inn National Historic Landmark",
+          "url": "https://www.nps.gov/places/painted-desert-inn-nhl.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 1",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-1.htm"
+        },
+        {
+          "name": "Rainbow Forest",
+          "url": "https://www.nps.gov/places/rainbow-forest.htm"
+        },
+        {
+          "name": "Rainbow Forest Museum",
+          "url": "https://www.nps.gov/places/rfm.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 2",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-2.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 4 and South Stop 29",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-4-south-stop-29.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 7 and South Stop 26",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-7-south-stop-26.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 8 and South Stop 25",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-8-south-stop-25.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 23 and South Stop 10",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-23-south-stop-10.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 30 and South Stop 3",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-30-south-stop-3.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 3 and South Stop 30",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-3-and-south-stop-30.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Painted Desert Community Complex National Historic Landmark",
+          "url": "https://www.nps.gov/places/painted-desert-community-complex-nhl.htm"
+        },
+        {
+          "name": "Painted Desert Inn National Historic Landmark",
+          "url": "https://www.nps.gov/places/painted-desert-inn-nhl.htm"
+        },
+        {
+          "name": "Rainbow Forest Museum",
+          "url": "https://www.nps.gov/places/rfm.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 2",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-2.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 7 and South Stop 26",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-7-south-stop-26.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 30 and South Stop 3",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-30-south-stop-3.htm"
+        },
+        {
+          "name": "PEFO Audio Tour North Stop 3 and South Stop 30",
+          "url": "https://www.nps.gov/places/pefo-audio-tour-north-stop-3-and-south-stop-30.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Blue Mesa",
+          "url": "https://www.nps.gov/places/blue-mesa.htm"
+        },
+        {
+          "name": "Tawa Point",
+          "url": "https://www.nps.gov/places/tawa-point.htm"
+        }
+      ]
+    }
   },
   {
     "id": "pinn",
@@ -742,14 +3630,36 @@
     "lat": 36.49029208,
     "lon": -121.1813607,
     "accessible_restrooms": false,
-    "accessible_parking": false,
+    "accessible_parking": true,
     "accessible_trails": false,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [
+        {
+          "name": "Chaparral Parking Area",
+          "url": "https://www.nps.gov/places/chaparral-parking-area.htm"
+        }
+      ],
+      "camping": [
+        {
+          "name": "Peaks View Parking Area",
+          "url": "https://www.nps.gov/places/pinnacles-peaks-view.htm"
+        },
+        {
+          "name": "West Visitor Contact Station Parking",
+          "url": "https://www.nps.gov/places/pinnacles-west-visitor-contact-station-parking.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "romo",
@@ -765,7 +3675,15 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "sagu",
@@ -775,13 +3693,59 @@
     "lon": -110.7574974,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Cactus Garden Trail",
+          "url": "https://www.nps.gov/places/cactus-garden-trail.htm"
+        },
+        {
+          "name": "Desert Discovery Trail",
+          "url": "https://www.nps.gov/places/desert-discovery-trail.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Javelina Picnic Area (East District)",
+          "url": "https://www.nps.gov/places/javelina-picnic-area.htm"
+        },
+        {
+          "name": "Mica View Picnic Area (East District)",
+          "url": "https://www.nps.gov/places/mica-view-picnic-area.htm"
+        },
+        {
+          "name": "Sus Picnic Area (West District)",
+          "url": "https://www.nps.gov/places/sus-picnic-area.htm"
+        },
+        {
+          "name": "Signal Hill (West District)",
+          "url": "https://www.nps.gov/places/signal-hill.htm"
+        },
+        {
+          "name": "Cam-Boh Picnic Area (West District)",
+          "url": "https://www.nps.gov/places/cam-boh-picnic-area.htm"
+        },
+        {
+          "name": "Sendero Esperanza Picnic Area (West District)",
+          "url": "https://www.nps.gov/places/sendero-esperanza-picnic-area-west-district.htm"
+        },
+        {
+          "name": "You Are Here: Poetry in Parks at Mica View Picnic Area",
+          "url": "https://www.nps.gov/places/you-are-here-poetry-in-parks-at-mica-view-picnic-area.htm"
+        }
+      ]
+    }
   },
   {
     "id": "seki",
@@ -789,15 +3753,252 @@
     "state": "CA",
     "lat": 36.71277299,
     "lon": -118.587429,
-    "accessible_restrooms": false,
+    "accessible_restrooms": true,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "General Sherman Tree Accessible Trailhead",
+          "url": "https://www.nps.gov/places/000/general-sherman-tree-accessible-trailhead.htm"
+        },
+        {
+          "name": "Big Trees Trailhead",
+          "url": "https://www.nps.gov/places/000/big-trees-trailhead.htm"
+        },
+        {
+          "name": "Zumwalt Meadow Trailhead",
+          "url": "https://www.nps.gov/places/000/zumwalt-meadow-trailhead.htm"
+        },
+        {
+          "name": "Roaring River Falls Trailhead",
+          "url": "https://www.nps.gov/places/000/roaring-river-falls-trailhead.htm"
+        },
+        {
+          "name": "Panoramic Point Picnic Area and Trailhead",
+          "url": "https://www.nps.gov/places/000/panoramic-point-trailhead.htm"
+        },
+        {
+          "name": "Why so big and so old? (General Sherman Tree Accessible Trail)",
+          "url": "https://www.nps.gov/places/000/why-so-big-and-so-old-accessible.htm"
+        },
+        {
+          "name": "There it is! (General Sherman Tree Accessible Trail)",
+          "url": "https://www.nps.gov/places/000/there-it-is-accessible-trail.htm"
+        },
+        {
+          "name": "General Sherman Tree Accessible Trailhead Shuttle Stop",
+          "url": "https://www.nps.gov/places/general-sherman-tree-accessible-trailhead-shuttle-stop.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Lodgepole Campground",
+          "url": "https://www.nps.gov/places/000/lodgepole-campground.htm"
+        },
+        {
+          "name": "Aspen Hollow Campground",
+          "url": "https://www.nps.gov/places/000/aspen-hollow-campground.htm"
+        },
+        {
+          "name": "Surviving Change",
+          "url": "https://www.nps.gov/places/000/surviving-change.htm"
+        },
+        {
+          "name": "Lodgepole Campground Shuttle Stop",
+          "url": "https://www.nps.gov/places/000/lodgepole-campground-shuttle-stop.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Wuksachi Restaurant & Lodge",
+          "url": "https://www.nps.gov/places/000/wuksachi-restaurant-lodge.htm"
+        },
+        {
+          "name": "Cedar Grove Lodge & Market Center",
+          "url": "https://www.nps.gov/places/000/cedar-grove-lodge-market-center.htm"
+        },
+        {
+          "name": "John Muir Lodge",
+          "url": "https://www.nps.gov/places/000/john-muir-lodge.htm"
+        },
+        {
+          "name": "Grant Grove Cabins",
+          "url": "https://www.nps.gov/places/000/grant-grove-cabins.htm"
+        },
+        {
+          "name": "Wuksachi Restaurant & Lodge Shuttle Stop",
+          "url": "https://www.nps.gov/places/000/wuksachi-restaurant-lodge-shuttle-stop.htm"
+        },
+        {
+          "name": "Lodgepole Market & Visitor Center Shuttle Stop",
+          "url": "https://www.nps.gov/places/000/lodgepole-market-visitor-center-shuttle-stop.htm"
+        },
+        {
+          "name": "Lodgepole Market Center",
+          "url": "https://www.nps.gov/places/000/lodgepole-market-center.htm"
+        },
+        {
+          "name": "Lodgepole Amphitheater",
+          "url": "https://www.nps.gov/places/000/lodgepole-amphitheater.htm"
+        }
+      ],
+      "restrooms": [
+        {
+          "name": "Road's End Restroom",
+          "url": "https://www.nps.gov/places/000/roads-end-restroom.htm"
+        }
+      ],
+      "general": [
+        {
+          "name": "Redwood Mountain Overlook",
+          "url": "https://www.nps.gov/places/000/redwood-mountain-overlook.htm"
+        },
+        {
+          "name": "Beetle Rock",
+          "url": "https://www.nps.gov/places/000/beetle-rock.htm"
+        },
+        {
+          "name": "Pinewood Picnic Area",
+          "url": "https://www.nps.gov/places/000/pinewood-picnic-area.htm"
+        },
+        {
+          "name": "Panoramic Point Overlook",
+          "url": "https://www.nps.gov/places/000/panoramic-point-overlook.htm"
+        },
+        {
+          "name": "Big Stump Picnic Area and Snowplay Area",
+          "url": "https://www.nps.gov/places/000/big-stump-picnic-area-and-snowplay-area.htm"
+        },
+        {
+          "name": "Columbine Picnic Area and Snowplay Area",
+          "url": "https://www.nps.gov/places/000/columbine-picnic-area-and-snowplay-area.htm"
+        },
+        {
+          "name": "Amphitheater Point",
+          "url": "https://www.nps.gov/places/000/amphitheater-point.htm"
+        },
+        {
+          "name": "Kings Canyon Overlook",
+          "url": "https://www.nps.gov/places/000/kings-canyon-overlook.htm"
+        },
+        {
+          "name": "Roaring River Falls",
+          "url": "https://www.nps.gov/places/000/roaring-river-falls.htm"
+        },
+        {
+          "name": "Canyon View Overlook",
+          "url": "https://www.nps.gov/places/000/canyon-view-overlook.htm"
+        },
+        {
+          "name": "Foothills Picnic Area",
+          "url": "https://www.nps.gov/places/000/foothills-picnic-area.htm"
+        },
+        {
+          "name": "Hospital Rock Picnic Area",
+          "url": "https://www.nps.gov/places/000/hospital-rock-picnic-area.htm"
+        },
+        {
+          "name": "Hot Spots",
+          "url": "https://www.nps.gov/places/000/hot-spots.htm"
+        },
+        {
+          "name": "Potwisha Amphitheater",
+          "url": "https://www.nps.gov/places/000/potwisha-amphitheater.htm"
+        },
+        {
+          "name": "Grant Grove Restaurant",
+          "url": "https://www.nps.gov/places/000/grant-grove-restaurant.htm"
+        },
+        {
+          "name": "Junction View",
+          "url": "https://www.nps.gov/places/000/junction-view.htm"
+        },
+        {
+          "name": "Cedar Grove Showers & Laundry",
+          "url": "https://www.nps.gov/places/000/cedar-grove-showers-laundry.htm"
+        },
+        {
+          "name": "Cedar Grove Amphitheater",
+          "url": "https://www.nps.gov/places/000/cedar-grove-amphitheater.htm"
+        },
+        {
+          "name": "Grant Grove Gift Shop",
+          "url": "https://www.nps.gov/places/000/grant-grove-gift-shop.htm"
+        },
+        {
+          "name": "Grant Grove Market and Post Office",
+          "url": "https://www.nps.gov/places/000/grant-grove-market-and-post-office.htm"
+        },
+        {
+          "name": "Dorst Creek Amphitheater",
+          "url": "https://www.nps.gov/places/000/dorst-creek-amphitheater.htm"
+        },
+        {
+          "name": "The General Sherman Tree",
+          "url": "https://www.nps.gov/places/000/the-general-sherman-tree.htm"
+        },
+        {
+          "name": "Prime Sequoia Habitat",
+          "url": "https://www.nps.gov/places/000/prime-sequoia-habitat.htm"
+        },
+        {
+          "name": "Just Enough Soil",
+          "url": "https://www.nps.gov/places/000/just-enough-soil.htm"
+        },
+        {
+          "name": "Sun Worshipers",
+          "url": "https://www.nps.gov/places/000/sun-worshipers.htm"
+        },
+        {
+          "name": "A Giant's Footprint",
+          "url": "https://www.nps.gov/places/000/a-giants-footprint.htm"
+        },
+        {
+          "name": "How's the View?",
+          "url": "https://www.nps.gov/places/000/hows-the-view.htm"
+        },
+        {
+          "name": "Sentinel Tree Interactive Ruler",
+          "url": "https://www.nps.gov/places/000/sentinel-tree-ruler.htm"
+        },
+        {
+          "name": "Giant Forest Museum Shuttle Stop",
+          "url": "https://www.nps.gov/places/000/giant-forest-museum-shuttle-stop.htm"
+        },
+        {
+          "name": "Parker Group",
+          "url": "https://www.nps.gov/places/000/parker-group.htm"
+        },
+        {
+          "name": "Crescent Meadow Shuttle Stop",
+          "url": "https://www.nps.gov/places/000/crescent-meadow-shuttle-stop.htm"
+        },
+        {
+          "name": "Feeding the Foothills",
+          "url": "https://www.nps.gov/places/000/feeding-the-foothills.htm"
+        },
+        {
+          "name": "Foothills Wilderness Permit Office",
+          "url": "https://www.nps.gov/places/000/foothills-wilderness-permit-office.htm"
+        },
+        {
+          "name": "Hospital Rock Picnic Area Exhibits ",
+          "url": "https://www.nps.gov/places/hospital-rock-picnic-area-exhibits.htm"
+        },
+        {
+          "name": "Moro Rock Shuttle Stop",
+          "url": "https://www.nps.gov/places/moro-rock-shuttle-stop.htm"
+        }
+      ]
+    }
   },
   {
     "id": "shen",
@@ -807,13 +4008,129 @@
     "lon": -78.46907715,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Limberlost TRACK Trail - Kids' Activity",
+          "url": "https://www.nps.gov/places/000/limberlost-track-trail-kids-activity.htm"
+        },
+        {
+          "name": "Limberlost Trailhead",
+          "url": "https://www.nps.gov/places/000/limberlost.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Rapidan Camp - The Brown House Back Entrance",
+          "url": "https://www.nps.gov/places/000/rapidan-camp-the-brown-house-back-entrance.htm"
+        },
+        {
+          "name": "Loft Mountain Campstore, Showers, and Laundry",
+          "url": "https://www.nps.gov/places/000/loft-mountain-campstore-showers-and-laundry.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Skyland Lodging",
+          "url": "https://www.nps.gov/places/000/skyland-lodging.htm"
+        },
+        {
+          "name": "Big Meadows Lodge",
+          "url": "https://www.nps.gov/places/000/big-meadows-lodge.htm"
+        },
+        {
+          "name": "Skyland",
+          "url": "https://www.nps.gov/places/000/skyland.htm"
+        },
+        {
+          "name": "Pinnacles Picnic Grounds",
+          "url": "https://www.nps.gov/places/000/pinnacles-picnic-grounds.htm"
+        },
+        {
+          "name": "Pinnacles Picnic Grounds Vault Toilet",
+          "url": "https://www.nps.gov/places/000/pinnacles-picnic-grounds-vault-toilet.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Skyland Dining Room",
+          "url": "https://www.nps.gov/places/000/skyland-dining-room.htm"
+        },
+        {
+          "name": "Dundo Picnic Grounds",
+          "url": "https://www.nps.gov/places/000/dundo-picnic-grounds.htm"
+        },
+        {
+          "name": "Loft Mountain Wayside",
+          "url": "https://www.nps.gov/places/000/loft-mountain-wayside.htm"
+        },
+        {
+          "name": "Big Meadows Wayside",
+          "url": "https://www.nps.gov/places/000/big-meadows-wayside.htm"
+        },
+        {
+          "name": "Skyland Amphitheater",
+          "url": "https://www.nps.gov/places/000/skyland-amphitheater.htm"
+        },
+        {
+          "name": "Big Meadows Amphitheater",
+          "url": "https://www.nps.gov/places/000/big-meadows-amphitheater.htm"
+        },
+        {
+          "name": "Panorama",
+          "url": "https://www.nps.gov/places/000/panorama.htm"
+        },
+        {
+          "name": "Beahms Gap Overlook",
+          "url": "https://www.nps.gov/places/000/beahms-gap-overlook.htm"
+        },
+        {
+          "name": "Elkwallow Picnic Grounds",
+          "url": "https://www.nps.gov/places/000/elkwallow-picnic-grounds.htm"
+        },
+        {
+          "name": "Dickey Ridge Picnic Grounds",
+          "url": "https://www.nps.gov/places/000/dickey-ridge-picnic-grounds.htm"
+        },
+        {
+          "name": "Elkwallow Wayside",
+          "url": "https://www.nps.gov/places/000/elkwallow-wayside.htm"
+        },
+        {
+          "name": "Lewis Mountain",
+          "url": "https://www.nps.gov/places/000/lewis-mountain.htm"
+        },
+        {
+          "name": "Lewis Mountain Picnic Grounds",
+          "url": "https://www.nps.gov/places/000/lewis-mountain-picnic-grounds.htm"
+        },
+        {
+          "name": "Loft Mountain Amphitheater",
+          "url": "https://www.nps.gov/places/000/loft-mountain-amphitheater.htm"
+        },
+        {
+          "name": "Loft Mountain",
+          "url": "https://www.nps.gov/places/000/loft-mountain.htm"
+        },
+        {
+          "name": "South River Picnic Grounds",
+          "url": "https://www.nps.gov/places/000/south-river-picnic-grounds.htm"
+        },
+        {
+          "name": "Big Meadows Picnic Grounds",
+          "url": "https://www.nps.gov/places/000/big-meadows-picnic-grounds.htm"
+        }
+      ]
+    }
   },
   {
     "id": "thro",
@@ -823,13 +4140,39 @@
     "lon": -103.4300083,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Boicourt Trail",
+          "url": "https://www.nps.gov/places/boicourt-trail.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Boicourt Overlook",
+          "url": "https://www.nps.gov/places/boicourt-overlook.htm"
+        },
+        {
+          "name": "Oxbow Overlook",
+          "url": "https://www.nps.gov/places/oxbow-overlook.htm"
+        },
+        {
+          "name": "Skyline Vista",
+          "url": "https://www.nps.gov/places/skyline-vista.htm"
+        }
+      ]
+    }
   },
   {
     "id": "viis",
@@ -845,7 +4188,42 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Annaburg Sugar Plantation",
+          "url": "https://www.nps.gov/places/annaburg-sugar-plantation.htm"
+        },
+        {
+          "name": "Hawksnest Beach",
+          "url": "https://www.nps.gov/places/hawksnest-beach.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Cinnamon Bay Beach",
+          "url": "https://www.nps.gov/places/cinnamon-bay-beach.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Trunk Bay",
+          "url": "https://www.nps.gov/places/trunk-bay.htm"
+        },
+        {
+          "name": "Francis Bay",
+          "url": "https://www.nps.gov/places/francis-bay.htm"
+        },
+        {
+          "name": "Maho Beach",
+          "url": "https://www.nps.gov/places/maho-beach.htm"
+        }
+      ]
+    }
   },
   {
     "id": "voya",
@@ -861,7 +4239,36 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Kabetogama Lake",
+          "url": "https://www.nps.gov/places/kabetogama-lake.htm"
+        },
+        {
+          "name": "Rainy Lake",
+          "url": "https://www.nps.gov/places/rainy-lake.htm"
+        },
+        {
+          "name": "Namakan Lake",
+          "url": "https://www.nps.gov/places/namakan-lake.htm"
+        },
+        {
+          "name": "Sand Point Lake",
+          "url": "https://www.nps.gov/places/sand-point-lake.htm"
+        },
+        {
+          "name": "Rainy Lake Ethnobotanical Garden",
+          "url": "https://www.nps.gov/places/rainy-lake-ethnobotanical-garden.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": []
+    }
   },
   {
     "id": "whsa",
@@ -869,15 +4276,175 @@
     "state": "NM",
     "lat": 32.77907858,
     "lon": -106.3333461,
-    "accessible_restrooms": false,
+    "accessible_restrooms": true,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Interdune Boardwalk",
+          "url": "https://www.nps.gov/places/interdune-boardwalk.htm"
+        },
+        {
+          "name": "Dune Life Nature Trail Restroom",
+          "url": "https://www.nps.gov/places/dune-life-nature-trail-restroom.htm"
+        },
+        {
+          "name": "Interdune Boardwalk Restroom",
+          "url": "https://www.nps.gov/places/interdune-boardwalk-restroom.htm"
+        },
+        {
+          "name": "Backcountry Camping Loop Trail Restroom",
+          "url": "https://www.nps.gov/places/backcountry-camping-trail-restroom.htm"
+        },
+        {
+          "name": "Interdune Boardwalk Kiosk Panel",
+          "url": "https://www.nps.gov/places/interdune-boardwalk-kiosk-panel.htm"
+        },
+        {
+          "name": "Interdune Boardwalk Safety Kiosk Panel",
+          "url": "https://www.nps.gov/places/interdune-boardwalk-safety-kiosk-panel.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "A Day in the Dunes Interpretive Sign",
+          "url": "https://www.nps.gov/places/a-day-in-the-dunes-interpretive-sign.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [
+        {
+          "name": "Yucca Picnic Area Restroom",
+          "url": "https://www.nps.gov/places/yucca-restroom.htm"
+        },
+        {
+          "name": "Alkali Flat Restroom",
+          "url": "https://www.nps.gov/places/alkali-flat-restroom.htm"
+        },
+        {
+          "name": "Evening Program Area Restroom",
+          "url": "https://www.nps.gov/places/evening-program-area-restroom.htm"
+        },
+        {
+          "name": "Heart of the Sands Restroom",
+          "url": "https://www.nps.gov/places/heart-of-the-sands-restroom.htm"
+        },
+        {
+          "name": "Primrose Picnic Area Restroom",
+          "url": "https://www.nps.gov/places/primrose-picnic-area-restroom.htm"
+        },
+        {
+          "name": "Roadrunner Picnic Area North Restroom",
+          "url": "https://www.nps.gov/places/roadrunner-north-restroom.htm"
+        },
+        {
+          "name": "Roadrunner Picnic Area East Restroom",
+          "url": "https://www.nps.gov/places/roadrunner-east-restroom.htm"
+        },
+        {
+          "name": "Balloon Area Restroom",
+          "url": "https://www.nps.gov/places/balloon-area-restroom.htm"
+        },
+        {
+          "name": "Amphitheater Restroom",
+          "url": "https://www.nps.gov/places/amphitheater-restroom.htm"
+        },
+        {
+          "name": "Group Use Restroom",
+          "url": "https://www.nps.gov/places/group-use-restroom.htm"
+        }
+      ],
+      "general": [
+        {
+          "name": "White Sands Trading Company",
+          "url": "https://www.nps.gov/places/white-sands-trading-company.htm"
+        },
+        {
+          "name": "White Sands Group Use Area",
+          "url": "https://www.nps.gov/places/group-use-area.htm"
+        },
+        {
+          "name": "Roadrunner Picnic Area",
+          "url": "https://www.nps.gov/places/roadrunner-picnic-area.htm"
+        },
+        {
+          "name": "Primrose Picnic Area",
+          "url": "https://www.nps.gov/places/primrose-picnic-area.htm"
+        },
+        {
+          "name": "A White Oasis",
+          "url": "https://www.nps.gov/places/a-white-oasis.htm"
+        },
+        {
+          "name": "Adapt or Disappear",
+          "url": "https://www.nps.gov/places/adapt-or-disappear.htm"
+        },
+        {
+          "name": "Riddles in the Sand",
+          "url": "https://www.nps.gov/places/riddles-in-the-sand.htm"
+        },
+        {
+          "name": "\"Yucca: One Stop Shopping\" Interpretive Sign",
+          "url": "https://www.nps.gov/places/yucca-one-stop-shopping-interpretive-sign.htm"
+        },
+        {
+          "name": "Moths, Mars, and Lizards",
+          "url": "https://www.nps.gov/places/moths-mars-and-lizards.htm"
+        },
+        {
+          "name": "Add Water, Remove Water, Repeat",
+          "url": "https://www.nps.gov/places/add-water-remove-water-repeat.htm"
+        },
+        {
+          "name": "Lift the Land",
+          "url": "https://www.nps.gov/places/lift-the-land.htm"
+        },
+        {
+          "name": "Bring on Snow, Rain, Sun, and Wind",
+          "url": "https://www.nps.gov/places/bring-on-snow-rain-sun-and-wind.htm"
+        },
+        {
+          "name": "Imagine All This Sand... Gone",
+          "url": "https://www.nps.gov/places/imagine-all-this-sand-gone.htm"
+        },
+        {
+          "name": "Extended Family",
+          "url": "https://www.nps.gov/places/extended-family.htm"
+        },
+        {
+          "name": "White Sands Amphitheater",
+          "url": "https://www.nps.gov/places/white-sands-amphitheater.htm"
+        },
+        {
+          "name": "West Filming Area",
+          "url": "https://www.nps.gov/places/west-filming-area.htm"
+        },
+        {
+          "name": "Horse Unloading Area",
+          "url": "https://www.nps.gov/places/horse-unloading-area.htm"
+        },
+        {
+          "name": "Park Store and Gift Shop",
+          "url": "https://www.nps.gov/places/park-store-at-white-sands.htm"
+        },
+        {
+          "name": "Moth Tour - Why are Moths Important?",
+          "url": "https://www.nps.gov/places/moth-tour-introduction.htm"
+        },
+        {
+          "name": "Cruise the Dunes",
+          "url": "https://www.nps.gov/places/cruise-the-dunes.htm"
+        }
+      ]
+    }
   },
   {
     "id": "wica",
@@ -893,7 +4460,24 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "needs_review",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Stop #1: Pahasapa Limestone",
+          "url": "https://www.nps.gov/places/pahasapa-limestone.htm"
+        },
+        {
+          "name": "Wind Cave National Park Store",
+          "url": "https://www.nps.gov/places/wind-cave-national-park-store.htm"
+        }
+      ]
+    }
   },
   {
     "id": "wrst",
@@ -909,7 +4493,41 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Ahtna Cultural Center",
+          "url": "https://www.nps.gov/places/ahtna-cultural-center.htm"
+        }
+      ],
+      "lodging": [],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Chitina Wayside",
+          "url": "https://www.nps.gov/places/000/chitina-wayside.htm"
+        },
+        {
+          "name": "Kuskulana Bridge",
+          "url": "https://www.nps.gov/places/000/kuskulana-bridge.htm"
+        },
+        {
+          "name": "Gilahina Trestle",
+          "url": "https://www.nps.gov/places/000/gilahina-trestle.htm"
+        },
+        {
+          "name": "Kennecott Visitor Center in Blackburn School",
+          "url": "https://www.nps.gov/places/000/kennecott-visitor-center-in-blackburn-school.htm"
+        },
+        {
+          "name": "Exhibit Hall",
+          "url": "https://www.nps.gov/places/exhibit-hall.htm"
+        }
+      ]
+    }
   },
   {
     "id": "yell",
@@ -919,13 +4537,445 @@
     "lon": -110.5471695,
     "accessible_restrooms": false,
     "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Forces of the Northern Range Self-guided Trail",
+          "url": "https://www.nps.gov/places/000/forces-of-the-northern-range-self-guided-trail.htm"
+        },
+        {
+          "name": "Artists Paintpots Trail",
+          "url": "https://www.nps.gov/places/000/artists-paintpot-trail.htm"
+        },
+        {
+          "name": "Biscuit Basin Trailhead (OK4)",
+          "url": "https://www.nps.gov/places/000/biscuit-basin-trailhead-ok4.htm"
+        },
+        {
+          "name": "Black Sand Basin Trailhead",
+          "url": "https://www.nps.gov/places/000/black-sand-basin-trailhead.htm"
+        },
+        {
+          "name": "Norris Geyser Basin Trails (Cistern Spring Junction)",
+          "url": "https://www.nps.gov/places/000/norris-geyser-basin-trails-cistern-spring-junction.htm"
+        },
+        {
+          "name": "Fountain Paint Pot Trailhead",
+          "url": "https://www.nps.gov/places/000/fountain-paint-pot-trailhead.htm"
+        },
+        {
+          "name": "Lower Terraces - Middle Trailhead",
+          "url": "https://www.nps.gov/places/000/lower-terraces-middle-trailhead.htm"
+        },
+        {
+          "name": "Lower Terraces - North Trailhead",
+          "url": "https://www.nps.gov/places/000/lower-terraces-north-trailhead.htm"
+        },
+        {
+          "name": "Lower Terraces - South Trailhead",
+          "url": "https://www.nps.gov/places/000/lower-terraces-south-trailhead.htm"
+        },
+        {
+          "name": "Upper Terrace Overlook & Trailhead",
+          "url": "https://www.nps.gov/places/000/upper-terrace-overlook-trailhead.htm"
+        },
+        {
+          "name": "Midway Geyser Basin Trailhead",
+          "url": "https://www.nps.gov/places/000/midway-geyser-basin-trailhead.htm"
+        },
+        {
+          "name": "Mud Volcano Trailhead",
+          "url": "https://www.nps.gov/places/000/mud-volcano-trailhead.htm"
+        },
+        {
+          "name": "Norris Geyser Basin Trailhead",
+          "url": "https://www.nps.gov/places/000/norris-geyser-basin-trailhead.htm"
+        },
+        {
+          "name": "Norris Geyser Basin Trails (Porcelain Springs Junction)",
+          "url": "https://www.nps.gov/places/000/norris-geyser-basin-trails-porcelain-springs-junction.htm"
+        },
+        {
+          "name": "Upper Terrace Trailhead",
+          "url": "https://www.nps.gov/places/000/upper-terrace-trailhead.htm"
+        },
+        {
+          "name": "Forces of the Northern Range Trailhead",
+          "url": "https://www.nps.gov/places/000/forces-of-the-northern-range-trailhead.htm"
+        }
+      ],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Grant Village Dining Room",
+          "url": "https://www.nps.gov/places/000/grant-village-dining-room.htm"
+        },
+        {
+          "name": "Grant Village Lake House Restaurant",
+          "url": "https://www.nps.gov/places/000/grant-village-lake-house-restaurant.htm"
+        },
+        {
+          "name": "Mammoth Hot Springs Hotel Dining Room",
+          "url": "https://www.nps.gov/places/000/mammoth-hot-springs-hotel-dining-room.htm"
+        },
+        {
+          "name": "Mammoth Hot Springs Hotel Terrace Grill",
+          "url": "https://www.nps.gov/places/000/mammoth-hot-springs-hotel-terrace-grill.htm"
+        },
+        {
+          "name": "Lake General Store",
+          "url": "https://www.nps.gov/places/000/lake-general-store.htm"
+        },
+        {
+          "name": "Old Faithful General Store - Upper",
+          "url": "https://www.nps.gov/places/000/old-faithful-general-store-upper.htm"
+        },
+        {
+          "name": "Tower Fall General Store",
+          "url": "https://www.nps.gov/places/000/tower-fall-general-store.htm"
+        },
+        {
+          "name": "Lake Village Post Office",
+          "url": "https://www.nps.gov/places/000/lake-village-post-office.htm"
+        },
+        {
+          "name": "Old Faithful General Store - Lower",
+          "url": "https://www.nps.gov/places/000/old-faithful-general-store-lower.htm"
+        },
+        {
+          "name": "Fort Yellowstone National Historic Landmark",
+          "url": "https://www.nps.gov/places/000/fort-yellowstone-national-historic-landmark.htm"
+        },
+        {
+          "name": "Mammoth Hot Springs Restrooms",
+          "url": "https://www.nps.gov/places/000/mammoth-hot-springs-restrooms.htm"
+        },
+        {
+          "name": "Canyon Gas and Service Station",
+          "url": "https://www.nps.gov/places/000/canyon-gas-and-service-station.htm"
+        },
+        {
+          "name": "Fishing Bridge Gas and Service Station",
+          "url": "https://www.nps.gov/places/000/fishing-bridge-gas-and-service-station.htm"
+        },
+        {
+          "name": "Grant Village Gas and Service Station",
+          "url": "https://www.nps.gov/places/000/grant-village-gas-and-service-station.htm"
+        },
+        {
+          "name": "Old Faithful Gas and Service Station - Lower",
+          "url": "https://www.nps.gov/places/000/old-faithful-gas-and-service-station-lower.htm"
+        },
+        {
+          "name": "Old Faithful Gas and Service Station - Upper",
+          "url": "https://www.nps.gov/places/000/old-faithful-gas-and-service-station-upper.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Canyon Lodge and Cabins",
+          "url": "https://www.nps.gov/places/000/canyon-lodge-and-cabins.htm"
+        },
+        {
+          "name": "Grant Village Lodge",
+          "url": "https://www.nps.gov/places/000/grant-village-lodge.htm"
+        },
+        {
+          "name": "Lake Hotel and Cabins",
+          "url": "https://www.nps.gov/places/000/lake-hotel-and-cabins.htm"
+        },
+        {
+          "name": "Lake Lodge Cabins",
+          "url": "https://www.nps.gov/places/000/lake-lodge-cabins.htm"
+        },
+        {
+          "name": "Mammoth Hot Springs Hotel and Cabins",
+          "url": "https://www.nps.gov/places/000/mammoth-hot-springs-hotel-and-cabins.htm"
+        },
+        {
+          "name": "Old Faithful Inn",
+          "url": "https://www.nps.gov/places/000/old-faithful-inn.htm"
+        },
+        {
+          "name": "Old Faithful Lodge and Cabins",
+          "url": "https://www.nps.gov/places/000/old-faithful-lodge-and-cabins.htm"
+        },
+        {
+          "name": "Old Faithful Snow Lodge",
+          "url": "https://www.nps.gov/places/000/old-faithful-snow-lodge.htm"
+        },
+        {
+          "name": "Roosevelt Lodge",
+          "url": "https://www.nps.gov/places/000/roosevelt-lodge.htm"
+        },
+        {
+          "name": "Canyon Lodge",
+          "url": "https://www.nps.gov/places/000/canyon-lodge.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Tower Backcountry Office",
+          "url": "https://www.nps.gov/places/000/tower-backcountry-office.htm"
+        },
+        {
+          "name": "Bridge Bay Backcountry Office",
+          "url": "https://www.nps.gov/places/000/bridge-bay-backcountry-office.htm"
+        },
+        {
+          "name": "Grant Village Backcountry Office",
+          "url": "https://www.nps.gov/places/000/grant-village-backcountry-office.htm"
+        },
+        {
+          "name": "Snake River Backcountry Office",
+          "url": "https://www.nps.gov/places/000/snake-river-backcountry-office.htm"
+        },
+        {
+          "name": "Bechler Backcountry Office",
+          "url": "https://www.nps.gov/places/000/bechler-backcountry-office.htm"
+        },
+        {
+          "name": "Canyon General Store",
+          "url": "https://www.nps.gov/places/000/canyon-general-store.htm"
+        },
+        {
+          "name": "Fishing Bridge General Store",
+          "url": "https://www.nps.gov/places/000/fishing-bridge-general-store.htm"
+        },
+        {
+          "name": "Grant Village General Store",
+          "url": "https://www.nps.gov/places/000/grant-village-general-store.htm"
+        },
+        {
+          "name": "Mammoth Hot Springs General Store",
+          "url": "https://www.nps.gov/places/000/mammoth-hot-springs-general-store.htm"
+        },
+        {
+          "name": "Lake Medical Clinic",
+          "url": "https://www.nps.gov/places/000/lake-medical-clinic.htm"
+        },
+        {
+          "name": "Mammoth Medical Clinic",
+          "url": "https://www.nps.gov/places/000/mammoth-medical-clinic.htm"
+        },
+        {
+          "name": "Old Faithful Medical Clinic",
+          "url": "https://www.nps.gov/places/000/old-faithful-medical-clinic.htm"
+        },
+        {
+          "name": "Bridge Bay Marina Store",
+          "url": "https://www.nps.gov/places/000/bridge-bay-marina-store.htm"
+        },
+        {
+          "name": "Canyon Yellowstone Adventure Store",
+          "url": "https://www.nps.gov/places/000/canyon-yellowstone-adventure-store.htm"
+        },
+        {
+          "name": "Grant Village Post Office",
+          "url": "https://www.nps.gov/places/000/grant-village-post-office.htm"
+        },
+        {
+          "name": "Mammoth Hot Springs Post Office",
+          "url": "https://www.nps.gov/places/000/mammoth-hot-springs-post-office.htm"
+        },
+        {
+          "name": "Old Faithful Post Office",
+          "url": "https://www.nps.gov/places/000/old-faithful-post-office.htm"
+        },
+        {
+          "name": "Mammoth Hot Springs Gas Station",
+          "url": "https://www.nps.gov/places/000/mammoth-hot-springs-gas-station.htm"
+        },
+        {
+          "name": "Tower-Roosevelt Junction Gas Station",
+          "url": "https://www.nps.gov/places/000/tower-roosevelt-junction-gas-station.htm"
+        },
+        {
+          "name": "A Wildlife Paradise",
+          "url": "https://www.nps.gov/places/000/a-wildlife-paradise.htm"
+        },
+        {
+          "name": "Mountain View",
+          "url": "https://www.nps.gov/places/000/mountain-view.htm"
+        },
+        {
+          "name": "Parade Ground",
+          "url": "https://www.nps.gov/places/000/parade-ground.htm"
+        },
+        {
+          "name": "Canary Spring (View of Top)",
+          "url": "https://www.nps.gov/places/000/canary-spring-view-of-top.htm"
+        },
+        {
+          "name": "Gibbon Falls",
+          "url": "https://www.nps.gov/places/000/gibbon-falls.htm"
+        },
+        {
+          "name": "Mammoth Hot Springs - Lower Terraces",
+          "url": "https://www.nps.gov/places/000/mammoth-hot-springs-lower-terraces.htm"
+        },
+        {
+          "name": "Lower Terraces - Palette Spring",
+          "url": "https://www.nps.gov/places/000/lower-terraces-palette-spring.htm"
+        },
+        {
+          "name": "Palette Hot Spring",
+          "url": "https://www.nps.gov/places/000/palette-hot-spring.htm"
+        },
+        {
+          "name": "Roaring Mountain",
+          "url": "https://www.nps.gov/places/000/roaring-mountain.htm"
+        },
+        {
+          "name": "Upper Geyser Basin - Orientation West of Old Faithful",
+          "url": "https://www.nps.gov/places/000/upper-geyser-basin-orientation-west-of-old-faithful.htm"
+        },
+        {
+          "name": "Glacial Boulder",
+          "url": "https://www.nps.gov/places/000/glacial-boulder.htm"
+        },
+        {
+          "name": "Nez Perce Picnic Area",
+          "url": "https://www.nps.gov/places/000/nez-perce-picnic-area.htm"
+        },
+        {
+          "name": "Otter Creek Picnic Area",
+          "url": "https://www.nps.gov/places/000/otter-creek-picnic-area.htm"
+        },
+        {
+          "name": "Warm Creek Picnic Area",
+          "url": "https://www.nps.gov/places/000/warm-creek-picnic-area.htm"
+        },
+        {
+          "name": "Liberty Cap",
+          "url": "https://www.nps.gov/places/000/liberty-cap.htm"
+        },
+        {
+          "name": "Yellowstone Tribal Heritage Center",
+          "url": "https://www.nps.gov/places/000/yellowstone-tribal-heritage-center.htm"
+        },
+        {
+          "name": "Yellowstone Forever Headquarters & Park Store",
+          "url": "https://www.nps.gov/places/000/yellowstone-forever-headquarters-park-store.htm"
+        },
+        {
+          "name": "Whiskey Flat Picnic Area",
+          "url": "https://www.nps.gov/places/000/whiskey-flat-picnic-area.htm"
+        },
+        {
+          "name": "West Thumb Picnic Area",
+          "url": "https://www.nps.gov/places/000/west-thumb-picnic-area.htm"
+        },
+        {
+          "name": "Virginia Cascade Picnic Area",
+          "url": "https://www.nps.gov/places/000/virginia-cascade-picnic-area.htm"
+        },
+        {
+          "name": "Tuff Cliff Picnic Area",
+          "url": "https://www.nps.gov/places/000/tuff-cliff-picnic-area.htm"
+        },
+        {
+          "name": "Sylvan Lake Picnic Area",
+          "url": "https://www.nps.gov/places/000/sylvan-lake-picnic-area.htm"
+        },
+        {
+          "name": "Steamboat Point Picnic Area",
+          "url": "https://www.nps.gov/places/000/steamboat-point-picnic-area.htm"
+        },
+        {
+          "name": "Spruce-Fir Exhibit Picnic Area",
+          "url": "https://www.nps.gov/places/000/spruce-fir-exhibit-picnic-area.htm"
+        },
+        {
+          "name": "Soda Butte Creek Picnic Area",
+          "url": "https://www.nps.gov/places/000/soda-butte-creek-picnic-area.htm"
+        },
+        {
+          "name": "Snake River Picnic Area",
+          "url": "https://www.nps.gov/places/000/snake-river-picnic-area.htm"
+        },
+        {
+          "name": "Sheepeater Cliff Picnic Area",
+          "url": "https://www.nps.gov/places/000/sheepeater-cliff-picnic-area.htm"
+        },
+        {
+          "name": "Madison Junction Picnic Area",
+          "url": "https://www.nps.gov/places/000/madison-junction-picnic-area.htm"
+        },
+        {
+          "name": "Lewis Lake Picnic Area",
+          "url": "https://www.nps.gov/places/000/lewis-lake-picnic-area.htm"
+        },
+        {
+          "name": "Iron Spring Picnic Area",
+          "url": "https://www.nps.gov/places/000/iron-spring-picnic-area.htm"
+        },
+        {
+          "name": "Hard Road to Travel Picnic Area",
+          "url": "https://www.nps.gov/places/000/hard-road-to-travel-picnic-area.htm"
+        },
+        {
+          "name": "Gibbon Meadows Picnic Area",
+          "url": "https://www.nps.gov/places/000/gibbon-meadows-picnic-area.htm"
+        },
+        {
+          "name": "Gibbon Falls Picnic Area",
+          "url": "https://www.nps.gov/places/000/gibbon-falls-picnic-area.htm"
+        },
+        {
+          "name": "Gardner River Picnic Area",
+          "url": "https://www.nps.gov/places/000/gardner-river-picnic-area.htm"
+        },
+        {
+          "name": "Firehole River Picnic Area",
+          "url": "https://www.nps.gov/places/000/firehole-river-picnic-area.htm"
+        },
+        {
+          "name": "East Lot Picnic Area",
+          "url": "https://www.nps.gov/places/000/east-lot-picnic-area.htm"
+        },
+        {
+          "name": "Cave Falls Picnic Area",
+          "url": "https://www.nps.gov/places/000/cave-falls-picnic-area.htm"
+        },
+        {
+          "name": "Cascade Lake Picnic Area",
+          "url": "https://www.nps.gov/places/000/cascade-lake-picnic-area.htm"
+        },
+        {
+          "name": "Cascade Picnic Area",
+          "url": "https://www.nps.gov/places/000/cascade-picnic-area.htm"
+        },
+        {
+          "name": "Caldera Rim Picnic Area",
+          "url": "https://www.nps.gov/places/000/caldera-rim-picnic-area.htm"
+        },
+        {
+          "name": "Bridge Bay Picnic Area",
+          "url": "https://www.nps.gov/places/000/bridge-bay-picnic-area.htm"
+        },
+        {
+          "name": "Mount Haynes Fishing Platform",
+          "url": "https://www.nps.gov/places/000/mount-haynes-fishing-platform.htm"
+        },
+        {
+          "name": "West Yellowstone VIC Backcountry Office",
+          "url": "https://www.nps.gov/places/west-yellowstone-vic-backcountry-office.htm"
+        },
+        {
+          "name": "Mammoth Backcountry Office",
+          "url": "https://www.nps.gov/places/albright-backcountry-office.htm"
+        }
+      ]
+    }
   },
   {
     "id": "yose",
@@ -934,14 +4984,343 @@
     "lat": 37.84883288,
     "lon": -119.5571873,
     "accessible_restrooms": false,
-    "accessible_parking": false,
-    "accessible_trails": false,
+    "accessible_parking": true,
+    "accessible_trails": true,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [
+        {
+          "name": "Cook's Meadow Loop Trailhead",
+          "url": "https://www.nps.gov/places/000/cooks-meadow-loop-trailhead.htm"
+        },
+        {
+          "name": "Grizzly Giant Trailhead (Accessible)",
+          "url": "https://www.nps.gov/places/000/grizzly-giant-trailhead-accessible.htm"
+        },
+        {
+          "name": "Mariposa Grove Shuttle Stop 1: Arrival Area and Trailhead",
+          "url": "https://www.nps.gov/places/000/mariposa-grove-shuttle-stop-1-arrival-area-trailhead.htm"
+        },
+        {
+          "name": "Lower Yosemite Fall Trailhead",
+          "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 17: Mirror Lake Trailhead",
+          "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-17-mirror-lake-trailhead.htm"
+        }
+      ],
+      "parking": [
+        {
+          "name": "Mariposa Grove Welcome Plaza & Parking",
+          "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 7: Yosemite Valley Lodge/Yosemite Falls Parking",
+          "url": "https://www.nps.gov/places/000/yosemite-valley-shuttle-stop-7-yosemite-valley-lodge.htm"
+        },
+        {
+          "name": "Mariposa Grove Shuttle Stop 2: Welcome Plaza and Parking",
+          "url": "https://www.nps.gov/places/000/mariposa-grove-shuttle-stop-2-welcome-plaza-parking.htm"
+        },
+        {
+          "name": "Curry Village Parking",
+          "url": "https://www.nps.gov/places/000/curry-village-parking.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 1: Yosemite Village Parking",
+          "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-1-yosemite-village-parking.htm"
+        }
+      ],
+      "camping": [
+        {
+          "name": "Housekeeping Camp",
+          "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+        },
+        {
+          "name": "Hetch Hetchy Reservoir - O'Shaughnessy Dam",
+          "url": "https://www.nps.gov/places/000/hetch-hetchy-reservoir-oshaughnessy-dam.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 18: Lower Pines Campground",
+          "url": "https://www.nps.gov/places/000/valley-shuttle-stop-18-lower-pines-campground.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 12: Housekeeping Camp and Yosemite Conservation Heritage Center",
+          "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-12-yosemite-conservation-heritage-center-housekeeping-camp.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Yosemite Valley Lodge",
+          "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+        },
+        {
+          "name": "Wawona Hotel",
+          "url": "https://www.nps.gov/places/000/wawona-hotel.htm"
+        },
+        {
+          "name": "Curry Village",
+          "url": "https://www.nps.gov/places/000/curry-village.htm"
+        },
+        {
+          "name": "The Ahwahnee",
+          "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+        },
+        {
+          "name": "White Wolf Lodge",
+          "url": "https://www.nps.gov/places/000/white-wolf-lodge.htm"
+        },
+        {
+          "name": "YARTS Stop:  Yosemite Valley Lodge",
+          "url": "https://www.nps.gov/places/000/yarts-stop-yosemite-valley-lodge.htm"
+        },
+        {
+          "name": "Yosemite Valley Lodge Bike Stand",
+          "url": "https://www.nps.gov/places/000/yosemite-valley-lodge-bike-stand.htm"
+        },
+        {
+          "name": "YARTS Stop:  White Wolf Lodge",
+          "url": "https://www.nps.gov/places/000/yarts-stop-white-wolf-lodge.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 3: The Ahwahnee",
+          "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-3-the-ahwahnee.htm"
+        },
+        {
+          "name": "Tuolumne Meadows Lodge",
+          "url": "https://www.nps.gov/places/000/tuolumne-meadows-lodge.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Wawona Gas Station",
+          "url": "https://www.nps.gov/places/000/wawona-gas-station.htm"
+        },
+        {
+          "name": "Mariposa Grove Picnic Area",
+          "url": "https://www.nps.gov/places/000/mariposa-grove-picnic-area.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 19: Curry Village Westbound",
+          "url": "https://www.nps.gov/places/000/valley-shuttle-stop-19-curry-village-westbound.htm"
+        },
+        {
+          "name": "Lower Yosemite Fall Picnic Area",
+          "url": "https://www.nps.gov/places/000/yosemite-falls-picnic-area.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 8: El Capitan Picnic Area",
+          "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-8-el-capitan-picnic-area.htm"
+        },
+        {
+          "name": "El Capitan Picnic Area",
+          "url": "https://www.nps.gov/places/000/el-capitan-picnic-area.htm"
+        },
+        {
+          "name": "Valley View",
+          "url": "https://www.nps.gov/places/000/valley-view.htm"
+        },
+        {
+          "name": "Sentinel Beach",
+          "url": "https://www.nps.gov/places/000/sentinel-beach.htm"
+        },
+        {
+          "name": "Swinging Bridge",
+          "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+        },
+        {
+          "name": "Yosemite Chapel",
+          "url": "https://www.nps.gov/places/000/yosemite-chapel.htm"
+        },
+        {
+          "name": "Happy Isles Art and Nature Center",
+          "url": "https://www.nps.gov/places/000/happy-isles-art-and-nature-center.htm"
+        },
+        {
+          "name": "View of Mirror Lake",
+          "url": "https://www.nps.gov/places/000/mirror-lake.htm"
+        },
+        {
+          "name": "Sentinel Bridge",
+          "url": "https://www.nps.gov/places/000/sentinel-bridge.htm"
+        },
+        {
+          "name": "The Cascades Picnic Area",
+          "url": "https://www.nps.gov/places/000/the-cascades-picnic-area.htm"
+        },
+        {
+          "name": "El Portal Gas Station and Market",
+          "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+        },
+        {
+          "name": "Village Store",
+          "url": "https://www.nps.gov/places/000/village-store.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 4: Degnan's Kitchen",
+          "url": "https://www.nps.gov/places/000/valley-shuttle-stop-4-degnans-kitchen.htm"
+        },
+        {
+          "name": "Degnan's Kitchen",
+          "url": "https://www.nps.gov/places/000/degnans-kitchen.htm"
+        },
+        {
+          "name": "Yosemite Exploration Center Theater",
+          "url": "https://www.nps.gov/places/000/yosemite-theater.htm"
+        },
+        {
+          "name": "Yosemite Museum",
+          "url": "https://www.nps.gov/places/000/yosemite-museum.htm"
+        },
+        {
+          "name": "Glacier Point",
+          "url": "https://www.nps.gov/places/000/glacier-point.htm"
+        },
+        {
+          "name": "Washburn Point",
+          "url": "https://www.nps.gov/places/000/washburn-point.htm"
+        },
+        {
+          "name": "Olmsted Point",
+          "url": "https://www.nps.gov/places/000/olmsted-point.htm"
+        },
+        {
+          "name": "YARTS Stop:  Curry Village",
+          "url": "https://www.nps.gov/places/000/yarts-stop-curry-village.htm"
+        },
+        {
+          "name": "Crane Flat Gas Station",
+          "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+        },
+        {
+          "name": "YARTS Stop:  Big Oak Flat",
+          "url": "https://www.nps.gov/places/000/yarts-stop-big-oak-flat.htm"
+        },
+        {
+          "name": "Wawona Golf Shop",
+          "url": "https://www.nps.gov/places/000/wawona-golf-shop.htm"
+        },
+        {
+          "name": "Tunnel View",
+          "url": "https://www.nps.gov/places/000/tunnel-view.htm"
+        },
+        {
+          "name": "Yosemite Village Post Office",
+          "url": "https://www.nps.gov/places/000/yosemite-village-post-office.htm"
+        },
+        {
+          "name": "Yosemite Valley Wilderness Center",
+          "url": "https://www.nps.gov/places/000/yosemite-valley-wilderness-center.htm"
+        },
+        {
+          "name": "The Ansel Adams Gallery",
+          "url": "https://www.nps.gov/places/000/the-ansel-adams-gallery.htm"
+        },
+        {
+          "name": "YARTS Stop: Yosemite Village",
+          "url": "https://www.nps.gov/places/000/yarts-stop-yosemite-village.htm"
+        },
+        {
+          "name": "Mariposa County Library: Yosemite Branch",
+          "url": "https://www.nps.gov/places/000/mariposa-county-library-yosemite-branch.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 6: Lower Yosemite Fall",
+          "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-6-lower-yosemite-fall.htm"
+        },
+        {
+          "name": "Lower Yosemite Fall Viewing Area",
+          "url": "https://www.nps.gov/places/000/yosemite-falls.htm"
+        },
+        {
+          "name": "YARTS Stop:  Tuolumne Meadows Visitor Center",
+          "url": "https://www.nps.gov/places/000/yarts-stop-tuolumne-meadows-visitor-center.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 16: Happy Isles",
+          "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-16-happy-isles.htm"
+        },
+        {
+          "name": "Glacier Point Gift Shop and Snack Stand",
+          "url": "https://www.nps.gov/places/000/glacier-point-gift-shop-and-snack-stand.htm"
+        },
+        {
+          "name": "Church Bowl Picnic Area",
+          "url": "https://www.nps.gov/places/000/church-bowl-picnic-area.htm"
+        },
+        {
+          "name": "Yosemite Medical Clinic",
+          "url": "https://www.nps.gov/places/000/yosemite-medical-clinic.htm"
+        },
+        {
+          "name": "Village Grill",
+          "url": "https://www.nps.gov/places/000/village-grill.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 2: Welcome Center",
+          "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-2-yosemite-village.htm"
+        },
+        {
+          "name": "Curry Village Bike Stand",
+          "url": "https://www.nps.gov/places/000/curry-village-bike-stand.htm"
+        },
+        {
+          "name": "Tuolumne Meadows Wilderness Center",
+          "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+        },
+        {
+          "name": "Tuolumne Meadows Store",
+          "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+        },
+        {
+          "name": "YARTS Stop: Tuolumne Meadows Store",
+          "url": "https://www.nps.gov/places/000/yarts-stop-tuolumne-meadows-store.htm"
+        },
+        {
+          "name": "Tuolumne Meadows Post Office",
+          "url": "https://www.nps.gov/places/000/tuolumne-meadows-post-office.htm"
+        },
+        {
+          "name": "Valley Shuttle Stop 5: Exploration Center",
+          "url": "https://www.nps.gov/places/000/valley-shuttle-stop-5-yosemite-valley-visitor-center-and-museum.htm"
+        },
+        {
+          "name": "YARTS Stop:  Crane Flat Gas Station",
+          "url": "https://www.nps.gov/places/000/yarts-stop-crane-flat-gas-station.htm"
+        },
+        {
+          "name": "YARTS Stop: Wawona Store",
+          "url": "https://www.nps.gov/places/000/yarts-stop-wawona-store.htm"
+        },
+        {
+          "name": "YARTS Stop:  Mariposa Grove of Giant Sequoias",
+          "url": "https://www.nps.gov/places/000/yarts-stop-mariposa-grove-of-giant-sequoias.htm"
+        },
+        {
+          "name": "Wawona Wilderness Center at Hill's Studio",
+          "url": "https://www.nps.gov/places/000/wawona-wilderness-center-at-hills-studio.htm"
+        },
+        {
+          "name": "Wilderness Center at Big Oak Flat Information Station",
+          "url": "https://www.nps.gov/places/000/wilderness-center-at-big-oak-flat-information-station.htm"
+        },
+        {
+          "name": "Yosemite Exploration Center",
+          "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+        },
+        {
+          "name": "Chinese Laundry",
+          "url": "https://www.nps.gov/places/chinese-laundry.htm"
+        }
+      ]
+    }
   },
   {
     "id": "zion",
@@ -957,6 +5336,57 @@
       "gear": null,
       "lodging": null
     },
-    "status": "needs_review"
+    "status": "verified",
+    "accessibility_details": {
+      "trails": [],
+      "parking": [],
+      "camping": [
+        {
+          "name": "Zion Human History Museum",
+          "url": "https://www.nps.gov/places/zion-human-history-museum.htm"
+        },
+        {
+          "name": "Temple of Sinawava",
+          "url": "https://www.nps.gov/places/temple-of-sinawava.htm"
+        },
+        {
+          "name": "Canyon Junction",
+          "url": "https://www.nps.gov/places/canyon-junction.htm"
+        },
+        {
+          "name": "Zion Canyon Visitor Center",
+          "url": "https://www.nps.gov/places/zion-canyon-visitor-center.htm"
+        },
+        {
+          "name": "Kolob Canyons Visitor Center",
+          "url": "https://www.nps.gov/places/kolob-canyons-visitor-center.htm"
+        },
+        {
+          "name": "Pa'rus - Footprints in Time",
+          "url": "https://www.nps.gov/places/footprints-in-time.htm"
+        },
+        {
+          "name": "Pa'rus - Creation from Destruction",
+          "url": "https://www.nps.gov/places/creation-from-destruction.htm"
+        }
+      ],
+      "lodging": [
+        {
+          "name": "Zion Human History Museum",
+          "url": "https://www.nps.gov/places/zion-human-history-museum.htm"
+        }
+      ],
+      "restrooms": [],
+      "general": [
+        {
+          "name": "Pa'rus - Diversion Dam",
+          "url": "https://www.nps.gov/places/diverson-dam.htm"
+        },
+        {
+          "name": "Pa'rus - A Living Canyon",
+          "url": "https://www.nps.gov/places/a-living-canyon.htm"
+        }
+      ]
+    }
   }
 ]

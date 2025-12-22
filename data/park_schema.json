@@ -36,6 +36,35 @@
       "type": "boolean",
       "description": "Has paved or wheelchair-friendly trails"
     },
+    "accessibility_details": {
+      "type": "object",
+      "properties": {
+        "trails": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/place" }
+        },
+        "parking": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/place" }
+        },
+        "camping": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/place" }
+        },
+        "lodging": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/place" }
+        },
+        "restrooms": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/place" }
+        },
+        "general": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/place" }
+        }
+      }
+    },
     "source": {
       "type": "string",
       "enum": ["nps", "manual", "osm"],
@@ -73,5 +102,15 @@
     "source",
     "affiliate_links",
     "status"
-  ]
+  ],
+  "definitions": {
+    "place": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string" }
+      },
+      "required": ["name"]
+    }
+  }
 }

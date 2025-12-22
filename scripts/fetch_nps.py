@@ -12,6 +12,7 @@ API_KEY = os.environ.get("NPS_API_KEY")
 OUTPUT_FILE = "data/parks.json"
 OVERRIDES_FILE = "data/manual_overrides.json"
 NPS_API_URL = "https://developer.nps.gov/api/v1/parks"
+AMENITIES_URL = "https://developer.nps.gov/api/v1/amenities/parksplaces"
 
 def fetch_nps_data():
     if not API_KEY:
@@ -63,6 +64,118 @@ def fetch_nps_data():
             print(f"Error fetching data: {e}")
             sys.exit(1)
 
+    return parks
+
+def fetch_accessibility_details(park_code):
+    """
+    Fetches specific accessibility amenities for a given park.
+    Returns a dictionary with categorized accessibility details.
+    """
+    # print(f"  Fetching accessibility details for {park_code}...")
+    params = {
+        "api_key": API_KEY,
+        "parkCode": park_code,
+        "limit": 100 # Should be enough for one park's accessible places
+    }
+    
+    try:
+        response = requests.get(AMENITIES_URL, params=params)
+        response.raise_for_status()
+        data = response.json()
+    except Exception as e:
+        print(f"  Error fetching amenities for {park_code}: {e}")
+        return None
+
+    # Initialize details structure
+    details = {
+        "trails": [],
+        "parking": [],
+        "camping": [],
+        "lodging": [],
+        "restrooms": [],
+        "general": []
+    }
+    
+    # The API returns a list of lists: "data": [ [ { "name": "Amenity", ... } ], ... ]
+    for amenity_group in data.get("data", []):
+        for amenity in amenity_group:
+            name = amenity.get("name", "")
+            
+            # We are primarily interested in "Wheelchair Accessible"
+            if name == "Wheelchair Accessible":
+                for park in amenity.get("parks", []):
+                    if park.get("parkCode") == park_code:
+                        for place in park.get("places", []):
+                            categorize_place(place, details)
+                            
+            # Also check specific categories to catch items not tagged "Wheelchair Accessible"
+            elif name == "Accessible Rooms":
+                 for park in amenity.get("parks", []):
+                    if park.get("parkCode") == park_code:
+                        for place in park.get("places", []):
+                            add_unique_place(details["lodging"], place)
+
+            elif name == "Accessible Sites":
+                 for park in amenity.get("parks", []):
+                    if park.get("parkCode") == park_code:
+                        for place in park.get("places", []):
+                            add_unique_place(details["camping"], place)
+
+    return details
+
+def categorize_place(place, details):
+    title = place.get("title", "")
+    url = place.get("url", "")
+    item = {"name": title, "url": url}
+    
+    # Avoid duplicates
+    if any(x["name"] == title for x in details["trails"] + details["parking"] + details["camping"] + details["lodging"] + details["restrooms"] + details["general"]):
+        return
+
+    title_lower = title.lower()
+    
+    if any(x in title_lower for x in ["trail", "trailhead", "loop", "walk", "hike"]):
+        details["trails"].append(item)
+    elif "parking" in title_lower:
+        details["parking"].append(item)
+    elif any(x in title_lower for x in ["campground", "camp", "rv"]):
+        details["camping"].append(item)
+    elif any(x in title_lower for x in ["lodge", "hotel", "cabin", "inn", "ahwahnee"]):
+        details["lodging"].append(item)
+    elif any(x in title_lower for x in ["restroom", "comfort station", "toilet"]):
+        details["restrooms"].append(item)
+    else:
+        details["general"].append(item)
+
+def add_unique_place(category_list, place):
+    title = place.get("title", "")
+    url = place.get("url", "")
+    if not any(p["name"] == title for p in category_list):
+        category_list.append({"name": title, "url": url})
+
+def enrich_parks_data(parks):
+    print(f"Enriching data for {len(parks)} parks with accessibility details...")
+    for i, park in enumerate(parks):
+        park_code = park["id"]
+        print(f"[{i+1}/{len(parks)}] Processing {park['name']} ({park_code})...")
+        
+        details = fetch_accessibility_details(park_code)
+        
+        if details:
+            park["accessibility_details"] = details
+            
+            # Update boolean flags based on found details
+            if details["trails"]:
+                park["accessible_trails"] = True
+            if details["parking"]:
+                park["accessible_parking"] = True
+            if details["restrooms"]:
+                park["accessible_restrooms"] = True
+            
+            # Auto-verify if we found meaningful accessibility data
+            if details["trails"] or details["parking"] or details["camping"] or details["lodging"] or details["restrooms"]:
+                park["status"] = "verified"
+                
     return parks
 
 def normalize_park_data(item):
@@ -153,5 +266,6 @@ def apply_overrides(parks):
 
 if __name__ == "__main__":
     parks = fetch_nps_data()
+    parks = enrich_parks_data(parks)
     parks = apply_overrides(parks)
     save_data(parks)
