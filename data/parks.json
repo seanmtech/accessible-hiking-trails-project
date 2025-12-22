@@ -1,45 +1,957 @@
 [
   {
-    "id": "yosemite",
-    "name": "Yosemite National Park",
-    "state": "CA",
-    "lat": 37.8651,
-    "lon": -119.5383,
-    "accessible_restrooms": true,
-    "accessible_parking": true,
-    "accessible_trails": true,
-    "source": "nps",
-    "affiliate_links": {
-      "gear": null,
-      "lodging": null
-    },
-    "status": "verified"
-  },
-  {
-    "id": "yellowstone",
-    "name": "Yellowstone National Park",
-    "state": "WY,MT,ID",
-    "lat": 44.428,
-    "lon": -110.5885,
-    "accessible_restrooms": true,
-    "accessible_parking": true,
+    "id": "acad",
+    "name": "Acadia National Park",
+    "state": "ME",
+    "lat": 44.409286,
+    "lon": -68.247501,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
     "accessible_trails": false,
     "source": "nps",
     "affiliate_links": {
       "gear": null,
       "lodging": null
     },
-    "status": "verified"
+    "status": "needs_review"
   },
   {
-    "id": "acadia",
-    "name": "Acadia National Park",
-    "state": "ME",
-    "lat": 44.3386,
-    "lon": -68.2733,
+    "id": "arch",
+    "name": "Arches National Park",
+    "state": "UT",
+    "lat": 38.72261844,
+    "lon": -109.5863666,
     "accessible_restrooms": false,
-    "accessible_parking": true,
-    "accessible_trails": true,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "badl",
+    "name": "Badlands National Park",
+    "state": "SD",
+    "lat": 43.68584846,
+    "lon": -102.482942,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "bibe",
+    "name": "Big Bend National Park",
+    "state": "TX",
+    "lat": 29.29817767,
+    "lon": -103.2297897,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "bisc",
+    "name": "Biscayne National Park",
+    "state": "FL",
+    "lat": 25.490587,
+    "lon": -80.21023851,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "blca",
+    "name": "Black Canyon Of The Gunnison National Park",
+    "state": "CO",
+    "lat": 38.57779869,
+    "lon": -107.7242756,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "brca",
+    "name": "Bryce Canyon National Park",
+    "state": "UT",
+    "lat": 37.58399144,
+    "lon": -112.1826689,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "cany",
+    "name": "Canyonlands National Park",
+    "state": "UT",
+    "lat": 38.24555783,
+    "lon": -109.8801624,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "care",
+    "name": "Capitol Reef National Park",
+    "state": "UT",
+    "lat": 38.2821653131,
+    "lon": -111.247048378,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "cave",
+    "name": "Carlsbad Caverns National Park",
+    "state": "NM",
+    "lat": 32.14089463,
+    "lon": -104.5529688,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "chis",
+    "name": "Channel Islands National Park",
+    "state": "CA",
+    "lat": 33.98680093,
+    "lon": -119.9112735,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "cong",
+    "name": "Congaree National Park",
+    "state": "SC",
+    "lat": 33.79187523,
+    "lon": -80.74867805,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "crla",
+    "name": "Crater Lake National Park",
+    "state": "OR",
+    "lat": 42.94065854,
+    "lon": -122.1338414,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "cuva",
+    "name": "Cuyahoga Valley National Park",
+    "state": "OH",
+    "lat": 41.26093905,
+    "lon": -81.57116722,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "deva",
+    "name": "Death Valley National Park",
+    "state": "CA,NV",
+    "lat": 36.48753731,
+    "lon": -117.134395,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "dena",
+    "name": "Denali National Park & Preserve",
+    "state": "AK",
+    "lat": 63.29777484,
+    "lon": -151.0526568,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "drto",
+    "name": "Dry Tortugas National Park",
+    "state": "FL",
+    "lat": 24.628741,
+    "lon": -82.87319,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "ever",
+    "name": "Everglades National Park",
+    "state": "FL",
+    "lat": 25.37294225,
+    "lon": -80.88200301,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "gaar",
+    "name": "Gates Of The Arctic National Park & Preserve",
+    "state": "AK",
+    "lat": 67.75961636,
+    "lon": -153.2917758,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "jeff",
+    "name": "Gateway Arch National Park",
+    "state": "MO",
+    "lat": 38.6258069,
+    "lon": -90.1892508,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "glba",
+    "name": "Glacier Bay National Park & Preserve",
+    "state": "AK",
+    "lat": 58.80086718,
+    "lon": -136.8407579,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "glac",
+    "name": "Glacier National Park",
+    "state": "MT",
+    "lat": 48.68414678,
+    "lon": -113.8009306,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "grca",
+    "name": "Grand Canyon National Park",
+    "state": "AZ",
+    "lat": 36.0001165336,
+    "lon": -112.121516363,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "grte",
+    "name": "Grand Teton National Park",
+    "state": "WY",
+    "lat": 43.81853565,
+    "lon": -110.7054666,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "grba",
+    "name": "Great Basin National Park",
+    "state": "NV",
+    "lat": 38.94617378,
+    "lon": -114.2579782,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "grsa",
+    "name": "Great Sand Dunes National Park & Preserve",
+    "state": "CO",
+    "lat": 37.79256812,
+    "lon": -105.5919572,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "grsm",
+    "name": "Great Smoky Mountains National Park",
+    "state": "NC,TN",
+    "lat": 35.60116374,
+    "lon": -83.50818326,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "gumo",
+    "name": "Guadalupe Mountains National Park",
+    "state": "TX",
+    "lat": 31.92304462,
+    "lon": -104.885527,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "hale",
+    "name": "Haleakal\u0101 National Park",
+    "state": "HI",
+    "lat": 20.70693015,
+    "lon": -156.1591775,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "havo",
+    "name": "Hawai\u02bbi Volcanoes National Park",
+    "state": "HI",
+    "lat": 19.3355036,
+    "lon": -155.4700257,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "hosp",
+    "name": "Hot Springs National Park",
+    "state": "AR",
+    "lat": 34.52414366,
+    "lon": -93.06332936,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "indu",
+    "name": "Indiana Dunes National Park",
+    "state": "IN",
+    "lat": 41.63765525,
+    "lon": -87.09647445,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "isro",
+    "name": "Isle Royale National Park",
+    "state": "MI",
+    "lat": 48.01145819,
+    "lon": -88.82780657,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "jotr",
+    "name": "Joshua Tree National Park",
+    "state": "CA",
+    "lat": 33.91418525,
+    "lon": -115.8398125,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "katm",
+    "name": "Katmai National Park & Preserve",
+    "state": "AK",
+    "lat": 58.62235668,
+    "lon": -155.0126574,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "kefj",
+    "name": "Kenai Fjords National Park",
+    "state": "AK",
+    "lat": 59.81804414,
+    "lon": -150.106502,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "kova",
+    "name": "Kobuk Valley National Park",
+    "state": "AK",
+    "lat": 67.35631336,
+    "lon": -159.2002293,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "lacl",
+    "name": "Lake Clark National Park & Preserve",
+    "state": "AK",
+    "lat": 60.57405857,
+    "lon": -153.55535,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "lavo",
+    "name": "Lassen Volcanic National Park",
+    "state": "CA",
+    "lat": 40.49354575,
+    "lon": -121.4075993,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "maca",
+    "name": "Mammoth Cave National Park",
+    "state": "KY",
+    "lat": 37.19760458,
+    "lon": -86.13090198,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "meve",
+    "name": "Mesa Verde National Park",
+    "state": "CO",
+    "lat": 37.23908345,
+    "lon": -108.4624032,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "mora",
+    "name": "Mount Rainier National Park",
+    "state": "WA",
+    "lat": 46.86075416,
+    "lon": -121.7043885,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "neri",
+    "name": "New River Gorge National Park & Preserve",
+    "state": "WV",
+    "lat": 37.86878554,
+    "lon": -80.99956002,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "noca",
+    "name": "North Cascades National Park",
+    "state": "WA",
+    "lat": 48.71171756,
+    "lon": -121.2069423,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "olym",
+    "name": "Olympic National Park",
+    "state": "WA",
+    "lat": 47.80392754,
+    "lon": -123.6663848,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "pefo",
+    "name": "Petrified Forest National Park",
+    "state": "AZ",
+    "lat": 34.98387664,
+    "lon": -109.7877678,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "pinn",
+    "name": "Pinnacles National Park",
+    "state": "CA",
+    "lat": 36.49029208,
+    "lon": -121.1813607,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "romo",
+    "name": "Rocky Mountain National Park",
+    "state": "CO",
+    "lat": 40.3556924,
+    "lon": -105.6972879,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "sagu",
+    "name": "Saguaro National Park",
+    "state": "AZ",
+    "lat": 32.20909636,
+    "lon": -110.7574974,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "seki",
+    "name": "Sequoia & Kings Canyon National Parks",
+    "state": "CA",
+    "lat": 36.71277299,
+    "lon": -118.587429,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "shen",
+    "name": "Shenandoah National Park",
+    "state": "VA",
+    "lat": 38.49236644,
+    "lon": -78.46907715,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "thro",
+    "name": "Theodore Roosevelt National Park",
+    "state": "ND",
+    "lat": 47.17777274,
+    "lon": -103.4300083,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "viis",
+    "name": "Virgin Islands National Park",
+    "state": "VI",
+    "lat": 18.34279656,
+    "lon": -64.74194451,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "voya",
+    "name": "Voyageurs National Park",
+    "state": "MN",
+    "lat": 48.48370609,
+    "lon": -92.8382913,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "whsa",
+    "name": "White Sands National Park",
+    "state": "NM",
+    "lat": 32.77907858,
+    "lon": -106.3333461,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "wica",
+    "name": "Wind Cave National Park",
+    "state": "SD",
+    "lat": 43.58012365,
+    "lon": -103.4394709,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "wrst",
+    "name": "Wrangell - St Elias National Park & Preserve",
+    "state": "AK",
+    "lat": 61.4182147,
+    "lon": -142.6028439,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "yell",
+    "name": "Yellowstone National Park",
+    "state": "ID,MT,WY",
+    "lat": 44.59824417,
+    "lon": -110.5471695,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "yose",
+    "name": "Yosemite National Park",
+    "state": "CA",
+    "lat": 37.84883288,
+    "lon": -119.5571873,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
+    "source": "nps",
+    "affiliate_links": {
+      "gear": null,
+      "lodging": null
+    },
+    "status": "needs_review"
+  },
+  {
+    "id": "zion",
+    "name": "Zion National Park",
+    "state": "UT",
+    "lat": 37.29839254,
+    "lon": -113.0265138,
+    "accessible_restrooms": false,
+    "accessible_parking": false,
+    "accessible_trails": false,
     "source": "nps",
     "affiliate_links": {
       "gear": null,

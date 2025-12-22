@@ -1,0 +1,4504 @@
+{
+  "total": "64",
+  "limit": "100",
+  "start": "0",
+  "data": [
+    [
+      {
+        "id": "A1B0AD01-740C-41E7-8412-FBBEDD5F1443",
+        "name": "ATM/Cash Machine",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "4E4D076A-6866-46C8-A28B-A129E2B8F3DB",
+        "name": "Accessible Rooms",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Wawona Hotel",
+                "id": "B35CA288-D30C-4024-928E-A1C5B68245FE",
+                "url": "https://www.nps.gov/places/000/wawona-hotel.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "04D29064-B9A1-4031-AD0E-98E31EF69604",
+        "name": "Accessible Sites",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "B509969B-F06A-4DCC-BBB3-134964D896E2",
+        "name": "Amphitheater",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "89397A1A-3517-4941-8D30-037856E9D063",
+        "name": "Animal-Safe Food Storage",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Valley Shuttle Stop 8: El Capitan Picnic Area",
+                "id": "7748D30B-35A2-4108-88D4-AB1D99A6E959",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-8-el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "El Capitan Picnic Area",
+                "id": "32CB2FFE-5A99-4E44-9716-48B2C2E9EF54",
+                "url": "https://www.nps.gov/places/000/el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Mono Meadow Trailhead",
+                "id": "0373584E-87EB-4986-A0AE-C69BF81C9043",
+                "url": "https://www.nps.gov/places/000/mono-meadow-trailhead.htm"
+              },
+              {
+                "title": "Ostrander Lake Trailhead",
+                "id": "740078DA-7B9E-4E3E-AFE4-4448733C56BC",
+                "url": "https://www.nps.gov/places/000/ostrander-lake-trailhead.htm"
+              },
+              {
+                "title": "McGurk Meadow Trailhead",
+                "id": "B4CDC757-7247-4E76-B789-C2F7D4D3907E",
+                "url": "https://www.nps.gov/places/000/mcgurk-meadow-trailhead.htm"
+              },
+              {
+                "title": "Tenaya Lake",
+                "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
+                "url": "https://www.nps.gov/places/000/tenaya-lake.htm"
+              },
+              {
+                "title": "Porcupine Creek Trailhead",
+                "id": "6AF4D37E-8413-4679-88E3-564F8087BCAF",
+                "url": "https://www.nps.gov/places/000/porcupine-creek-trailhead.htm"
+              },
+              {
+                "title": "May Lake Trailhead",
+                "id": "E97A321F-3926-47A0-8D17-DDB1E01C21D7",
+                "url": "https://www.nps.gov/places/000/may-lake-trailhead.htm"
+              },
+              {
+                "title": "Tioga Road - Glacial Moraine Wayside Exhibit",
+                "id": "89D27624-BCAC-4DA2-B69D-783FAB0851CD",
+                "url": "https://www.nps.gov/places/000/tioga-road-glacial-moraine-wayside-exhibit.htm"
+              },
+              {
+                "title": "Cathedral Lakes Trailhead",
+                "id": "C51F3C63-C110-43C7-92FC-1F8EFD44228A",
+                "url": "https://www.nps.gov/places/000/cathedral-lakes-trailhead.htm"
+              },
+              {
+                "title": "Mono Pass Trailhead",
+                "id": "6C2131D7-1F46-4D0B-99EA-C53357BAFFBA",
+                "url": "https://www.nps.gov/places/000/mono-pass-trailhead.htm"
+              },
+              {
+                "title": "Gaylor Lakes Trailhead",
+                "id": "626369C6-2AAB-4D9F-9554-C9DDBD140857",
+                "url": "https://www.nps.gov/places/000/gaylor-lakes-trailhead.htm"
+              },
+              {
+                "title": "Elizabeth Lake Trailhead",
+                "id": "8056CA99-0BF6-4104-ACEF-7ACE4F2D4CC3",
+                "url": "https://www.nps.gov/places/000/elizabeth-lake-trailhead.htm"
+              },
+              {
+                "title": "Poopenaut Valley Trailhead",
+                "id": "8BFE3A60-1982-479C-8849-AE361F05A0AA",
+                "url": "https://www.nps.gov/places/000/poopenaut-valley-trailhead.htm"
+              },
+              {
+                "title": "Yosemite Falls Parking",
+                "id": "6D1EA946-16D8-4804-BFC7-2D459E16FE19",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-parking.htm"
+              },
+              {
+                "title": "Lukens Lake Trailhead from Tioga Road",
+                "id": "C3FEC70B-B87E-4F5D-8ECA-60E1B80324B0",
+                "url": "https://www.nps.gov/places/000/lukens-lake-trailhead-from-tioga-road.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 9: El Capitan Meadow",
+                "id": "C763BE77-2646-47F1-9448-F74D144773FE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-9-el-capitan-meadow.htm"
+              },
+              {
+                "title": "Chilnualna Falls Trailhead",
+                "id": "1F5F467E-498F-4DD0-A28B-20686E1758EF",
+                "url": "https://www.nps.gov/places/000/chilnualna-falls-trailhead.htm"
+              },
+              {
+                "title": "Yosemite Village Parking",
+                "id": "A349CCBF-DDDC-4548-9032-CA1DE2E4DD6D",
+                "url": "https://www.nps.gov/places/000/yosemite-village-parking.htm"
+              },
+              {
+                "title": "Sunrise Lakes Trailhead",
+                "id": "0B9AD80C-43EA-4DB3-9999-21268B166F4F",
+                "url": "https://www.nps.gov/places/000/sunrise-lakes-trailhead.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Yosemite Creek and Ten Lakes Trailhead",
+                "id": "512130F4-A791-499C-B9EB-0DE0F6B76DAC",
+                "url": "https://www.nps.gov/places/000/yosemite-creek-and-ten-lakes-trailhead.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Lodge",
+                "id": "442F0A62-800B-47A6-9B2C-4F4D62D5123D",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-lodge.htm"
+              },
+              {
+                "title": "Soda Springs and Parsons Memorial Lodge Trailhead",
+                "id": "762E9BC3-D1BF-447D-8CE4-A2ACDACE1D35",
+                "url": "https://www.nps.gov/places/000/soda-springs-and-parsons-memorial-lodge-trailhead.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "F4A842CB-C966-402E-BBD3-AB86EDCF8403",
+        "name": "Automated Entrance",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "63734D6E-3330-4EED-B916-52B3F625A091",
+        "name": "Beach/Water Access",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Cathedral Beach",
+                "id": "EB8AB0C9-BABF-4DD5-A81F-8F8EC7CB2C25",
+                "url": "https://www.nps.gov/places/000/cathedral-beach.htm"
+              },
+              {
+                "title": "Sentinel Beach",
+                "id": "00415454-F93C-4D58-B612-BFC81442F17A",
+                "url": "https://www.nps.gov/places/000/sentinel-beach.htm"
+              },
+              {
+                "title": "Swinging Bridge",
+                "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+                "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+              },
+              {
+                "title": "Tenaya Lake",
+                "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
+                "url": "https://www.nps.gov/places/000/tenaya-lake.htm"
+              },
+              {
+                "title": "Tenaya Lake Picnic Area",
+                "id": "27EC2391-F1D0-4DB6-9089-49EF539BF007",
+                "url": "https://www.nps.gov/places/000/tenaya-lake-picnic-area.htm"
+              },
+              {
+                "title": "Murphy Creek Picnic Area",
+                "id": "351CB008-19CD-42B2-8540-BC0CC01E8D4C",
+                "url": "https://www.nps.gov/places/000/murphy-creek-picnic-area.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "CABB4B31-8D23-4560-B359-6A12AF5621A9",
+        "name": "Bear Canister Purchase/Rental",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Valley Wilderness Center",
+                "id": "258AB246-6A84-4BCE-BD87-8558B5967FC8",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-wilderness-center.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              },
+              {
+                "title": "Wawona Wilderness Center at Hill's Studio",
+                "id": "AD0B7336-773C-4AFE-A5D5-30C952F88200",
+                "url": "https://www.nps.gov/places/000/wawona-wilderness-center-at-hills-studio.htm"
+              },
+              {
+                "title": "Wilderness Center at Big Oak Flat Information Station",
+                "id": "2F13EAC9-56CA-49D5-918D-EF8110DDC7CD",
+                "url": "https://www.nps.gov/places/000/wilderness-center-at-big-oak-flat-information-station.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "20291812-E85C-4A84-B8A2-E31C8D149704",
+        "name": "Benches/Seating",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 16: Happy Isles",
+                "id": "50988D1C-F029-40FF-8334-AEA62E188D14",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-16-happy-isles.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 17: Mirror Lake Trailhead",
+                "id": "4F2A9C4E-F31D-4326-A3E2-2106C0043CFE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-17-mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 15: Upper Pines Campground",
+                "id": "CEA04F32-9E4C-431E-B1B2-0DF3629A6BE1",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-15-upper-pines-campground.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 3: The Ahwahnee",
+                "id": "5FA6A39A-EDEB-4781-A347-E8FE55AFA395",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-3-the-ahwahnee.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 2: Welcome Center",
+                "id": "0E232928-6A5C-4EA6-AEBA-FEAA350DD77C",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-2-yosemite-village.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 5: Exploration Center",
+                "id": "5D4DC73D-C1ED-4DD7-90FB-A0367BAC661E",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-5-yosemite-valley-visitor-center-and-museum.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "5BDFF349-2F74-490E-A33E-C35286152050",
+        "name": "Bicycle - Rack",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "View of Mirror Lake",
+                "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
+                "url": "https://www.nps.gov/places/000/mirror-lake.htm"
+              },
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "Yosemite Valley Wilderness Center",
+                "id": "258AB246-6A84-4BCE-BD87-8558B5967FC8",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-wilderness-center.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "EDA44DDD-DC61-4EAE-84AD-78FA52D98406",
+        "name": "Bicycle - Rental",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Valley Lodge Bike Stand",
+                "id": "A79C8321-F543-4DB3-B3CD-35E2CA1ADEBE",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge-bike-stand.htm"
+              },
+              {
+                "title": "Curry Village Bike Stand",
+                "id": "A1B4D53E-F057-426F-91D0-C382778D8141",
+                "url": "https://www.nps.gov/places/000/curry-village-bike-stand.htm"
+              },
+              {
+                "title": "Village Store Bike Stand",
+                "id": "3F57A699-3177-4494-98EE-BAB7844452B0",
+                "url": "https://www.nps.gov/places/000/village-store-bike-stand.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "37E409E6-FD87-456F-8A29-7C8287220FBF",
+        "name": "Bicycle - Sharing Station",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Bike Share Program",
+                "id": "B139C230-5CA0-4DD7-8489-B230E6329374",
+                "url": "https://www.nps.gov/places/bikeshare.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "DA9F2E5C-E46B-4F62-893E-4364D35931DC",
+        "name": "Bus/Shuttle Stop",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Valley Shuttle Stop 19: Curry Village Westbound",
+                "id": "45977689-1EBC-4DE5-AB80-389247C56EFC",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-19-curry-village-westbound.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 8: El Capitan Picnic Area",
+                "id": "7748D30B-35A2-4108-88D4-AB1D99A6E959",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-8-el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 4: Degnan's Kitchen",
+                "id": "8CCEFF34-4423-4549-8D12-D4E9F68E37C2",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-4-degnans-kitchen.htm"
+              },
+              {
+                "title": "YARTS Stop:  Big Oak Flat",
+                "id": "79246747-647E-47CC-97F4-D22972FAED25",
+                "url": "https://www.nps.gov/places/000/yarts-stop-big-oak-flat.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 7: Yosemite Valley Lodge/Yosemite Falls Parking",
+                "id": "35568834-ADCB-4755-B347-72EC5714CAB6",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-shuttle-stop-7-yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 11: Four Mile Trailhead",
+                "id": "ED0B2161-E593-4D2C-9C08-CEA72F181AB4",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-11-four-mile-trailhead.htm"
+              },
+              {
+                "title": "Mariposa Grove Shuttle Stop 1: Arrival Area and Trailhead",
+                "id": "9ED794F0-6720-41D8-B0FC-0E2C2E43EEEE",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-shuttle-stop-1-arrival-area-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 10: Cathedral Beach",
+                "id": "7822E90A-32E6-43C2-86C2-54B06DCE0464",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-10-cathedral-beach.htm"
+              },
+              {
+                "title": "Mariposa Grove Shuttle Stop 2: Welcome Plaza and Parking",
+                "id": "5D186746-DEDB-4354-AB4F-BDF8EF5C213F",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-shuttle-stop-2-welcome-plaza-parking.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 9: El Capitan Meadow",
+                "id": "C763BE77-2646-47F1-9448-F74D144773FE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-9-el-capitan-meadow.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 6: Lower Yosemite Fall",
+                "id": "0BD89689-1517-4642-A1F4-84E4FC877FD0",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-6-lower-yosemite-fall.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 16: Happy Isles",
+                "id": "50988D1C-F029-40FF-8334-AEA62E188D14",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-16-happy-isles.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 17: Mirror Lake Trailhead",
+                "id": "4F2A9C4E-F31D-4326-A3E2-2106C0043CFE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-17-mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 18: Lower Pines Campground",
+                "id": "E0A3F155-6637-4981-B2EA-B0E26366AF34",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-18-lower-pines-campground.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 15: Upper Pines Campground",
+                "id": "CEA04F32-9E4C-431E-B1B2-0DF3629A6BE1",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-15-upper-pines-campground.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 14: Curry Village Eastbound",
+                "id": "270DC71D-DE58-468C-A501-DC200559274B",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-14-curry-village.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 3: The Ahwahnee",
+                "id": "5FA6A39A-EDEB-4781-A347-E8FE55AFA395",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-3-the-ahwahnee.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 12: Housekeeping Camp and Yosemite Conservation Heritage Center",
+                "id": "A17BE531-246B-448D-B069-6997234AD2A3",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-12-yosemite-conservation-heritage-center-housekeeping-camp.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 1: Yosemite Village Parking",
+                "id": "932FB43B-5702-4031-B834-8FC6C7ABA3DA",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-1-yosemite-village-parking.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 2: Welcome Center",
+                "id": "0E232928-6A5C-4EA6-AEBA-FEAA350DD77C",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-2-yosemite-village.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 5: Exploration Center",
+                "id": "5D4DC73D-C1ED-4DD7-90FB-A0367BAC661E",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-5-yosemite-valley-visitor-center-and-museum.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "D81436AE-5DB6-462B-A4F2-1DC3780A06D9",
+        "name": "Electric Car Charging Station",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Wawona EV Charging Station",
+                "id": "038347ED-60FA-4625-9C4F-9827CBD9728B",
+                "url": "https://www.nps.gov/places/000/wawona-ev-charging-station.htm"
+              },
+              {
+                "title": "El Portal EV Charging Station",
+                "id": "FFADAA67-9647-4BF6-A920-90B806F1E21F",
+                "url": "https://www.nps.gov/places/000/el-portal-ev-charging-station.htm"
+              },
+              {
+                "title": "The Ahwahnee EV Charging Station",
+                "id": "54D14828-2DAC-4735-9FBE-73265A4C0D41",
+                "url": "https://www.nps.gov/places/000/ahwahnee-ev-charging-station.htm"
+              },
+              {
+                "title": "Curry Village EV Charging Station",
+                "id": "CF83E4D6-4279-43B5-94E3-9E05113C80B0",
+                "url": "https://www.nps.gov/places/000/curry-village-ev-charging-station.htm"
+              },
+              {
+                "title": "Yosemite Valley Welcome Center EV Charging Station",
+                "id": "DF186DD9-CD12-44BE-821A-515D7640D0E9",
+                "url": "https://www.nps.gov/places/000/welcome-center-ev-charging-station.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge EV Charging Station",
+                "id": "4C1DC92C-CBAF-4801-B2EE-3690374604FE",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge-ev-charging-station.htm"
+              },
+              {
+                "title": "Yosemite Falls Parking EV Charging Station",
+                "id": "B4435BE4-6154-4E2E-A9BA-578F67836E55",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-parking-ev-charging-station.htm"
+              },
+              {
+                "title": "Tuolumne Meadows EV Charging Station",
+                "id": "5979FDB9-1659-4E5D-A1FF-2201DC3AE8E0",
+                "url": "https://www.nps.gov/places/tuolumne-meadows-ev-charging-station.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "1D08E7AD-5634-4185-80F4-B4C3CB5BD927",
+        "name": "Entrance Passes for Sale",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "South Entrance",
+                "id": "D9F51BE4-6E1E-47A2-AA48-7509543DD408",
+                "url": "https://www.nps.gov/places/000/south-entrance.htm"
+              },
+              {
+                "title": "Hetch Hetchy Entrance",
+                "id": "4740194E-1332-4F98-AC2B-AAB63ED694BB",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-entrance.htm"
+              },
+              {
+                "title": "Big Oak Flat Entrance",
+                "id": "56E54792-8E32-4956-AAA6-39243094C8E9",
+                "url": "https://www.nps.gov/places/000/big-oak-flat-entrance.htm"
+              },
+              {
+                "title": "Arch Rock Entrance",
+                "id": "037DC135-0914-4314-8C9E-5C353A1256F9",
+                "url": "https://www.nps.gov/places/000/arch-rock-entrance.htm"
+              },
+              {
+                "title": "Tioga Pass Entrance",
+                "id": "AB8EDCC2-2FB5-4AF3-82D5-C79A13310A1D",
+                "url": "https://www.nps.gov/places/000/tioga-pass-entrance.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "0A4F29B3-7FC1-4D4A-BD71-3B7E08CD4BCC",
+        "name": "Fire Pit",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Lodge",
+                "id": "442F0A62-800B-47A6-9B2C-4F4D62D5123D",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-lodge.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "28BF85F5-E93F-4EF1-A89B-05C99FCD808A",
+        "name": "Firewood For Sale/Available",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "2DEE6458-72F8-4C97-9279-5C3E90B19888",
+        "name": "First Aid/Medical Care Available",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Medical Clinic",
+                "id": "3F480585-B331-410D-8BF9-48FAB18D55B6",
+                "url": "https://www.nps.gov/places/000/yosemite-medical-clinic.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "383F944C-35BA-43E3-8EEA-24953836B8C5",
+        "name": "Food/Drink - Bar/Alcohol For Sale",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "D0D77D00-38EA-40F2-91E3-5FDCE3932A49",
+        "name": "Food/Drink - Cafeteria",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Degnan's Kitchen",
+                "id": "666DD439-2FE0-4104-8671-4CA5F79C8D80",
+                "url": "https://www.nps.gov/places/000/degnans-kitchen.htm"
+              },
+              {
+                "title": "Wawona Golf Shop",
+                "id": "7B2CF417-3016-4FE6-A37E-451AF69A77A6",
+                "url": "https://www.nps.gov/places/000/wawona-golf-shop.htm"
+              },
+              {
+                "title": "Badger Pass Ski Area",
+                "id": "258D25A3-4443-489C-AEC1-5AEBBBF17523",
+                "url": "https://www.nps.gov/places/000/badger-pass-ski-area.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Village Grill",
+                "id": "3EED778E-F5F9-4718-A0EF-F3E11614F656",
+                "url": "https://www.nps.gov/places/000/village-grill.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Grill",
+                "id": "3F93F225-E9D1-41E5-9E8A-454DE049A162",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-grill.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "5D1ADBE5-E75D-4657-9577-FB5A6A90C7F9",
+        "name": "Food/Drink - Coffee",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "3B482494-83EF-48D9-A626-FC00EFD4F4A4",
+        "name": "Food/Drink - Ice Cream",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "2F798138-5D0A-468E-96DA-0A07F03031B0",
+        "name": "Food/Drink - Restaurant/Table Service",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "White Wolf Lodge",
+                "id": "012B2BD2-F17B-49DE-9EC8-206D7DA9527C",
+                "url": "https://www.nps.gov/places/000/white-wolf-lodge.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Wawona Hotel",
+                "id": "B35CA288-D30C-4024-928E-A1C5B68245FE",
+                "url": "https://www.nps.gov/places/000/wawona-hotel.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Lodge",
+                "id": "442F0A62-800B-47A6-9B2C-4F4D62D5123D",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-lodge.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Grill",
+                "id": "3F93F225-E9D1-41E5-9E8A-454DE049A162",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-grill.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "29D286B6-069C-4204-AF35-AE7744B71212",
+        "name": "Food/Drink - Snacks",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Glacier Point Gift Shop and Snack Stand",
+                "id": "0816E334-8DE6-41E5-A6BA-693F18C36ED3",
+                "url": "https://www.nps.gov/places/000/glacier-point-gift-shop-and-snack-stand.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "4F26643C-FAAF-40CE-85F7-38DEC4746BE6",
+        "name": "Food/Drink - Vending Machine/Self Service",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "B088B448-D7EF-4781-B79E-76C75B54EFA7",
+        "name": "Fuel (Diesel)",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "El Portal Gas Station and Market",
+                "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
+                "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "2E5D791D-B040-45FD-9B61-82979A984102",
+        "name": "Fuel (Unleaded)",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Wawona Gas Station",
+                "id": "11A42DA0-F68D-49A8-8434-E7C995D62B02",
+                "url": "https://www.nps.gov/places/000/wawona-gas-station.htm"
+              },
+              {
+                "title": "El Portal Gas Station and Market",
+                "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
+                "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "3476E39B-5402-4999-99B3-AC8F030629E7",
+        "name": "Gifts/Souvenirs/Books",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Yosemite Museum",
+                "id": "4ABADDC4-7B8C-4CFE-97A7-FE09CAAB9B01",
+                "url": "https://www.nps.gov/places/000/yosemite-museum.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "The Ansel Adams Gallery",
+                "id": "95D19B3A-920E-49EA-B35F-0D94B9CF273B",
+                "url": "https://www.nps.gov/places/000/the-ansel-adams-gallery.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "6E639F57-CC17-40FB-B6A0-452652066187",
+        "name": "Grill",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Wawona Picnic Area",
+                "id": "B8A611B9-94E6-4442-9A7F-272D32B917E3",
+                "url": "https://www.nps.gov/places/000/wawona-picnic-area.htm"
+              },
+              {
+                "title": "Mariposa Grove Picnic Area",
+                "id": "160CE84B-C6BD-4E46-BEC8-8886F636779D",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-picnic-area.htm"
+              },
+              {
+                "title": "El Capitan Picnic Area",
+                "id": "32CB2FFE-5A99-4E44-9716-48B2C2E9EF54",
+                "url": "https://www.nps.gov/places/000/el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Cathedral Beach",
+                "id": "EB8AB0C9-BABF-4DD5-A81F-8F8EC7CB2C25",
+                "url": "https://www.nps.gov/places/000/cathedral-beach.htm"
+              },
+              {
+                "title": "Sentinel Beach",
+                "id": "00415454-F93C-4D58-B612-BFC81442F17A",
+                "url": "https://www.nps.gov/places/000/sentinel-beach.htm"
+              },
+              {
+                "title": "Swinging Bridge",
+                "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+                "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+              },
+              {
+                "title": "The Cascades Picnic Area",
+                "id": "73848773-01B4-43DA-9BA6-E5F47F4EA097",
+                "url": "https://www.nps.gov/places/000/the-cascades-picnic-area.htm"
+              },
+              {
+                "title": "Yosemite Creek Picnic Area",
+                "id": "A92EE6C7-A863-49CF-B82D-BEA4EF6B5365",
+                "url": "https://www.nps.gov/places/000/yosemite-creek-picnic-area.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "8741D9DE-239A-4739-9920-4844BB587E6A",
+        "name": "Groceries/Convenience Items",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "El Portal Gas Station and Market",
+                "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
+                "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+              },
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "2856392B-17A7-4413-8521-C13A8D2188EB",
+        "name": "Historical/Interpretive Information/Exhibits",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite History Center",
+                "id": "00B0BD7D-112B-49B9-81F0-AE73110A460D",
+                "url": "https://www.nps.gov/places/000/pioneer-yosemite-history-center.htm"
+              },
+              {
+                "title": "Wagon Shed",
+                "id": "44FAB1ED-9725-40DD-9ECE-70CF79EAC61A",
+                "url": "https://www.nps.gov/places/000/wagon-shed.htm"
+              },
+              {
+                "title": "Wawona Grey Barn (Washburn Barn)",
+                "id": "4E3F825F-B03A-41C4-8D23-AADC79440AAE",
+                "url": "https://www.nps.gov/places/000/wawona-grey-barn-washburn-barn.htm"
+              },
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Cook's Meadow Loop Trailhead",
+                "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-loop-trailhead.htm"
+              },
+              {
+                "title": "Valley View",
+                "id": "1294926D-DDE1-4384-93FD-9B1FF9B39C54",
+                "url": "https://www.nps.gov/places/000/valley-view.htm"
+              },
+              {
+                "title": "Bridalveil Fall Trailhead",
+                "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm"
+              },
+              {
+                "title": "Happy Isles Art and Nature Center",
+                "id": "53A50524-D1F7-426C-A400-40FD5A031697",
+                "url": "https://www.nps.gov/places/000/happy-isles-art-and-nature-center.htm"
+              },
+              {
+                "title": "View of Mirror Lake",
+                "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
+                "url": "https://www.nps.gov/places/000/mirror-lake.htm"
+              },
+              {
+                "title": "Hetch Hetchy Reservoir - O'Shaughnessy Dam",
+                "id": "434AB068-4748-4183-84CB-991F14A7D851",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-reservoir-oshaughnessy-dam.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center Theater",
+                "id": "56B19C0A-D351-4E9F-8F19-BC51F1A6816A",
+                "url": "https://www.nps.gov/places/000/yosemite-theater.htm"
+              },
+              {
+                "title": "Yosemite Museum",
+                "id": "4ABADDC4-7B8C-4CFE-97A7-FE09CAAB9B01",
+                "url": "https://www.nps.gov/places/000/yosemite-museum.htm"
+              },
+              {
+                "title": "Yosemite Cemetery",
+                "id": "59132B1B-0E6C-42AB-8075-2ECA9D252119",
+                "url": "https://www.nps.gov/places/000/yosemite-cemetery.htm"
+              },
+              {
+                "title": "Geology Hut",
+                "id": "AC4FF181-55EB-4415-ACDE-B12648B768C8",
+                "url": "https://www.nps.gov/places/000/geology-hut.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Olmsted Point",
+                "id": "0EA6B210-FF01-4A6D-9AB7-6CF5C94D18C9",
+                "url": "https://www.nps.gov/places/000/olmsted-point.htm"
+              },
+              {
+                "title": "Tenaya Lake",
+                "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
+                "url": "https://www.nps.gov/places/000/tenaya-lake.htm"
+              },
+              {
+                "title": "Tioga Road - Surviving the Crossing Wayside Exhibit",
+                "id": "A7C6D38F-AB2D-42EB-81A7-2E1953BCD686",
+                "url": "https://www.nps.gov/places/000/tioga-road-surviving-the-crossing-wayside-exhibit.htm"
+              },
+              {
+                "title": "Tioga Road - Cones and Needles Wayside Exhibit",
+                "id": "F49C7271-E582-4747-8415-6EDACD705681",
+                "url": "https://www.nps.gov/places/000/tioga-road-cones-and-needles-wayside-exhibit.htm"
+              },
+              {
+                "title": "Tioga Road - Glacial Moraine Wayside Exhibit",
+                "id": "89D27624-BCAC-4DA2-B69D-783FAB0851CD",
+                "url": "https://www.nps.gov/places/000/tioga-road-glacial-moraine-wayside-exhibit.htm"
+              },
+              {
+                "title": "Jail, Powder House, and Morgue",
+                "id": "FDA590D9-79FD-4786-BCDF-AA55A3450B4D",
+                "url": "https://www.nps.gov/places/000/jail-powder-house-and-morgue.htm"
+              },
+              {
+                "title": "Blacksmith Shop - Yosemite",
+                "id": "E13C3497-91D0-4450-91C7-1B2DC0568846",
+                "url": "https://www.nps.gov/places/000/blacksmith-shop-5.htm"
+              },
+              {
+                "title": "Wawona Covered Bridge",
+                "id": "5B085870-FBFF-469C-9D0C-01073A23DA04",
+                "url": "https://www.nps.gov/places/000/wawona-covered-bridge.htm"
+              },
+              {
+                "title": "Homestead Cabin",
+                "id": "3A242835-DD75-4E79-84FD-70097FDC4B4D",
+                "url": "https://www.nps.gov/places/000/homestead-cabin.htm"
+              },
+              {
+                "title": "Artist Cabin (Chris Jorgensen Studio)",
+                "id": "42F1C711-AA09-4A4E-BB8B-7D002198EE03",
+                "url": "https://www.nps.gov/places/000/artist-cabin-chris-jorgensen-studio.htm"
+              },
+              {
+                "title": "Anderson Cabin",
+                "id": "62B5A503-7AB8-4DDC-8074-FA7B7F6D2E98",
+                "url": "https://www.nps.gov/places/000/anderson-cabin.htm"
+              },
+              {
+                "title": "Tioga Road - Meadow Wayside Exhibit",
+                "id": "28A2610B-82F5-4162-9BEE-171AAEC9D7DA",
+                "url": "https://www.nps.gov/places/000/tioga-road-meadow-wayside-exhibit.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Tour - Shaping Yosemite Valley",
+                "id": "D9AB9E57-0BEB-4457-A57A-7A3980BD0AD2",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-shaping-yosemite-valley-stop-4.htm"
+              },
+              {
+                "title": "Grizzly Giant Tour - The Surviving Tunnel Tree",
+                "id": "79922188-D611-47FC-BD73-B30761F54253",
+                "url": "https://www.nps.gov/places/000/grizzly-giant-tour-the-surviving-tunnel-tree-stop-4.htm"
+              },
+              {
+                "title": "Grizzly Giant Tour - A Famous Camping Trip",
+                "id": "A05F963D-1C88-4949-81E7-EACFCFDA15EF",
+                "url": "https://www.nps.gov/places/000/grizzly-giant-tour-a-famous-camping-trip-stop-3.htm"
+              },
+              {
+                "title": "Grizzly Giant Tour - The World Below",
+                "id": "CDACCE4F-91F9-4D7D-9B9F-4D6C9D68D8DB",
+                "url": "https://www.nps.gov/places/000/grizzly-giant-tour-the-world-below-stop-2.htm"
+              },
+              {
+                "title": "Grizzly Giant Tour - Enduring Giant",
+                "id": "C09286F6-2616-40BD-8C83-248B5C3B74DC",
+                "url": "https://www.nps.gov/places/000/grizzly-giant-tour-enduring-giant-stop-1.htm"
+              },
+              {
+                "title": "Big Trees Loop - Grove Restoration",
+                "id": "39BFA8FE-E8CE-42E6-B9E4-B1F98B6E208F",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-grove-restoration-stop-8.htm"
+              },
+              {
+                "title": "Big Trees Loop - The Fallen Monarch",
+                "id": "48DBCE46-16CA-4EB4-8496-CE0C70E8D7C1",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-the-fallen-monarch-stop-9.htm"
+              },
+              {
+                "title": "Big Trees Loop - Relics of the Past",
+                "id": "B65BFFC4-7A68-40B2-BFEF-BE0980E9314D",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-relics-of-the-past-stop-10.htm"
+              },
+              {
+                "title": "Big Trees Loop - How Giants Fall",
+                "id": "4E6B540D-E774-42D5-83C8-3FCA23D4EB19",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-how-giants-fall-stop-7.htm"
+              },
+              {
+                "title": "Big Trees Loop - Ecology of the Grove",
+                "id": "92601B6A-4EC1-44B3-9741-8467F05C7407",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-ecology-of-the-grove-stop-3.htm"
+              },
+              {
+                "title": "Big Trees Loop - Traditional Ecological Knowledge",
+                "id": "53B3A413-C155-4713-8236-3E183048BF71",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-traditional-ecological-knowledge-stop-5.htm"
+              },
+              {
+                "title": "Big Trees Loop - Water and Wetlands",
+                "id": "882CC1C1-9F57-43D4-9D84-43F2CACA939A",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-water-and-wetlands-stop-4.htm"
+              },
+              {
+                "title": "Big Trees Loop - Stages of Life",
+                "id": "1C3B2590-C2AC-4149-9F29-FB70CEDBB50D",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-stages-of-life-stop-6.htm"
+              },
+              {
+                "title": "Big Trees Loop - Wildlife in the Grove",
+                "id": "BE78BD98-1E04-4567-9B1C-8171679F2EFA",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-wildlife-in-the-grove-stop-11.htm"
+              },
+              {
+                "title": "Big Trees Loop - Restore and Protect",
+                "id": "F96A3DD5-1E76-4A5E-B0DE-93169C32471C",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-restore-and-protect-stop-12.htm"
+              },
+              {
+                "title": "Big Trees Loop - Anatomy of a Giant",
+                "id": "4B0211F8-48CB-494A-8151-FE821D1DDED5",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-anatomy-of-a-giant-stop-2.htm"
+              },
+              {
+                "title": "Big Trees Loop - The Wonder of Sequoias",
+                "id": "6D04F583-962E-469D-9D7B-A7FC3A526978",
+                "url": "https://www.nps.gov/places/000/big-trees-loop-the-wonder-of-sequoias-stop-1.htm"
+              },
+              {
+                "title": "Mariposa Grove Arrival Area and Trailhead",
+                "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-arrival-area-trailhead.htm"
+              },
+              {
+                "title": "Degnan's Bakery",
+                "id": "9570DA5A-4393-4B7C-88B8-33FAEB3A4B16",
+                "url": "https://www.nps.gov/places/000/degnans-bakery.htm"
+              },
+              {
+                "title": "Ranger Patrol Cabin",
+                "id": "BA3B25F8-1A34-493C-901E-8A361BCD89ED",
+                "url": "https://www.nps.gov/places/000/ranger-patrol-cabin.htm"
+              },
+              {
+                "title": "Yosemite Transportation Office",
+                "id": "9D085580-5B38-4A43-B94B-03927BBB70AE",
+                "url": "https://www.nps.gov/places/000/yosemite-transportation-office.htm"
+              },
+              {
+                "title": "Acting Superintendent's Office",
+                "id": "0CB79198-B5E1-46E8-912D-1CAC799F4AFF",
+                "url": "https://www.nps.gov/places/000/acting-superintendents-office.htm"
+              },
+              {
+                "title": "The Ansel Adams Gallery",
+                "id": "95D19B3A-920E-49EA-B35F-0D94B9CF273B",
+                "url": "https://www.nps.gov/places/000/the-ansel-adams-gallery.htm"
+              },
+              {
+                "title": "Indian Village",
+                "id": "4600AABF-C77D-4CA0-80E3-38F77866DE31",
+                "url": "https://www.nps.gov/places/000/indian-village.htm"
+              },
+              {
+                "title": "Mariposa County Library: Yosemite Branch",
+                "id": "F5FC3ECD-77E8-45EF-BF5E-7F3A79146A38",
+                "url": "https://www.nps.gov/places/000/mariposa-county-library-yosemite-branch.htm"
+              },
+              {
+                "title": "Tioga Road - Form Follows Fracture Wayside Exhibit",
+                "id": "E36FD646-7BEF-4CEC-9139-BBE9A61ECB65",
+                "url": "https://www.nps.gov/places/000/tioga-road-form-follows-fracture-wayside-exhibit.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Tour - Early Tourism & James Hutchings",
+                "id": "99AE01E8-15F8-4B0F-AFA1-4278ADD4CAF4",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-early-tourism-stop-7.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Tour - Many Faces of Yosemite Falls",
+                "id": "C4FAE927-EBD3-49D4-AF45-ADF8233B2E52",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-james-hutchings-stop-8.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Tour - John Muir Woodcutter",
+                "id": "580DEA1C-847D-4B03-B847-FF6308AA6EF8",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-john-muir-woodcutter-stop-6.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Parsons Memorial Lodge",
+                "id": "6170802B-AB0A-4D69-8647-AA1D5867D303",
+                "url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - McCauley Cabin",
+                "id": "882A3779-5995-4588-9B12-40053B72933A",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-mccauley-cabin-stop-14.htm"
+              },
+              {
+                "title": "Tenaya Lake Picnic Area",
+                "id": "27EC2391-F1D0-4DB6-9089-49EF539BF007",
+                "url": "https://www.nps.gov/places/000/tenaya-lake-picnic-area.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Yosemite Conservation Heritage Center",
+                "id": "40FB53A4-BD1C-4FD2-A65B-0D344D423B49",
+                "url": "https://www.nps.gov/places/000/yosemite-conservation-heritage-center-formerly-leconte-memorial-lodge.htm"
+              },
+              {
+                "title": "Tioga Road - High Sierra Stories Wayside Exhibit",
+                "id": "6FF0CE76-9DC2-4D7B-AE62-C45B36A8D89F",
+                "url": "https://www.nps.gov/places/000/tioga-road-high-sierra-stories-wayside-exhibit.htm"
+              },
+              {
+                "title": "Tioga Road - Disappearing Meadows Wayside Exhibit",
+                "id": "52132750-F535-43EA-9A75-6DD240624D6A",
+                "url": "https://www.nps.gov/places/000/tioga-road-disappearing-meadows-wayside-exhibit.htm"
+              },
+              {
+                "title": "Soda Springs and Parsons Memorial Lodge Trailhead",
+                "id": "762E9BC3-D1BF-447D-8CE4-A2ACDACE1D35",
+                "url": "https://www.nps.gov/places/000/soda-springs-and-parsons-memorial-lodge-trailhead.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - Baptism in Nature's Warm Heart",
+                "id": "30704865-3E56-4E83-8583-0DAFE48B7F4E",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-baptism-in-natures-warm-heart-stop-1.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - A Glacier-Carved Landscape",
+                "id": "F476C3A8-E030-4756-9C0E-EE4B76B363F6",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-a-glacier-carved-landscape-stop-2.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - Picket Pins",
+                "id": "E07A795B-D6B3-4097-9643-F36396AEB8E2",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-picket-pins-stop-3.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - Meadows",
+                "id": "BEE5216B-3C6D-4019-A920-82021F093369",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-meadows-stop-4.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - A Short Growing Season",
+                "id": "1905E80E-F729-42C5-A426-AAC6BA90C4C8",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-a-short-growing-season-stop-5.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - Meadow Dwellers",
+                "id": "E160C7F0-B895-4E0C-AF97-EE9D688C76E2",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-meadow-dwellers-stop-6.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - Meadow in the Sky",
+                "id": "3A46222E-D96B-404C-9EA6-608D2EE86E9C",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-meadow-in-the-sky-stop-7.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - A Summer Home",
+                "id": "9869EC25-CA34-4906-90CB-9F756140001D",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-a-summer-home-stop-8.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - A Place for People",
+                "id": "922C0D7D-3831-43A1-B995-53CC2C0C07D4",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-a-place-for-people-stop-9.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - Eloquent Spokesman",
+                "id": "F53EA111-FF3F-4DE4-B010-D2226598A204",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-eloquent-spokesman-stop-10.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - Tuolumne River Bridge",
+                "id": "34D13179-7588-482D-88F3-590E04542005",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-tuolumne-river-bridge-stop-15.htm"
+              },
+              {
+                "title": "Soda Springs",
+                "id": "9FD7BEE0-0A21-4B27-A455-12E09E280797",
+                "url": "https://www.nps.gov/places/000/soda-springs.htm"
+              },
+              {
+                "title": "Soda Springs/Parsons Memorial Lodge Tour - Birth of A Park",
+                "id": "738893DC-5BE9-4EA8-899B-FB74ACDD4B92",
+                "url": "https://www.nps.gov/places/000/soda-springs-parsons-memorial-lodge-tour-birth-of-a-park-stop-12.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - Change: The Pace of Glaciers",
+                "id": "8954B36F-936C-41E3-9297-06582B876874",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-change-the-pace-of-glaciers-stop-1.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - Change: From Lake to Meadow",
+                "id": "FA5446CD-8CC7-49BA-BBBA-5C12BBB0311D",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-change-from-lake-to-meadow-stop-2.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - First People",
+                "id": "B7B7BFE8-522D-4211-A653-FADF8C611DE9",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-first-people-stop-3.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - Change: Yosemite Opens to the World",
+                "id": "8D7C6DEA-B67D-4C6A-B949-CE574F8FFDE0",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-change-yosemite-opens-to-the-world-stop-4.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - Fire: Friend or Foe",
+                "id": "44922725-0E1E-498B-8E58-B4CB1070E99F",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-fire-friend-or-foe-stop-5.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - Change: The Passage of Seasons",
+                "id": "617375C5-DD68-4D3B-AA2B-44E66109F785",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-change-the-passage-of-seasons-stop-6.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - Merced Wild and Scenic River",
+                "id": "F87D81F0-9283-4B3F-9692-E25363D5D8EF",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-merced-wild-and-scenic-river-stop-7.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - Looking into the Future",
+                "id": "3805E775-924B-4EF0-A417-E041D95325A3",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-looking-into-the-future-stop-8.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - Restoration Efforts",
+                "id": "AC0DD483-036B-4863-9FBF-FB63F406D4DE",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-restoration-efforts-stop-9.htm"
+              },
+              {
+                "title": "Cook's Meadow Tour - From Yosemite to Our Own Backyards",
+                "id": "9D2F3B19-727B-4A30-B4D4-09389C54CC3F",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-tour-from-yosemite-to-our-own-backyards-stop-10.htm"
+              },
+              {
+                "title": "Geology Tour - Welcome",
+                "id": "1E5C45AD-B9F4-408B-BC3B-A147721B24F3",
+                "url": "https://www.nps.gov/places/000/geology-tour-welcome-stop-1.htm"
+              },
+              {
+                "title": "Geology Tour - Origin of Yosemite Falls",
+                "id": "027B7081-BB68-45BC-A8E0-A0E8F9107F50",
+                "url": "https://www.nps.gov/places/000/geology-tour-origin-of-yosemite-falls-stop-2.htm"
+              },
+              {
+                "title": "Geology Tour - Around the River Bend",
+                "id": "71E89086-E504-4620-A966-9071259B362C",
+                "url": "https://www.nps.gov/places/000/geology-tour-around-the-river-bend-stop-3.htm"
+              },
+              {
+                "title": "Geology Tour - Formation of Half-Dome",
+                "id": "8220F4CD-9691-4F63-80CB-D1F5D06685D7",
+                "url": "https://www.nps.gov/places/000/geology-tour-formation-of-half-dome-stop-4.htm"
+              },
+              {
+                "title": "Geology Tour - Yosemite Underwater: Twentieth Century Floods",
+                "id": "D6142F41-4D46-4227-BCA9-3E33E7BF9F74",
+                "url": "https://www.nps.gov/places/000/geology-tour-yosemite-underwater-twentieth-century-floods-stop-5.htm"
+              },
+              {
+                "title": "Geology Tour - Rockfall Hazards",
+                "id": "809837F2-810C-4C4C-AC42-D775C43EC49E",
+                "url": "https://www.nps.gov/places/000/geology-tour-rockfall-hazards-stop-6.htm"
+              },
+              {
+                "title": "Geology Tour - John Muirs Rockfall Experience",
+                "id": "0B1FBD48-2B0D-4D8C-9F6D-795E14CA4363",
+                "url": "https://www.nps.gov/places/000/geology-tour-john-muir-s-rockfall-experience-stop-7.htm"
+              },
+              {
+                "title": "Geology Tour - Reflections",
+                "id": "69970891-8398-46B9-BE9D-EB065C56A1EC",
+                "url": "https://www.nps.gov/places/000/geology-tour-reflections-stop-8.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              },
+              {
+                "title": "Chinese Laundry",
+                "id": "7E8BD227-F49A-4BF4-8D40-B32EBA399069",
+                "url": "https://www.nps.gov/places/chinese-laundry.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "EC76D4B1-F391-45EB-AEC4-DC96B3F58194",
+        "name": "Ice",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "0AF7920C-2F54-42A7-88CA-F2EEBCB15655",
+        "name": "Information",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Happy Isles Art and Nature Center",
+                "id": "53A50524-D1F7-426C-A400-40FD5A031697",
+                "url": "https://www.nps.gov/places/000/happy-isles-art-and-nature-center.htm"
+              },
+              {
+                "title": "Yosemite Conservation Heritage Center",
+                "id": "40FB53A4-BD1C-4FD2-A65B-0D344D423B49",
+                "url": "https://www.nps.gov/places/000/yosemite-conservation-heritage-center-formerly-leconte-memorial-lodge.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "7E66CA2E-40AD-487E-8A04-8A9A2E4897C9",
+        "name": "Information - Maps Available",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "South Entrance",
+                "id": "D9F51BE4-6E1E-47A2-AA48-7509543DD408",
+                "url": "https://www.nps.gov/places/000/south-entrance.htm"
+              },
+              {
+                "title": "Hetch Hetchy Entrance",
+                "id": "4740194E-1332-4F98-AC2B-AAB63ED694BB",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-entrance.htm"
+              },
+              {
+                "title": "Big Oak Flat Entrance",
+                "id": "56E54792-8E32-4956-AAA6-39243094C8E9",
+                "url": "https://www.nps.gov/places/000/big-oak-flat-entrance.htm"
+              },
+              {
+                "title": "Arch Rock Entrance",
+                "id": "037DC135-0914-4314-8C9E-5C353A1256F9",
+                "url": "https://www.nps.gov/places/000/arch-rock-entrance.htm"
+              },
+              {
+                "title": "Tioga Pass Entrance",
+                "id": "AB8EDCC2-2FB5-4AF3-82D5-C79A13310A1D",
+                "url": "https://www.nps.gov/places/000/tioga-pass-entrance.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "6815A395-2988-4AF3-8006-50224AD05193",
+        "name": "Information - Park Newspaper Available",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "South Entrance",
+                "id": "D9F51BE4-6E1E-47A2-AA48-7509543DD408",
+                "url": "https://www.nps.gov/places/000/south-entrance.htm"
+              },
+              {
+                "title": "Hetch Hetchy Entrance",
+                "id": "4740194E-1332-4F98-AC2B-AAB63ED694BB",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-entrance.htm"
+              },
+              {
+                "title": "Big Oak Flat Entrance",
+                "id": "56E54792-8E32-4956-AAA6-39243094C8E9",
+                "url": "https://www.nps.gov/places/000/big-oak-flat-entrance.htm"
+              },
+              {
+                "title": "Arch Rock Entrance",
+                "id": "037DC135-0914-4314-8C9E-5C353A1256F9",
+                "url": "https://www.nps.gov/places/000/arch-rock-entrance.htm"
+              },
+              {
+                "title": "Tioga Pass Entrance",
+                "id": "AB8EDCC2-2FB5-4AF3-82D5-C79A13310A1D",
+                "url": "https://www.nps.gov/places/000/tioga-pass-entrance.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "8320DDEA-91E7-411D-81B4-5D31CCA2267B",
+        "name": "Information - Ranger/Staff Member Present",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "South Entrance",
+                "id": "D9F51BE4-6E1E-47A2-AA48-7509543DD408",
+                "url": "https://www.nps.gov/places/000/south-entrance.htm"
+              },
+              {
+                "title": "Yosemite Museum",
+                "id": "4ABADDC4-7B8C-4CFE-97A7-FE09CAAB9B01",
+                "url": "https://www.nps.gov/places/000/yosemite-museum.htm"
+              },
+              {
+                "title": "Hetch Hetchy Entrance",
+                "id": "4740194E-1332-4F98-AC2B-AAB63ED694BB",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-entrance.htm"
+              },
+              {
+                "title": "Big Oak Flat Entrance",
+                "id": "56E54792-8E32-4956-AAA6-39243094C8E9",
+                "url": "https://www.nps.gov/places/000/big-oak-flat-entrance.htm"
+              },
+              {
+                "title": "Arch Rock Entrance",
+                "id": "037DC135-0914-4314-8C9E-5C353A1256F9",
+                "url": "https://www.nps.gov/places/000/arch-rock-entrance.htm"
+              },
+              {
+                "title": "Yosemite Valley Wilderness Center",
+                "id": "258AB246-6A84-4BCE-BD87-8558B5967FC8",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-wilderness-center.htm"
+              },
+              {
+                "title": "Tioga Pass Entrance",
+                "id": "AB8EDCC2-2FB5-4AF3-82D5-C79A13310A1D",
+                "url": "https://www.nps.gov/places/000/tioga-pass-entrance.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              },
+              {
+                "title": "Wawona Wilderness Center at Hill's Studio",
+                "id": "AD0B7336-773C-4AFE-A5D5-30C952F88200",
+                "url": "https://www.nps.gov/places/000/wawona-wilderness-center-at-hills-studio.htm"
+              },
+              {
+                "title": "Wilderness Center at Big Oak Flat Information Station",
+                "id": "2F13EAC9-56CA-49D5-918D-EF8110DDC7CD",
+                "url": "https://www.nps.gov/places/000/wilderness-center-at-big-oak-flat-information-station.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "9EA123B3-E118-4BE9-BF49-EE93F1BA645B",
+        "name": "Internet/WiFi Available",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Degnan's Kitchen",
+                "id": "666DD439-2FE0-4104-8671-4CA5F79C8D80",
+                "url": "https://www.nps.gov/places/000/degnans-kitchen.htm"
+              },
+              {
+                "title": "Mariposa County Library: Yosemite Branch",
+                "id": "F5FC3ECD-77E8-45EF-BF5E-7F3A79146A38",
+                "url": "https://www.nps.gov/places/000/mariposa-county-library-yosemite-branch.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "8AAA9B54-1797-4B6E-8F62-AC33F6BAD3E6",
+        "name": "Junior Ranger Activity",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Happy Isles Art and Nature Center",
+                "id": "53A50524-D1F7-426C-A400-40FD5A031697",
+                "url": "https://www.nps.gov/places/000/happy-isles-art-and-nature-center.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "B108A32A-52A4-4C4E-B178-0276BFBD9555",
+        "name": "Laundry",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "B760D6E2-3616-4D8B-ABF2-B875B7966831",
+        "name": "Parking - Auto",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Valley Shuttle Stop 19: Curry Village Westbound",
+                "id": "45977689-1EBC-4DE5-AB80-389247C56EFC",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-19-curry-village-westbound.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 8: El Capitan Picnic Area",
+                "id": "7748D30B-35A2-4108-88D4-AB1D99A6E959",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-8-el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Bridalveil Fall Trailhead",
+                "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Badger Pass Ski Area",
+                "id": "258D25A3-4443-489C-AEC1-5AEBBBF17523",
+                "url": "https://www.nps.gov/places/000/badger-pass-ski-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 7: Yosemite Valley Lodge/Yosemite Falls Parking",
+                "id": "35568834-ADCB-4755-B347-72EC5714CAB6",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-shuttle-stop-7-yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Yosemite Falls Parking",
+                "id": "6D1EA946-16D8-4804-BFC7-2D459E16FE19",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-parking.htm"
+              },
+              {
+                "title": "Yosemite Village Parking",
+                "id": "A349CCBF-DDDC-4548-9032-CA1DE2E4DD6D",
+                "url": "https://www.nps.gov/places/000/yosemite-village-parking.htm"
+              },
+              {
+                "title": "Curry Village Parking",
+                "id": "5961B9A4-68E5-41EF-98AB-D874EE76084B",
+                "url": "https://www.nps.gov/places/000/curry-village-parking.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 14: Curry Village Eastbound",
+                "id": "270DC71D-DE58-468C-A501-DC200559274B",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-14-curry-village.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "24140B47-F8FE-4046-BB6A-817F9E165959",
+        "name": "Permits Issued",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Hetch Hetchy Entrance",
+                "id": "4740194E-1332-4F98-AC2B-AAB63ED694BB",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-entrance.htm"
+              },
+              {
+                "title": "Yosemite Valley Wilderness Center",
+                "id": "258AB246-6A84-4BCE-BD87-8558B5967FC8",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-wilderness-center.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              },
+              {
+                "title": "Wawona Wilderness Center at Hill's Studio",
+                "id": "AD0B7336-773C-4AFE-A5D5-30C952F88200",
+                "url": "https://www.nps.gov/places/000/wawona-wilderness-center-at-hills-studio.htm"
+              },
+              {
+                "title": "Wilderness Center at Big Oak Flat Information Station",
+                "id": "2F13EAC9-56CA-49D5-918D-EF8110DDC7CD",
+                "url": "https://www.nps.gov/places/000/wilderness-center-at-big-oak-flat-information-station.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "D7D63B75-2A7E-4715-856A-D8479DB9602A",
+        "name": "Pets Allowed",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Cook's Meadow Loop Trailhead",
+                "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-loop-trailhead.htm"
+              },
+              {
+                "title": "Bridalveil Fall Trailhead",
+                "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "6B68B30A-40C9-4745-9397-4899B59B0B7E",
+        "name": "Picnic Table",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Wawona Picnic Area",
+                "id": "B8A611B9-94E6-4442-9A7F-272D32B917E3",
+                "url": "https://www.nps.gov/places/000/wawona-picnic-area.htm"
+              },
+              {
+                "title": "Mariposa Grove Picnic Area",
+                "id": "160CE84B-C6BD-4E46-BEC8-8886F636779D",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-picnic-area.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Picnic Area",
+                "id": "67E37CF2-FD92-44F6-AA9F-5B4173A49155",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-picnic-area.htm"
+              },
+              {
+                "title": "El Capitan Picnic Area",
+                "id": "32CB2FFE-5A99-4E44-9716-48B2C2E9EF54",
+                "url": "https://www.nps.gov/places/000/el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Cathedral Beach",
+                "id": "EB8AB0C9-BABF-4DD5-A81F-8F8EC7CB2C25",
+                "url": "https://www.nps.gov/places/000/cathedral-beach.htm"
+              },
+              {
+                "title": "Sentinel Beach",
+                "id": "00415454-F93C-4D58-B612-BFC81442F17A",
+                "url": "https://www.nps.gov/places/000/sentinel-beach.htm"
+              },
+              {
+                "title": "Swinging Bridge",
+                "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+                "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+              },
+              {
+                "title": "The Cascades Picnic Area",
+                "id": "73848773-01B4-43DA-9BA6-E5F47F4EA097",
+                "url": "https://www.nps.gov/places/000/the-cascades-picnic-area.htm"
+              },
+              {
+                "title": "Tenaya Lake",
+                "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
+                "url": "https://www.nps.gov/places/000/tenaya-lake.htm"
+              },
+              {
+                "title": "Yosemite Creek Picnic Area",
+                "id": "A92EE6C7-A863-49CF-B82D-BEA4EF6B5365",
+                "url": "https://www.nps.gov/places/000/yosemite-creek-picnic-area.htm"
+              },
+              {
+                "title": "Tenaya Lake Picnic Area",
+                "id": "27EC2391-F1D0-4DB6-9089-49EF539BF007",
+                "url": "https://www.nps.gov/places/000/tenaya-lake-picnic-area.htm"
+              },
+              {
+                "title": "Glacier Point Gift Shop and Snack Stand",
+                "id": "0816E334-8DE6-41E5-A6BA-693F18C36ED3",
+                "url": "https://www.nps.gov/places/000/glacier-point-gift-shop-and-snack-stand.htm"
+              },
+              {
+                "title": "Church Bowl Picnic Area",
+                "id": "5999D822-1ADB-459E-B927-2127F3841080",
+                "url": "https://www.nps.gov/places/000/church-bowl-picnic-area.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              },
+              {
+                "title": "Murphy Creek Picnic Area",
+                "id": "351CB008-19CD-42B2-8540-BC0CC01E8D4C",
+                "url": "https://www.nps.gov/places/000/murphy-creek-picnic-area.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "8E6BF478-B938-469F-B5B8-2938DA389FF3",
+        "name": "Propane For Sale",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "El Portal Gas Station and Market",
+                "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
+                "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+              },
+              {
+                "title": "Garage in Yosemite Village",
+                "id": "892C5163-5B23-49DC-A7E7-303F817DD7E3",
+                "url": "https://www.nps.gov/places/000/garage-in-yosemite-village.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "A0038A57-E213-46E7-BD5F-40E9AE18014F",
+        "name": "Public Transit",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "YARTS Stop:  Yosemite Valley Lodge",
+                "id": "7C3E53AB-3E41-411D-B98A-296AA58DC31E",
+                "url": "https://www.nps.gov/places/000/yarts-stop-yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "YARTS Stop:  Curry Village",
+                "id": "0FD7B5AA-94E6-467B-B02C-C676C7A0AB24",
+                "url": "https://www.nps.gov/places/000/yarts-stop-curry-village.htm"
+              },
+              {
+                "title": "YARTS Stop:  Big Oak Flat",
+                "id": "79246747-647E-47CC-97F4-D22972FAED25",
+                "url": "https://www.nps.gov/places/000/yarts-stop-big-oak-flat.htm"
+              },
+              {
+                "title": "YARTS Stop:  White Wolf Lodge",
+                "id": "ADABACDB-55C3-4821-9429-49C57B54A16B",
+                "url": "https://www.nps.gov/places/000/yarts-stop-white-wolf-lodge.htm"
+              },
+              {
+                "title": "YARTS Stop: Yosemite Village",
+                "id": "9ADA9248-6F4D-45E3-85A6-65BF2684BB7E",
+                "url": "https://www.nps.gov/places/000/yarts-stop-yosemite-village.htm"
+              },
+              {
+                "title": "YARTS Stop:  Tuolumne Meadows Visitor Center",
+                "id": "850D4F85-558E-4115-AAF9-0FE91DA3D50D",
+                "url": "https://www.nps.gov/places/000/yarts-stop-tuolumne-meadows-visitor-center.htm"
+              },
+              {
+                "title": "YARTS Stop: Tuolumne Meadows Store",
+                "id": "B0A4572D-8096-4E34-A067-F9F70E42752D",
+                "url": "https://www.nps.gov/places/000/yarts-stop-tuolumne-meadows-store.htm"
+              },
+              {
+                "title": "YARTS Stop:  Crane Flat Gas Station",
+                "id": "D522930F-A298-408E-B4D9-7C330958E8AC",
+                "url": "https://www.nps.gov/places/000/yarts-stop-crane-flat-gas-station.htm"
+              },
+              {
+                "title": "YARTS Stop: Wawona Store",
+                "id": "30CB47FB-B987-4119-BE71-387C80E61606",
+                "url": "https://www.nps.gov/places/000/yarts-stop-wawona-store.htm"
+              },
+              {
+                "title": "YARTS Stop:  Mariposa Grove of Giant Sequoias",
+                "id": "174101C3-6A21-40E1-897E-E580B4661E20",
+                "url": "https://www.nps.gov/places/000/yarts-stop-mariposa-grove-of-giant-sequoias.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "4706077B-00CB-4D07-80C7-48B2D5ADEFA2",
+        "name": "Recycling",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Wawona Picnic Area",
+                "id": "B8A611B9-94E6-4442-9A7F-272D32B917E3",
+                "url": "https://www.nps.gov/places/000/wawona-picnic-area.htm"
+              },
+              {
+                "title": "Yosemite History Center",
+                "id": "00B0BD7D-112B-49B9-81F0-AE73110A460D",
+                "url": "https://www.nps.gov/places/000/pioneer-yosemite-history-center.htm"
+              },
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Mariposa Grove Picnic Area",
+                "id": "160CE84B-C6BD-4E46-BEC8-8886F636779D",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-picnic-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 19: Curry Village Westbound",
+                "id": "45977689-1EBC-4DE5-AB80-389247C56EFC",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-19-curry-village-westbound.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Picnic Area",
+                "id": "67E37CF2-FD92-44F6-AA9F-5B4173A49155",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-picnic-area.htm"
+              },
+              {
+                "title": "El Capitan Picnic Area",
+                "id": "32CB2FFE-5A99-4E44-9716-48B2C2E9EF54",
+                "url": "https://www.nps.gov/places/000/el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Bridalveil Fall Trailhead",
+                "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm"
+              },
+              {
+                "title": "Cathedral Beach",
+                "id": "EB8AB0C9-BABF-4DD5-A81F-8F8EC7CB2C25",
+                "url": "https://www.nps.gov/places/000/cathedral-beach.htm"
+              },
+              {
+                "title": "Sentinel Beach",
+                "id": "00415454-F93C-4D58-B612-BFC81442F17A",
+                "url": "https://www.nps.gov/places/000/sentinel-beach.htm"
+              },
+              {
+                "title": "Swinging Bridge",
+                "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+                "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+              },
+              {
+                "title": "Yosemite Chapel",
+                "id": "E5196218-9916-4945-AA25-318DBD039734",
+                "url": "https://www.nps.gov/places/000/yosemite-chapel.htm"
+              },
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "Happy Isles Art and Nature Center",
+                "id": "53A50524-D1F7-426C-A400-40FD5A031697",
+                "url": "https://www.nps.gov/places/000/happy-isles-art-and-nature-center.htm"
+              },
+              {
+                "title": "Mirror Lake Trailhead",
+                "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
+                "url": "https://www.nps.gov/places/000/mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "View of Mirror Lake",
+                "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
+                "url": "https://www.nps.gov/places/000/mirror-lake.htm"
+              },
+              {
+                "title": "Hetch Hetchy Reservoir - O'Shaughnessy Dam",
+                "id": "434AB068-4748-4183-84CB-991F14A7D851",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-reservoir-oshaughnessy-dam.htm"
+              },
+              {
+                "title": "The Cascades Picnic Area",
+                "id": "73848773-01B4-43DA-9BA6-E5F47F4EA097",
+                "url": "https://www.nps.gov/places/000/the-cascades-picnic-area.htm"
+              },
+              {
+                "title": "El Portal Gas Station and Market",
+                "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
+                "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+              },
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "Degnan's Kitchen",
+                "id": "666DD439-2FE0-4104-8671-4CA5F79C8D80",
+                "url": "https://www.nps.gov/places/000/degnans-kitchen.htm"
+              },
+              {
+                "title": "Yosemite Museum",
+                "id": "4ABADDC4-7B8C-4CFE-97A7-FE09CAAB9B01",
+                "url": "https://www.nps.gov/places/000/yosemite-museum.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Washburn Point",
+                "id": "2DE7B79F-E989-473E-850F-6796FC26EC99",
+                "url": "https://www.nps.gov/places/000/washburn-point.htm"
+              },
+              {
+                "title": "Tenaya Lake",
+                "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
+                "url": "https://www.nps.gov/places/000/tenaya-lake.htm"
+              },
+              {
+                "title": "White Wolf Lodge",
+                "id": "012B2BD2-F17B-49DE-9EC8-206D7DA9527C",
+                "url": "https://www.nps.gov/places/000/white-wolf-lodge.htm"
+              },
+              {
+                "title": "Yosemite Creek Picnic Area",
+                "id": "A92EE6C7-A863-49CF-B82D-BEA4EF6B5365",
+                "url": "https://www.nps.gov/places/000/yosemite-creek-picnic-area.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              },
+              {
+                "title": "Badger Pass Ski Area",
+                "id": "258D25A3-4443-489C-AEC1-5AEBBBF17523",
+                "url": "https://www.nps.gov/places/000/badger-pass-ski-area.htm"
+              },
+              {
+                "title": "Tunnel View",
+                "id": "150D64BB-3423-4FED-9379-3AAB21FB3CF8",
+                "url": "https://www.nps.gov/places/000/tunnel-view.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Grizzly Giant Trailhead (Accessible)",
+                "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
+                "url": "https://www.nps.gov/places/000/grizzly-giant-trailhead-accessible.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 9: El Capitan Meadow",
+                "id": "C763BE77-2646-47F1-9448-F74D144773FE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-9-el-capitan-meadow.htm"
+              },
+              {
+                "title": "Yosemite Village Post Office",
+                "id": "1F100599-8F41-4F4F-9C93-1BA5EB459466",
+                "url": "https://www.nps.gov/places/000/yosemite-village-post-office.htm"
+              },
+              {
+                "title": "Yosemite Valley Wilderness Center",
+                "id": "258AB246-6A84-4BCE-BD87-8558B5967FC8",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-wilderness-center.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 16: Happy Isles",
+                "id": "50988D1C-F029-40FF-8334-AEA62E188D14",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-16-happy-isles.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 17: Mirror Lake Trailhead",
+                "id": "4F2A9C4E-F31D-4326-A3E2-2106C0043CFE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-17-mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 18: Lower Pines Campground",
+                "id": "E0A3F155-6637-4981-B2EA-B0E26366AF34",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-18-lower-pines-campground.htm"
+              },
+              {
+                "title": "Curry Village Parking",
+                "id": "5961B9A4-68E5-41EF-98AB-D874EE76084B",
+                "url": "https://www.nps.gov/places/000/curry-village-parking.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 14: Curry Village Eastbound",
+                "id": "270DC71D-DE58-468C-A501-DC200559274B",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-14-curry-village.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Glacier Point Gift Shop and Snack Stand",
+                "id": "0816E334-8DE6-41E5-A6BA-693F18C36ED3",
+                "url": "https://www.nps.gov/places/000/glacier-point-gift-shop-and-snack-stand.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Church Bowl Picnic Area",
+                "id": "5999D822-1ADB-459E-B927-2127F3841080",
+                "url": "https://www.nps.gov/places/000/church-bowl-picnic-area.htm"
+              },
+              {
+                "title": "Village Grill",
+                "id": "3EED778E-F5F9-4718-A0EF-F3E11614F656",
+                "url": "https://www.nps.gov/places/000/village-grill.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Lodge",
+                "id": "442F0A62-800B-47A6-9B2C-4F4D62D5123D",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-lodge.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Post Office",
+                "id": "E0AE867C-909A-45F9-847E-31BBCACDA382",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-post-office.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Grill",
+                "id": "3F93F225-E9D1-41E5-9E8A-454DE049A162",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-grill.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "2883D965-1CA4-4858-B759-A5866CA8A188",
+        "name": "Restroom",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Wawona Picnic Area",
+                "id": "B8A611B9-94E6-4442-9A7F-272D32B917E3",
+                "url": "https://www.nps.gov/places/000/wawona-picnic-area.htm"
+              },
+              {
+                "title": "Wawona Stable",
+                "id": "5EC1A98B-BC0E-4472-8D09-76743300683B",
+                "url": "https://www.nps.gov/places/000/wawona-stable.htm"
+              },
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Picnic Area",
+                "id": "67E37CF2-FD92-44F6-AA9F-5B4173A49155",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-picnic-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 8: El Capitan Picnic Area",
+                "id": "7748D30B-35A2-4108-88D4-AB1D99A6E959",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-8-el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "El Capitan Picnic Area",
+                "id": "32CB2FFE-5A99-4E44-9716-48B2C2E9EF54",
+                "url": "https://www.nps.gov/places/000/el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Bridalveil Fall Trailhead",
+                "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm"
+              },
+              {
+                "title": "Yosemite Chapel",
+                "id": "E5196218-9916-4945-AA25-318DBD039734",
+                "url": "https://www.nps.gov/places/000/yosemite-chapel.htm"
+              },
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "View of Mirror Lake",
+                "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
+                "url": "https://www.nps.gov/places/000/mirror-lake.htm"
+              },
+              {
+                "title": "The Cascades Picnic Area",
+                "id": "73848773-01B4-43DA-9BA6-E5F47F4EA097",
+                "url": "https://www.nps.gov/places/000/the-cascades-picnic-area.htm"
+              },
+              {
+                "title": "El Portal Gas Station and Market",
+                "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
+                "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+              },
+              {
+                "title": "Degnan's Kitchen",
+                "id": "666DD439-2FE0-4104-8671-4CA5F79C8D80",
+                "url": "https://www.nps.gov/places/000/degnans-kitchen.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Sentinel Dome and Taft Point Trailhead",
+                "id": "D0E656B6-CDF6-4A51-B777-3D38B8EFF51B",
+                "url": "https://www.nps.gov/places/000/sentinel-dome-and-taft-point-trailhead.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              },
+              {
+                "title": "Badger Pass Ski Area",
+                "id": "258D25A3-4443-489C-AEC1-5AEBBBF17523",
+                "url": "https://www.nps.gov/places/000/badger-pass-ski-area.htm"
+              },
+              {
+                "title": "Arch Rock Entrance",
+                "id": "037DC135-0914-4314-8C9E-5C353A1256F9",
+                "url": "https://www.nps.gov/places/000/arch-rock-entrance.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Mariposa Grove Arrival Area and Trailhead",
+                "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-arrival-area-trailhead.htm"
+              },
+              {
+                "title": "Wawona Hotel",
+                "id": "B35CA288-D30C-4024-928E-A1C5B68245FE",
+                "url": "https://www.nps.gov/places/000/wawona-hotel.htm"
+              },
+              {
+                "title": "Yosemite Village Parking",
+                "id": "A349CCBF-DDDC-4548-9032-CA1DE2E4DD6D",
+                "url": "https://www.nps.gov/places/000/yosemite-village-parking.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 16: Happy Isles",
+                "id": "50988D1C-F029-40FF-8334-AEA62E188D14",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-16-happy-isles.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Church Bowl Picnic Area",
+                "id": "5999D822-1ADB-459E-B927-2127F3841080",
+                "url": "https://www.nps.gov/places/000/church-bowl-picnic-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 1: Yosemite Village Parking",
+                "id": "932FB43B-5702-4031-B834-8FC6C7ABA3DA",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-1-yosemite-village-parking.htm"
+              },
+              {
+                "title": "Village Grill",
+                "id": "3EED778E-F5F9-4718-A0EF-F3E11614F656",
+                "url": "https://www.nps.gov/places/000/village-grill.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Lodge",
+                "id": "442F0A62-800B-47A6-9B2C-4F4D62D5123D",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-lodge.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "3AE99969-54E5-4A4E-AE43-5A11209D0120",
+        "name": "Restroom - Seasonal",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Mist and John Muir Trailhead",
+                "id": "F818A5B1-A9F9-4C3A-BC57-FB960E40B4C7",
+                "url": "https://www.nps.gov/places/000/mist-trail-and-john-muir-trail-trailhead.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "79247274-A3FB-42C4-9361-45A2BFADE78C",
+        "name": "Scenic View/Photo Spot",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite History Center",
+                "id": "00B0BD7D-112B-49B9-81F0-AE73110A460D",
+                "url": "https://www.nps.gov/places/000/pioneer-yosemite-history-center.htm"
+              },
+              {
+                "title": "Cook's Meadow Loop Trailhead",
+                "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-loop-trailhead.htm"
+              },
+              {
+                "title": "El Capitan Meadow",
+                "id": "2D3F31EA-90B4-4975-AD28-F9141C661438",
+                "url": "https://www.nps.gov/places/000/el-capitan-meadow.htm"
+              },
+              {
+                "title": "Valley View",
+                "id": "1294926D-DDE1-4384-93FD-9B1FF9B39C54",
+                "url": "https://www.nps.gov/places/000/valley-view.htm"
+              },
+              {
+                "title": "Swinging Bridge",
+                "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+                "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+              },
+              {
+                "title": "View of Mirror Lake",
+                "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
+                "url": "https://www.nps.gov/places/000/mirror-lake.htm"
+              },
+              {
+                "title": "Sentinel Bridge",
+                "id": "E81278CA-5F4A-43E0-B322-415383AE59F1",
+                "url": "https://www.nps.gov/places/000/sentinel-bridge.htm"
+              },
+              {
+                "title": "Tuolumne Grove",
+                "id": "BC8250C0-F1B5-4E12-9B8C-A5F59AE13909",
+                "url": "https://www.nps.gov/places/000/tuolumne-grove.htm"
+              },
+              {
+                "title": "Hetch Hetchy Reservoir - O'Shaughnessy Dam",
+                "id": "434AB068-4748-4183-84CB-991F14A7D851",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-reservoir-oshaughnessy-dam.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Washburn Point",
+                "id": "2DE7B79F-E989-473E-850F-6796FC26EC99",
+                "url": "https://www.nps.gov/places/000/washburn-point.htm"
+              },
+              {
+                "title": "Olmsted Point",
+                "id": "0EA6B210-FF01-4A6D-9AB7-6CF5C94D18C9",
+                "url": "https://www.nps.gov/places/000/olmsted-point.htm"
+              },
+              {
+                "title": "Tenaya Lake",
+                "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
+                "url": "https://www.nps.gov/places/000/tenaya-lake.htm"
+              },
+              {
+                "title": "Tunnel View",
+                "id": "150D64BB-3423-4FED-9379-3AAB21FB3CF8",
+                "url": "https://www.nps.gov/places/000/tunnel-view.htm"
+              },
+              {
+                "title": "Mariposa Grove Arrival Area and Trailhead",
+                "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-arrival-area-trailhead.htm"
+              },
+              {
+                "title": "Bridalveil Fall Viewing Area",
+                "id": "D01EAE41-1577-4ED1-B095-BE904DB686DE",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Viewing Area",
+                "id": "6E5D81DB-08DC-4B22-9893-9A0C9514A0B7",
+                "url": "https://www.nps.gov/places/000/yosemite-falls.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Tuolumne Meadows",
+                "id": "344C8876-0381-4090-82E6-2105BAAF5E7B",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows.htm"
+              },
+              {
+                "title": "Stoneman Meadow",
+                "id": "5DBA91C6-EB5B-43E5-AA25-4449ABFE6577",
+                "url": "https://www.nps.gov/places/stoneman-meadow.htm"
+              },
+              {
+                "title": "The Fen",
+                "id": "39B4B1E3-FFA4-4BBD-92DE-15E239B0B65C",
+                "url": "https://www.nps.gov/places/the-fen.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "94E21603-85F3-48C5-96B6-556E46FA2518",
+        "name": "Showers",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "F903E427-5E1C-44C0-B127-79C9054FBEBA",
+        "name": "Ski Rental",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Badger Pass Ski Area",
+                "id": "258D25A3-4443-489C-AEC1-5AEBBBF17523",
+                "url": "https://www.nps.gov/places/000/badger-pass-ski-area.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "460AECEB-2158-47B4-8DAC-40041649C0F3",
+        "name": "Supplies - Camping/Outdoor",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "The Mountain Shop and Yosemite Mountaineering School",
+                "id": "71EC6C76-6F48-4CAE-BAF1-556138511BFF",
+                "url": "https://www.nps.gov/places/000/the-mountain-shop-and-yosemite-mountaineering-school.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "94006F6C-4EEF-489C-B8E6-FF1565E25F84",
+        "name": "Supplies - General",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "White Wolf Lodge",
+                "id": "012B2BD2-F17B-49DE-9EC8-206D7DA9527C",
+                "url": "https://www.nps.gov/places/000/white-wolf-lodge.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              },
+              {
+                "title": "Wawona Golf Shop",
+                "id": "7B2CF417-3016-4FE6-A37E-451AF69A77A6",
+                "url": "https://www.nps.gov/places/000/wawona-golf-shop.htm"
+              },
+              {
+                "title": "Glacier Point Gift Shop and Snack Stand",
+                "id": "0816E334-8DE6-41E5-A6BA-693F18C36ED3",
+                "url": "https://www.nps.gov/places/000/glacier-point-gift-shop-and-snack-stand.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "D7E4E6D8-4BAD-4758-8E76-97ED800502E8",
+        "name": "Swimming Pool",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Wawona Hotel",
+                "id": "B35CA288-D30C-4024-928E-A1C5B68245FE",
+                "url": "https://www.nps.gov/places/000/wawona-hotel.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "1FF653F6-1F20-425C-A16A-B8D6210CD759",
+        "name": "Tactile Exhibit",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Happy Isles Art and Nature Center",
+                "id": "53A50524-D1F7-426C-A400-40FD5A031697",
+                "url": "https://www.nps.gov/places/000/happy-isles-art-and-nature-center.htm"
+              },
+              {
+                "title": "Olmsted Point",
+                "id": "0EA6B210-FF01-4A6D-9AB7-6CF5C94D18C9",
+                "url": "https://www.nps.gov/places/000/olmsted-point.htm"
+              },
+              {
+                "title": "Mariposa Grove Arrival Area and Trailhead",
+                "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-arrival-area-trailhead.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "343F0388-C62A-4FEB-A790-E73253ECDDB2",
+        "name": "Telephone",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Arch Rock Entrance",
+                "id": "037DC135-0914-4314-8C9E-5C353A1256F9",
+                "url": "https://www.nps.gov/places/000/arch-rock-entrance.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Post Office",
+                "id": "E0AE867C-909A-45F9-847E-31BBCACDA382",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-post-office.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Grill",
+                "id": "3F93F225-E9D1-41E5-9E8A-454DE049A162",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-grill.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "A5EA8D15-1DFE-43D4-B2C4-B76DD927CE50",
+        "name": "Theater/Auditorium",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Exploration Center Theater",
+                "id": "56B19C0A-D351-4E9F-8F19-BC51F1A6816A",
+                "url": "https://www.nps.gov/places/000/yosemite-theater.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "F84C0528-0D1A-45A2-B644-B3C059B3D224",
+        "name": "Toilet - Vault/Composting",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Mariposa Grove Picnic Area",
+                "id": "160CE84B-C6BD-4E46-BEC8-8886F636779D",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-picnic-area.htm"
+              },
+              {
+                "title": "Valley View",
+                "id": "1294926D-DDE1-4384-93FD-9B1FF9B39C54",
+                "url": "https://www.nps.gov/places/000/valley-view.htm"
+              },
+              {
+                "title": "Cathedral Beach",
+                "id": "EB8AB0C9-BABF-4DD5-A81F-8F8EC7CB2C25",
+                "url": "https://www.nps.gov/places/000/cathedral-beach.htm"
+              },
+              {
+                "title": "Sentinel Beach",
+                "id": "00415454-F93C-4D58-B612-BFC81442F17A",
+                "url": "https://www.nps.gov/places/000/sentinel-beach.htm"
+              },
+              {
+                "title": "Swinging Bridge",
+                "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+                "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+              },
+              {
+                "title": "Mirror Lake Trailhead",
+                "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
+                "url": "https://www.nps.gov/places/000/mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "Tenaya Lake",
+                "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
+                "url": "https://www.nps.gov/places/000/tenaya-lake.htm"
+              },
+              {
+                "title": "Yosemite Creek Picnic Area",
+                "id": "A92EE6C7-A863-49CF-B82D-BEA4EF6B5365",
+                "url": "https://www.nps.gov/places/000/yosemite-creek-picnic-area.htm"
+              },
+              {
+                "title": "Parsons Memorial Lodge",
+                "id": "6170802B-AB0A-4D69-8647-AA1D5867D303",
+                "url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm"
+              },
+              {
+                "title": "Tenaya Lake Picnic Area",
+                "id": "27EC2391-F1D0-4DB6-9089-49EF539BF007",
+                "url": "https://www.nps.gov/places/000/tenaya-lake-picnic-area.htm"
+              },
+              {
+                "title": "Murphy Creek Picnic Area",
+                "id": "351CB008-19CD-42B2-8540-BC0CC01E8D4C",
+                "url": "https://www.nps.gov/places/000/murphy-creek-picnic-area.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "39BE9614-4284-4B29-A650-AB2E7215C58B",
+        "name": "Trailhead",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Cook's Meadow Loop Trailhead",
+                "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-loop-trailhead.htm"
+              },
+              {
+                "title": "Bridalveil Fall Trailhead",
+                "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm"
+              },
+              {
+                "title": "Mist and John Muir Trailhead",
+                "id": "F818A5B1-A9F9-4C3A-BC57-FB960E40B4C7",
+                "url": "https://www.nps.gov/places/000/mist-trail-and-john-muir-trail-trailhead.htm"
+              },
+              {
+                "title": "Mirror Lake Trailhead",
+                "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
+                "url": "https://www.nps.gov/places/000/mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "Tuolumne Grove",
+                "id": "BC8250C0-F1B5-4E12-9B8C-A5F59AE13909",
+                "url": "https://www.nps.gov/places/000/tuolumne-grove.htm"
+              },
+              {
+                "title": "Merced Grove",
+                "id": "4CB7B15C-61E4-4647-9884-44496FAAF8CC",
+                "url": "https://www.nps.gov/places/000/merced-grove.htm"
+              },
+              {
+                "title": "Hetch Hetchy Trailhead",
+                "id": "6C7AEA3E-6453-494D-B207-FBB6B932A331",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-trailhead.htm"
+              },
+              {
+                "title": "Four Mile Trailhead",
+                "id": "48B7F32F-D66A-48C7-824E-B90B1C2B9893",
+                "url": "https://www.nps.gov/places/000/four-mile-trailhead.htm"
+              },
+              {
+                "title": "Sentinel Dome and Taft Point Trailhead",
+                "id": "D0E656B6-CDF6-4A51-B777-3D38B8EFF51B",
+                "url": "https://www.nps.gov/places/000/sentinel-dome-and-taft-point-trailhead.htm"
+              },
+              {
+                "title": "Mono Meadow Trailhead",
+                "id": "0373584E-87EB-4986-A0AE-C69BF81C9043",
+                "url": "https://www.nps.gov/places/000/mono-meadow-trailhead.htm"
+              },
+              {
+                "title": "Ostrander Lake Trailhead",
+                "id": "740078DA-7B9E-4E3E-AFE4-4448733C56BC",
+                "url": "https://www.nps.gov/places/000/ostrander-lake-trailhead.htm"
+              },
+              {
+                "title": "McGurk Meadow Trailhead",
+                "id": "B4CDC757-7247-4E76-B789-C2F7D4D3907E",
+                "url": "https://www.nps.gov/places/000/mcgurk-meadow-trailhead.htm"
+              },
+              {
+                "title": "Porcupine Creek Trailhead",
+                "id": "6AF4D37E-8413-4679-88E3-564F8087BCAF",
+                "url": "https://www.nps.gov/places/000/porcupine-creek-trailhead.htm"
+              },
+              {
+                "title": "May Lake Trailhead",
+                "id": "E97A321F-3926-47A0-8D17-DDB1E01C21D7",
+                "url": "https://www.nps.gov/places/000/may-lake-trailhead.htm"
+              },
+              {
+                "title": "Pothole Dome Trailhead",
+                "id": "31656BA1-8C15-4F68-850F-FF6F2A686A99",
+                "url": "https://www.nps.gov/places/000/pothole-dome-trailhead.htm"
+              },
+              {
+                "title": "Cathedral Lakes Trailhead",
+                "id": "C51F3C63-C110-43C7-92FC-1F8EFD44228A",
+                "url": "https://www.nps.gov/places/000/cathedral-lakes-trailhead.htm"
+              },
+              {
+                "title": "Mono Pass Trailhead",
+                "id": "6C2131D7-1F46-4D0B-99EA-C53357BAFFBA",
+                "url": "https://www.nps.gov/places/000/mono-pass-trailhead.htm"
+              },
+              {
+                "title": "Gaylor Lakes Trailhead",
+                "id": "626369C6-2AAB-4D9F-9554-C9DDBD140857",
+                "url": "https://www.nps.gov/places/000/gaylor-lakes-trailhead.htm"
+              },
+              {
+                "title": "Lembert Dome and Dog Lake Trailhead",
+                "id": "8599E14E-63F6-4666-BF62-B4A9AE0B258C",
+                "url": "https://www.nps.gov/places/000/lembert-dome-and-dog-lake-trailhead.htm"
+              },
+              {
+                "title": "Glen Aulin and Soda Springs Trailhead",
+                "id": "CE7E3DB1-575F-45C5-9288-568FBFCEA90A",
+                "url": "https://www.nps.gov/places/000/glen-aulin-trailhead.htm"
+              },
+              {
+                "title": "Elizabeth Lake Trailhead",
+                "id": "8056CA99-0BF6-4104-ACEF-7ACE4F2D4CC3",
+                "url": "https://www.nps.gov/places/000/elizabeth-lake-trailhead.htm"
+              },
+              {
+                "title": "Poopenaut Valley Trailhead",
+                "id": "8BFE3A60-1982-479C-8849-AE361F05A0AA",
+                "url": "https://www.nps.gov/places/000/poopenaut-valley-trailhead.htm"
+              },
+              {
+                "title": "Wapama and Rancheria Falls Trailhead",
+                "id": "EFF5A2CF-E263-40C4-B939-C893E895EA2C",
+                "url": "https://www.nps.gov/places/000/wapama-and-rancheria-falls-trailhead.htm"
+              },
+              {
+                "title": "Wawona Meadow Loop Trailhead",
+                "id": "D924AC4F-C25E-4FD8-B74B-96E475B8E375",
+                "url": "https://www.nps.gov/places/000/wawona-meadow-loop-trailhead.htm"
+              },
+              {
+                "title": "Grizzly Giant Trailhead (Accessible)",
+                "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
+                "url": "https://www.nps.gov/places/000/grizzly-giant-trailhead-accessible.htm"
+              },
+              {
+                "title": "Upper Yosemite Fall Trailhead",
+                "id": "07DA404D-9D30-48B7-866D-EB5160FD74E3",
+                "url": "https://www.nps.gov/places/000/upper-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Mariposa Grove Arrival Area and Trailhead",
+                "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-arrival-area-trailhead.htm"
+              },
+              {
+                "title": "Lukens Lake Trailhead from Tioga Road",
+                "id": "C3FEC70B-B87E-4F5D-8ECA-60E1B80324B0",
+                "url": "https://www.nps.gov/places/000/lukens-lake-trailhead-from-tioga-road.htm"
+              },
+              {
+                "title": "Chilnualna Falls Trailhead",
+                "id": "1F5F467E-498F-4DD0-A28B-20686E1758EF",
+                "url": "https://www.nps.gov/places/000/chilnualna-falls-trailhead.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Sunrise Lakes Trailhead",
+                "id": "0B9AD80C-43EA-4DB3-9999-21268B166F4F",
+                "url": "https://www.nps.gov/places/000/sunrise-lakes-trailhead.htm"
+              },
+              {
+                "title": "Panorama and Pohono Trailheads",
+                "id": "F98B5924-367F-4EB0-A7B5-11F9A051D979",
+                "url": "https://www.nps.gov/places/000/panorama-and-pohono-trailheads.htm"
+              },
+              {
+                "title": "Four Mile Trailhead at Glacier Point",
+                "id": "8D6C9189-822E-4625-B05F-C96AF0DAC137",
+                "url": "https://www.nps.gov/places/000/four-mile-trailhead-glacier-point.htm"
+              },
+              {
+                "title": "Yosemite Creek and Ten Lakes Trailhead",
+                "id": "512130F4-A791-499C-B9EB-0DE0F6B76DAC",
+                "url": "https://www.nps.gov/places/000/yosemite-creek-and-ten-lakes-trailhead.htm"
+              },
+              {
+                "title": "Harden Lake Trailhead",
+                "id": "FA7CE3DB-209D-423B-8257-E0D0F15432AB",
+                "url": "https://www.nps.gov/places/000/harden-lake-trailhead.htm"
+              },
+              {
+                "title": "Lukens Lake Trailhead from White Wolf",
+                "id": "0A487FCB-66F1-4609-B1F1-E407D0757072",
+                "url": "https://www.nps.gov/places/000/lukens-lake-trailhead-from-white-wolf.htm"
+              },
+              {
+                "title": "Soda Springs and Parsons Memorial Lodge Trailhead",
+                "id": "762E9BC3-D1BF-447D-8CE4-A2ACDACE1D35",
+                "url": "https://www.nps.gov/places/000/soda-springs-and-parsons-memorial-lodge-trailhead.htm"
+              },
+              {
+                "title": "Lyell Canyon Trailhead",
+                "id": "B06EE003-6117-4C71-9042-5773C2664447",
+                "url": "https://www.nps.gov/places/000/lyell-canyon-trailhead.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "4D4C1C32-793D-4440-8098-DBCA0126EDFD",
+        "name": "Trash/Litter Receptacles",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Wawona Picnic Area",
+                "id": "B8A611B9-94E6-4442-9A7F-272D32B917E3",
+                "url": "https://www.nps.gov/places/000/wawona-picnic-area.htm"
+              },
+              {
+                "title": "Yosemite History Center",
+                "id": "00B0BD7D-112B-49B9-81F0-AE73110A460D",
+                "url": "https://www.nps.gov/places/000/pioneer-yosemite-history-center.htm"
+              },
+              {
+                "title": "Wawona Gas Station",
+                "id": "11A42DA0-F68D-49A8-8434-E7C995D62B02",
+                "url": "https://www.nps.gov/places/000/wawona-gas-station.htm"
+              },
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Mariposa Grove Picnic Area",
+                "id": "160CE84B-C6BD-4E46-BEC8-8886F636779D",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-picnic-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 19: Curry Village Westbound",
+                "id": "45977689-1EBC-4DE5-AB80-389247C56EFC",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-19-curry-village-westbound.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Picnic Area",
+                "id": "67E37CF2-FD92-44F6-AA9F-5B4173A49155",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-picnic-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 8: El Capitan Picnic Area",
+                "id": "7748D30B-35A2-4108-88D4-AB1D99A6E959",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-8-el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "El Capitan Picnic Area",
+                "id": "32CB2FFE-5A99-4E44-9716-48B2C2E9EF54",
+                "url": "https://www.nps.gov/places/000/el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Bridalveil Fall Trailhead",
+                "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm"
+              },
+              {
+                "title": "Cathedral Beach",
+                "id": "EB8AB0C9-BABF-4DD5-A81F-8F8EC7CB2C25",
+                "url": "https://www.nps.gov/places/000/cathedral-beach.htm"
+              },
+              {
+                "title": "Sentinel Beach",
+                "id": "00415454-F93C-4D58-B612-BFC81442F17A",
+                "url": "https://www.nps.gov/places/000/sentinel-beach.htm"
+              },
+              {
+                "title": "Swinging Bridge",
+                "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+                "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+              },
+              {
+                "title": "Yosemite Chapel",
+                "id": "E5196218-9916-4945-AA25-318DBD039734",
+                "url": "https://www.nps.gov/places/000/yosemite-chapel.htm"
+              },
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "Happy Isles Art and Nature Center",
+                "id": "53A50524-D1F7-426C-A400-40FD5A031697",
+                "url": "https://www.nps.gov/places/000/happy-isles-art-and-nature-center.htm"
+              },
+              {
+                "title": "Mirror Lake Trailhead",
+                "id": "F72A0CDC-31C8-4027-8155-D2476FB85048",
+                "url": "https://www.nps.gov/places/000/mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "View of Mirror Lake",
+                "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
+                "url": "https://www.nps.gov/places/000/mirror-lake.htm"
+              },
+              {
+                "title": "Hetch Hetchy Reservoir - O'Shaughnessy Dam",
+                "id": "434AB068-4748-4183-84CB-991F14A7D851",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-reservoir-oshaughnessy-dam.htm"
+              },
+              {
+                "title": "The Cascades Picnic Area",
+                "id": "73848773-01B4-43DA-9BA6-E5F47F4EA097",
+                "url": "https://www.nps.gov/places/000/the-cascades-picnic-area.htm"
+              },
+              {
+                "title": "El Portal Gas Station and Market",
+                "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
+                "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+              },
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "Degnan's Kitchen",
+                "id": "666DD439-2FE0-4104-8671-4CA5F79C8D80",
+                "url": "https://www.nps.gov/places/000/degnans-kitchen.htm"
+              },
+              {
+                "title": "Yosemite Museum",
+                "id": "4ABADDC4-7B8C-4CFE-97A7-FE09CAAB9B01",
+                "url": "https://www.nps.gov/places/000/yosemite-museum.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Washburn Point",
+                "id": "2DE7B79F-E989-473E-850F-6796FC26EC99",
+                "url": "https://www.nps.gov/places/000/washburn-point.htm"
+              },
+              {
+                "title": "Tenaya Lake",
+                "id": "AE4DEE83-D104-4F8E-9CD7-27E5E56CD27B",
+                "url": "https://www.nps.gov/places/000/tenaya-lake.htm"
+              },
+              {
+                "title": "White Wolf Lodge",
+                "id": "012B2BD2-F17B-49DE-9EC8-206D7DA9527C",
+                "url": "https://www.nps.gov/places/000/white-wolf-lodge.htm"
+              },
+              {
+                "title": "Yosemite Creek Picnic Area",
+                "id": "A92EE6C7-A863-49CF-B82D-BEA4EF6B5365",
+                "url": "https://www.nps.gov/places/000/yosemite-creek-picnic-area.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              },
+              {
+                "title": "Wawona Golf Shop",
+                "id": "7B2CF417-3016-4FE6-A37E-451AF69A77A6",
+                "url": "https://www.nps.gov/places/000/wawona-golf-shop.htm"
+              },
+              {
+                "title": "Badger Pass Ski Area",
+                "id": "258D25A3-4443-489C-AEC1-5AEBBBF17523",
+                "url": "https://www.nps.gov/places/000/badger-pass-ski-area.htm"
+              },
+              {
+                "title": "Tunnel View",
+                "id": "150D64BB-3423-4FED-9379-3AAB21FB3CF8",
+                "url": "https://www.nps.gov/places/000/tunnel-view.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Tour - Tactile Model",
+                "id": "BD360877-A34E-4EAD-8C82-1C415BFD362B",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-tactile-model-stop-2.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Tour - Profile of a Waterfall",
+                "id": "F0B8427E-92E2-4595-8F97-8005678A813D",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-tour-profile-of-a-waterfall-stop-3.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 11: Four Mile Trailhead",
+                "id": "ED0B2161-E593-4D2C-9C08-CEA72F181AB4",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-11-four-mile-trailhead.htm"
+              },
+              {
+                "title": "Grizzly Giant Trailhead (Accessible)",
+                "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
+                "url": "https://www.nps.gov/places/000/grizzly-giant-trailhead-accessible.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 9: El Capitan Meadow",
+                "id": "C763BE77-2646-47F1-9448-F74D144773FE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-9-el-capitan-meadow.htm"
+              },
+              {
+                "title": "Yosemite Village Post Office",
+                "id": "1F100599-8F41-4F4F-9C93-1BA5EB459466",
+                "url": "https://www.nps.gov/places/000/yosemite-village-post-office.htm"
+              },
+              {
+                "title": "Yosemite Valley Wilderness Center",
+                "id": "258AB246-6A84-4BCE-BD87-8558B5967FC8",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-wilderness-center.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 6: Lower Yosemite Fall",
+                "id": "0BD89689-1517-4642-A1F4-84E4FC877FD0",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-6-lower-yosemite-fall.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 16: Happy Isles",
+                "id": "50988D1C-F029-40FF-8334-AEA62E188D14",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-16-happy-isles.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 17: Mirror Lake Trailhead",
+                "id": "4F2A9C4E-F31D-4326-A3E2-2106C0043CFE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-17-mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 18: Lower Pines Campground",
+                "id": "E0A3F155-6637-4981-B2EA-B0E26366AF34",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-18-lower-pines-campground.htm"
+              },
+              {
+                "title": "Curry Village Parking",
+                "id": "5961B9A4-68E5-41EF-98AB-D874EE76084B",
+                "url": "https://www.nps.gov/places/000/curry-village-parking.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 14: Curry Village Eastbound",
+                "id": "270DC71D-DE58-468C-A501-DC200559274B",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-14-curry-village.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Glacier Point Gift Shop and Snack Stand",
+                "id": "0816E334-8DE6-41E5-A6BA-693F18C36ED3",
+                "url": "https://www.nps.gov/places/000/glacier-point-gift-shop-and-snack-stand.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 12: Housekeeping Camp and Yosemite Conservation Heritage Center",
+                "id": "A17BE531-246B-448D-B069-6997234AD2A3",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-12-yosemite-conservation-heritage-center-housekeeping-camp.htm"
+              },
+              {
+                "title": "Church Bowl Picnic Area",
+                "id": "5999D822-1ADB-459E-B927-2127F3841080",
+                "url": "https://www.nps.gov/places/000/church-bowl-picnic-area.htm"
+              },
+              {
+                "title": "Village Grill",
+                "id": "3EED778E-F5F9-4718-A0EF-F3E11614F656",
+                "url": "https://www.nps.gov/places/000/village-grill.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Lodge",
+                "id": "442F0A62-800B-47A6-9B2C-4F4D62D5123D",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-lodge.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Post Office",
+                "id": "E0AE867C-909A-45F9-847E-31BBCACDA382",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-post-office.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Grill",
+                "id": "3F93F225-E9D1-41E5-9E8A-454DE049A162",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-grill.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "23682251-700A-4DE2-8FD8-BD680F53DF82",
+        "name": "Water - Bottle-Filling Station",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Bridalveil Fall Trailhead",
+                "id": "6DF32715-91BB-4305-92CF-A17A72801F9E",
+                "url": "https://www.nps.gov/places/000/bridalveil-fall-trailhead.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Mariposa Grove Arrival Area and Trailhead",
+                "id": "D0C1B0C5-D944-46CC-B67B-AE327A230AEB",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-arrival-area-trailhead.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "Church Bowl Picnic Area",
+                "id": "5999D822-1ADB-459E-B927-2127F3841080",
+                "url": "https://www.nps.gov/places/000/church-bowl-picnic-area.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "9A652919-D548-4850-8053-798CDC2C762B",
+        "name": "Water - Drinking/Potable",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Lower Yosemite Fall Picnic Area",
+                "id": "67E37CF2-FD92-44F6-AA9F-5B4173A49155",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-picnic-area.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Parsons Memorial Lodge",
+                "id": "6170802B-AB0A-4D69-8647-AA1D5867D303",
+                "url": "https://www.nps.gov/places/000/parsons-memorial-lodge.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 16: Happy Isles",
+                "id": "50988D1C-F029-40FF-8334-AEA62E188D14",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-16-happy-isles.htm"
+              },
+              {
+                "title": "Glacier Point Gift Shop and Snack Stand",
+                "id": "0816E334-8DE6-41E5-A6BA-693F18C36ED3",
+                "url": "https://www.nps.gov/places/000/glacier-point-gift-shop-and-snack-stand.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "EAB59B1F-2FA1-4545-A322-2C19149AF7FC",
+        "name": "Wheelchair Accessible",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Wawona Gas Station",
+                "id": "11A42DA0-F68D-49A8-8434-E7C995D62B02",
+                "url": "https://www.nps.gov/places/000/wawona-gas-station.htm"
+              },
+              {
+                "title": "Mariposa Grove Welcome Plaza & Parking",
+                "id": "98D52B68-D223-4125-8638-374DF9F071E8",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-welcome-plaza.htm"
+              },
+              {
+                "title": "Mariposa Grove Picnic Area",
+                "id": "160CE84B-C6BD-4E46-BEC8-8886F636779D",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-picnic-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 19: Curry Village Westbound",
+                "id": "45977689-1EBC-4DE5-AB80-389247C56EFC",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-19-curry-village-westbound.htm"
+              },
+              {
+                "title": "Cook's Meadow Loop Trailhead",
+                "id": "13374ED7-ADF9-4A78-9DAF-546A346BFFC1",
+                "url": "https://www.nps.gov/places/000/cooks-meadow-loop-trailhead.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Picnic Area",
+                "id": "67E37CF2-FD92-44F6-AA9F-5B4173A49155",
+                "url": "https://www.nps.gov/places/000/yosemite-falls-picnic-area.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 8: El Capitan Picnic Area",
+                "id": "7748D30B-35A2-4108-88D4-AB1D99A6E959",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-8-el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "El Capitan Picnic Area",
+                "id": "32CB2FFE-5A99-4E44-9716-48B2C2E9EF54",
+                "url": "https://www.nps.gov/places/000/el-capitan-picnic-area.htm"
+              },
+              {
+                "title": "Valley View",
+                "id": "1294926D-DDE1-4384-93FD-9B1FF9B39C54",
+                "url": "https://www.nps.gov/places/000/valley-view.htm"
+              },
+              {
+                "title": "Sentinel Beach",
+                "id": "00415454-F93C-4D58-B612-BFC81442F17A",
+                "url": "https://www.nps.gov/places/000/sentinel-beach.htm"
+              },
+              {
+                "title": "Swinging Bridge",
+                "id": "A62E49B1-1A50-4455-A05E-A32D6E728EDA",
+                "url": "https://www.nps.gov/places/000/swinging-bridge.htm"
+              },
+              {
+                "title": "Yosemite Chapel",
+                "id": "E5196218-9916-4945-AA25-318DBD039734",
+                "url": "https://www.nps.gov/places/000/yosemite-chapel.htm"
+              },
+              {
+                "title": "Housekeeping Camp",
+                "id": "AA1A9D66-A066-4D65-943F-8128503C8A5E",
+                "url": "https://www.nps.gov/places/000/housekeeping-camp.htm"
+              },
+              {
+                "title": "Happy Isles Art and Nature Center",
+                "id": "53A50524-D1F7-426C-A400-40FD5A031697",
+                "url": "https://www.nps.gov/places/000/happy-isles-art-and-nature-center.htm"
+              },
+              {
+                "title": "View of Mirror Lake",
+                "id": "72BC1EF4-B2E6-4389-A4ED-75EAB0B2A812",
+                "url": "https://www.nps.gov/places/000/mirror-lake.htm"
+              },
+              {
+                "title": "Sentinel Bridge",
+                "id": "E81278CA-5F4A-43E0-B322-415383AE59F1",
+                "url": "https://www.nps.gov/places/000/sentinel-bridge.htm"
+              },
+              {
+                "title": "Hetch Hetchy Reservoir - O'Shaughnessy Dam",
+                "id": "434AB068-4748-4183-84CB-991F14A7D851",
+                "url": "https://www.nps.gov/places/000/hetch-hetchy-reservoir-oshaughnessy-dam.htm"
+              },
+              {
+                "title": "The Cascades Picnic Area",
+                "id": "73848773-01B4-43DA-9BA6-E5F47F4EA097",
+                "url": "https://www.nps.gov/places/000/the-cascades-picnic-area.htm"
+              },
+              {
+                "title": "El Portal Gas Station and Market",
+                "id": "42BD412A-6930-45C8-BF75-A4F9B49C19C5",
+                "url": "https://www.nps.gov/places/000/el-portal-gas-station.htm"
+              },
+              {
+                "title": "Village Store",
+                "id": "7F16EDB6-00D0-41E2-B8F4-FB4956D06EF9",
+                "url": "https://www.nps.gov/places/000/village-store.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 4: Degnan's Kitchen",
+                "id": "8CCEFF34-4423-4549-8D12-D4E9F68E37C2",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-4-degnans-kitchen.htm"
+              },
+              {
+                "title": "Degnan's Kitchen",
+                "id": "666DD439-2FE0-4104-8671-4CA5F79C8D80",
+                "url": "https://www.nps.gov/places/000/degnans-kitchen.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center Theater",
+                "id": "56B19C0A-D351-4E9F-8F19-BC51F1A6816A",
+                "url": "https://www.nps.gov/places/000/yosemite-theater.htm"
+              },
+              {
+                "title": "Yosemite Museum",
+                "id": "4ABADDC4-7B8C-4CFE-97A7-FE09CAAB9B01",
+                "url": "https://www.nps.gov/places/000/yosemite-museum.htm"
+              },
+              {
+                "title": "Glacier Point",
+                "id": "1801B522-B546-4743-9358-8901C77295E3",
+                "url": "https://www.nps.gov/places/000/glacier-point.htm"
+              },
+              {
+                "title": "Washburn Point",
+                "id": "2DE7B79F-E989-473E-850F-6796FC26EC99",
+                "url": "https://www.nps.gov/places/000/washburn-point.htm"
+              },
+              {
+                "title": "Olmsted Point",
+                "id": "0EA6B210-FF01-4A6D-9AB7-6CF5C94D18C9",
+                "url": "https://www.nps.gov/places/000/olmsted-point.htm"
+              },
+              {
+                "title": "White Wolf Lodge",
+                "id": "012B2BD2-F17B-49DE-9EC8-206D7DA9527C",
+                "url": "https://www.nps.gov/places/000/white-wolf-lodge.htm"
+              },
+              {
+                "title": "YARTS Stop:  Yosemite Valley Lodge",
+                "id": "7C3E53AB-3E41-411D-B98A-296AA58DC31E",
+                "url": "https://www.nps.gov/places/000/yarts-stop-yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "YARTS Stop:  Curry Village",
+                "id": "0FD7B5AA-94E6-467B-B02C-C676C7A0AB24",
+                "url": "https://www.nps.gov/places/000/yarts-stop-curry-village.htm"
+              },
+              {
+                "title": "Crane Flat Gas Station",
+                "id": "52F672CE-BCDD-4A62-AFDE-6475E94DABC7",
+                "url": "https://www.nps.gov/places/000/crane-flat-gas-station.htm"
+              },
+              {
+                "title": "YARTS Stop:  Big Oak Flat",
+                "id": "79246747-647E-47CC-97F4-D22972FAED25",
+                "url": "https://www.nps.gov/places/000/yarts-stop-big-oak-flat.htm"
+              },
+              {
+                "title": "Wawona Golf Shop",
+                "id": "7B2CF417-3016-4FE6-A37E-451AF69A77A6",
+                "url": "https://www.nps.gov/places/000/wawona-golf-shop.htm"
+              },
+              {
+                "title": "Tunnel View",
+                "id": "150D64BB-3423-4FED-9379-3AAB21FB3CF8",
+                "url": "https://www.nps.gov/places/000/tunnel-view.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge Bike Stand",
+                "id": "A79C8321-F543-4DB3-B3CD-35E2CA1ADEBE",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge-bike-stand.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 7: Yosemite Valley Lodge/Yosemite Falls Parking",
+                "id": "35568834-ADCB-4755-B347-72EC5714CAB6",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-shuttle-stop-7-yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Grizzly Giant Trailhead (Accessible)",
+                "id": "E52A17A0-4EFC-4401-979E-6090295BF2A6",
+                "url": "https://www.nps.gov/places/000/grizzly-giant-trailhead-accessible.htm"
+              },
+              {
+                "title": "Mariposa Grove Shuttle Stop 1: Arrival Area and Trailhead",
+                "id": "9ED794F0-6720-41D8-B0FC-0E2C2E43EEEE",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-shuttle-stop-1-arrival-area-trailhead.htm"
+              },
+              {
+                "title": "Mariposa Grove Shuttle Stop 2: Welcome Plaza and Parking",
+                "id": "5D186746-DEDB-4354-AB4F-BDF8EF5C213F",
+                "url": "https://www.nps.gov/places/000/mariposa-grove-shuttle-stop-2-welcome-plaza-parking.htm"
+              },
+              {
+                "title": "YARTS Stop:  White Wolf Lodge",
+                "id": "ADABACDB-55C3-4821-9429-49C57B54A16B",
+                "url": "https://www.nps.gov/places/000/yarts-stop-white-wolf-lodge.htm"
+              },
+              {
+                "title": "Wawona Hotel",
+                "id": "B35CA288-D30C-4024-928E-A1C5B68245FE",
+                "url": "https://www.nps.gov/places/000/wawona-hotel.htm"
+              },
+              {
+                "title": "Yosemite Village Post Office",
+                "id": "1F100599-8F41-4F4F-9C93-1BA5EB459466",
+                "url": "https://www.nps.gov/places/000/yosemite-village-post-office.htm"
+              },
+              {
+                "title": "Yosemite Valley Wilderness Center",
+                "id": "258AB246-6A84-4BCE-BD87-8558B5967FC8",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-wilderness-center.htm"
+              },
+              {
+                "title": "The Ansel Adams Gallery",
+                "id": "95D19B3A-920E-49EA-B35F-0D94B9CF273B",
+                "url": "https://www.nps.gov/places/000/the-ansel-adams-gallery.htm"
+              },
+              {
+                "title": "YARTS Stop: Yosemite Village",
+                "id": "9ADA9248-6F4D-45E3-85A6-65BF2684BB7E",
+                "url": "https://www.nps.gov/places/000/yarts-stop-yosemite-village.htm"
+              },
+              {
+                "title": "Mariposa County Library: Yosemite Branch",
+                "id": "F5FC3ECD-77E8-45EF-BF5E-7F3A79146A38",
+                "url": "https://www.nps.gov/places/000/mariposa-county-library-yosemite-branch.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 6: Lower Yosemite Fall",
+                "id": "0BD89689-1517-4642-A1F4-84E4FC877FD0",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-6-lower-yosemite-fall.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Viewing Area",
+                "id": "6E5D81DB-08DC-4B22-9893-9A0C9514A0B7",
+                "url": "https://www.nps.gov/places/000/yosemite-falls.htm"
+              },
+              {
+                "title": "Lower Yosemite Fall Trailhead",
+                "id": "B1B4A158-95CE-4526-AE28-5916D7AF7547",
+                "url": "https://www.nps.gov/places/000/lower-yosemite-fall-trailhead.htm"
+              },
+              {
+                "title": "YARTS Stop:  Tuolumne Meadows Visitor Center",
+                "id": "850D4F85-558E-4115-AAF9-0FE91DA3D50D",
+                "url": "https://www.nps.gov/places/000/yarts-stop-tuolumne-meadows-visitor-center.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 16: Happy Isles",
+                "id": "50988D1C-F029-40FF-8334-AEA62E188D14",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-16-happy-isles.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 17: Mirror Lake Trailhead",
+                "id": "4F2A9C4E-F31D-4326-A3E2-2106C0043CFE",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-17-mirror-lake-trailhead.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 18: Lower Pines Campground",
+                "id": "E0A3F155-6637-4981-B2EA-B0E26366AF34",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-18-lower-pines-campground.htm"
+              },
+              {
+                "title": "Curry Village Parking",
+                "id": "5961B9A4-68E5-41EF-98AB-D874EE76084B",
+                "url": "https://www.nps.gov/places/000/curry-village-parking.htm"
+              },
+              {
+                "title": "Curry Village",
+                "id": "72A15C13-951C-4E3B-86F4-DD440ADD48B9",
+                "url": "https://www.nps.gov/places/000/curry-village.htm"
+              },
+              {
+                "title": "Glacier Point Gift Shop and Snack Stand",
+                "id": "0816E334-8DE6-41E5-A6BA-693F18C36ED3",
+                "url": "https://www.nps.gov/places/000/glacier-point-gift-shop-and-snack-stand.htm"
+              },
+              {
+                "title": "The Ahwahnee",
+                "id": "23CD1135-0989-47CE-8896-9A910E7B1FAA",
+                "url": "https://www.nps.gov/places/000/the-ahwahnee.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 3: The Ahwahnee",
+                "id": "5FA6A39A-EDEB-4781-A347-E8FE55AFA395",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-3-the-ahwahnee.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 12: Housekeeping Camp and Yosemite Conservation Heritage Center",
+                "id": "A17BE531-246B-448D-B069-6997234AD2A3",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-12-yosemite-conservation-heritage-center-housekeeping-camp.htm"
+              },
+              {
+                "title": "Church Bowl Picnic Area",
+                "id": "5999D822-1ADB-459E-B927-2127F3841080",
+                "url": "https://www.nps.gov/places/000/church-bowl-picnic-area.htm"
+              },
+              {
+                "title": "Yosemite Medical Clinic",
+                "id": "3F480585-B331-410D-8BF9-48FAB18D55B6",
+                "url": "https://www.nps.gov/places/000/yosemite-medical-clinic.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 1: Yosemite Village Parking",
+                "id": "932FB43B-5702-4031-B834-8FC6C7ABA3DA",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-1-yosemite-village-parking.htm"
+              },
+              {
+                "title": "Village Grill",
+                "id": "3EED778E-F5F9-4718-A0EF-F3E11614F656",
+                "url": "https://www.nps.gov/places/000/village-grill.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 2: Welcome Center",
+                "id": "0E232928-6A5C-4EA6-AEBA-FEAA350DD77C",
+                "url": "https://www.nps.gov/places/000/valleywide-shuttle-stop-2-yosemite-village.htm"
+              },
+              {
+                "title": "Curry Village Bike Stand",
+                "id": "A1B4D53E-F057-426F-91D0-C382778D8141",
+                "url": "https://www.nps.gov/places/000/curry-village-bike-stand.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Lodge",
+                "id": "442F0A62-800B-47A6-9B2C-4F4D62D5123D",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-lodge.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Wilderness Center",
+                "id": "E9EFEDA4-CCA0-475C-8873-0162BEB6BB7E",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-wilderness-center.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Store",
+                "id": "EA039306-BFAB-4162-ACA8-B0F0D66EE3A5",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-store.htm"
+              },
+              {
+                "title": "YARTS Stop: Tuolumne Meadows Store",
+                "id": "B0A4572D-8096-4E34-A067-F9F70E42752D",
+                "url": "https://www.nps.gov/places/000/yarts-stop-tuolumne-meadows-store.htm"
+              },
+              {
+                "title": "Tuolumne Meadows Post Office",
+                "id": "E0AE867C-909A-45F9-847E-31BBCACDA382",
+                "url": "https://www.nps.gov/places/000/tuolumne-meadows-post-office.htm"
+              },
+              {
+                "title": "Valley Shuttle Stop 5: Exploration Center",
+                "id": "5D4DC73D-C1ED-4DD7-90FB-A0367BAC661E",
+                "url": "https://www.nps.gov/places/000/valley-shuttle-stop-5-yosemite-valley-visitor-center-and-museum.htm"
+              },
+              {
+                "title": "YARTS Stop:  Crane Flat Gas Station",
+                "id": "D522930F-A298-408E-B4D9-7C330958E8AC",
+                "url": "https://www.nps.gov/places/000/yarts-stop-crane-flat-gas-station.htm"
+              },
+              {
+                "title": "YARTS Stop: Wawona Store",
+                "id": "30CB47FB-B987-4119-BE71-387C80E61606",
+                "url": "https://www.nps.gov/places/000/yarts-stop-wawona-store.htm"
+              },
+              {
+                "title": "YARTS Stop:  Mariposa Grove of Giant Sequoias",
+                "id": "174101C3-6A21-40E1-897E-E580B4661E20",
+                "url": "https://www.nps.gov/places/000/yarts-stop-mariposa-grove-of-giant-sequoias.htm"
+              },
+              {
+                "title": "Wawona Wilderness Center at Hill's Studio",
+                "id": "AD0B7336-773C-4AFE-A5D5-30C952F88200",
+                "url": "https://www.nps.gov/places/000/wawona-wilderness-center-at-hills-studio.htm"
+              },
+              {
+                "title": "Wilderness Center at Big Oak Flat Information Station",
+                "id": "2F13EAC9-56CA-49D5-918D-EF8110DDC7CD",
+                "url": "https://www.nps.gov/places/000/wilderness-center-at-big-oak-flat-information-station.htm"
+              },
+              {
+                "title": "Yosemite Exploration Center",
+                "id": "5281E120-CA6C-4E49-B588-4A37B67847A8",
+                "url": "https://www.nps.gov/places/yosemite-exploration-center.htm"
+              },
+              {
+                "title": "Chinese Laundry",
+                "id": "7E8BD227-F49A-4BF4-8D40-B32EBA399069",
+                "url": "https://www.nps.gov/places/chinese-laundry.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "1CF3D18E-C6A7-4462-9990-86B59383A9C3",
+        "name": "Wheelchairs Available",
+        "parks": [
+          {
+            "states": "CA",
+            "designation": "National Park",
+            "parkCode": "yose",
+            "fullName": "Yosemite National Park",
+            "places": [
+              {
+                "title": "Yosemite Valley Lodge",
+                "id": "D2F18A22-E3BA-48AB-8BCB-04F5C272E02E",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge.htm"
+              },
+              {
+                "title": "Yosemite Valley Lodge Bike Stand",
+                "id": "A79C8321-F543-4DB3-B3CD-35E2CA1ADEBE",
+                "url": "https://www.nps.gov/places/000/yosemite-valley-lodge-bike-stand.htm"
+              },
+              {
+                "title": "Curry Village Bike Stand",
+                "id": "A1B4D53E-F057-426F-91D0-C382778D8141",
+                "url": "https://www.nps.gov/places/000/curry-village-bike-stand.htm"
+              }
+            ],
+            "url": "http://www.nps.gov/yose/",
+            "name": "Yosemite"
+          }
+        ]
+      }
+    ]
+  ]
+}

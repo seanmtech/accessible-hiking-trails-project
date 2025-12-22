@@ -2,6 +2,10 @@ import os
 import json
 import requests
 import sys
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configuration
 API_KEY = os.environ.get("NPS_API_KEY")

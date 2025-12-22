@@ -7,11 +7,11 @@
 ## ✅ Immediate MVP Polish
 
 ### 🔧 Project Maintenance
-- [ ] Create a `README.md` with:
-  - [ ] Setup instructions
-  - [ ] Data fetching flow
-  - [ ] Build + deploy commands
-  - [ ] Contribution guide for yourself/collaborators
+- [x] Create a `README.md` with:
+  - [x] Setup instructions
+  - [x] Data fetching flow
+  - [x] Build + deploy commands
+  - [x] Contribution guide for yourself/collaborators
 
 - [ ] Add a Python script `scripts/validate_data.py` that:
   - [ ] Validates `parks.json` against schema
@@ -20,6 +20,13 @@
   - [ ] Returns non-zero exit if validation fails
 
 - [ ] Add GitHub Action to run `validate_data.py` on every pull request
+
+### 🧠 Data Deep Dive (New)
+- [ ] Implement "Deep Dive" accessibility fetching in `fetch_nps.py`:
+  - [ ] Query `/amenities/parksplaces` for "Wheelchair Accessible"
+  - [ ] Categorize places into Trails, Parking, Camping, Lodging
+  - [ ] Update `parks.json` schema
+- [ ] Update Frontend to display detailed accessibility lists
 
 - [ ] Run full NPS import via `fetch_nps.py` using your API key
   - [ ] Save updated dataset to `data/parks.json`
