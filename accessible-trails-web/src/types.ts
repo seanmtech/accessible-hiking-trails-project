@@ -18,14 +18,15 @@ export interface Park {
   state: string;
   lat: number;
   lon: number;
-  accessible_restrooms: boolean;
-  accessible_parking: boolean;
-  accessible_trails: boolean;
+  accessible_restrooms: boolean | null;
+  accessible_parking: boolean | null;
+  accessible_trails: boolean | null;
   source: 'nps' | 'manual' | 'osm';
   affiliate_links: {
     gear: string | null;
     lodging: string | null;
   };
   status: 'verified' | 'needs_review';
+  reviewer_notes?: string;
   accessibility_details?: AccessibilityDetails;
 }

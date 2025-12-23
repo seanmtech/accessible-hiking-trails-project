@@ -1,8 +1,9 @@
 ---
 interface Props {
   items: {
-    label: string;
+    name: string;
     href: string;
+    current?: boolean;
   }[];
 }
 
@@ -14,7 +15,7 @@ const schema = {
   "itemListElement": items.map((item, index) => ({
     "@type": "ListItem",
     "position": index + 1,
-    "name": item.label,
+    "name": item.name,
     "item": `https://accessibleoutdoors.com${item.href}` // Replace with actual domain later
   }))
 };
@@ -23,19 +24,18 @@ const schema = {
 <nav aria-label="Breadcrumb" class="mb-4">
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   <ol class="flex flex-wrap items-center gap-2 text-sm text-gray-600">
-    <li>
-      <a href="/" class="hover:text-green-700 hover:underline transition-colors">Home</a>
-    </li>
     {items.map((item, index) => (
       <li class="flex items-center gap-2">
-        <span class="text-gray-400" aria-hidden="true">/</span>
-        {index === items.length - 1 ? (
+        {index > 0 && (
+          <span class="text-gray-400" aria-hidden="true">/</span>
+        )}
+        {item.current ? (
           <span class="font-medium text-gray-900" aria-current="page">
-            {item.label}
+            {item.name}
           </span>
         ) : (
           <a href={item.href} class="hover:text-green-700 hover:underline transition-colors">
-            {item.label}
+            {item.name}
           </a>
         )}
       </li>

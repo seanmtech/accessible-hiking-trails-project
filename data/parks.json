@@ -64,7 +64,8 @@
           "url": "https://www.nps.gov/places/acadia-gateway-center.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "arch",
@@ -106,7 +107,8 @@
           "url": "https://www.nps.gov/places/panorama-point-viewing-area.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "badl",
@@ -208,7 +210,8 @@
       ],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "bibe",
@@ -408,7 +411,8 @@
           "url": "https://www.nps.gov/places/time-capsule-exhibit.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "bisc",
@@ -432,7 +436,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "blca",
@@ -466,7 +471,8 @@
           "url": "https://www.nps.gov/places/overlook_sunsetview.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "brca",
@@ -577,7 +583,8 @@
           "url": "https://www.nps.gov/places/bryce-canyon-association-bookstore.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "cany",
@@ -611,7 +618,8 @@
           "url": "https://www.nps.gov/places/green-river-overlook.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "care",
@@ -640,7 +648,8 @@
           "url": "https://www.nps.gov/places/petroglyph-panel.htm"
         }
       ]
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "cave",
@@ -669,7 +678,8 @@
           "url": "https://www.nps.gov/places/rattlesnake-springs.htm"
         }
       ]
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "chis",
@@ -693,7 +703,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "cong",
@@ -717,7 +728,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "crla",
@@ -763,7 +775,8 @@
           "url": "https://www.nps.gov/places/goodbye-picnic-area.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "cuva",
@@ -1027,7 +1040,8 @@
           "url": "https://www.nps.gov/places/old-canal-bed-panel.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "deva",
@@ -1093,7 +1107,8 @@
           "url": "https://www.nps.gov/places/salt-creek.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "dena",
@@ -1139,7 +1154,8 @@
           "url": "https://www.nps.gov/places/dena-park-store-morino-grill.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "drto",
@@ -1181,7 +1197,8 @@
       ],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "ever",
@@ -1293,7 +1310,8 @@
           "url": "https://www.nps.gov/places/hm-69-mosquito-painting.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "gaar",
@@ -1317,7 +1335,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "jeff",
@@ -1350,7 +1369,8 @@
       ],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "glba",
@@ -1379,7 +1399,8 @@
       ],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "glac",
@@ -1499,7 +1520,8 @@
           "url": "https://www.nps.gov/places/st-mary-visitor-center-geology-tour.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "grca",
@@ -1807,7 +1829,8 @@
           "url": "https://www.nps.gov/places/000/village-amphitheater.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "grte",
@@ -2253,7 +2276,8 @@
           "url": "https://www.nps.gov/places/moose-orientation.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "grba",
@@ -2305,7 +2329,8 @@
           "url": "https://www.nps.gov/places/wheeler-overlook.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "grsa",
@@ -2329,7 +2354,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "grsm",
@@ -2374,7 +2400,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "gumo",
@@ -2420,7 +2447,8 @@
           "url": "https://www.nps.gov/places/gumo_frijoleranch_orchard.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "hale",
@@ -2453,7 +2481,8 @@
           "url": "https://www.nps.gov/places/puuulaula.htm"
         }
       ]
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "havo",
@@ -2520,7 +2549,8 @@
           "url": "https://www.nps.gov/places/puupuai.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "hosp",
@@ -2579,7 +2609,8 @@
           "url": "https://www.nps.gov/places/ozark-bathhouse.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "indu",
@@ -2658,7 +2689,8 @@
       ],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "isro",
@@ -2687,7 +2719,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "jotr",
@@ -2756,7 +2789,8 @@
           "url": "https://www.nps.gov/places/orientation-cottonwood-visitor-center.htm"
         }
       ]
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "katm",
@@ -2789,7 +2823,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "kefj",
@@ -2830,7 +2865,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "kova",
@@ -2879,7 +2915,8 @@
           "url": "https://www.nps.gov/places/lingonberry-at-western-arctic-national-parklands.htm"
         }
       ]
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "lacl",
@@ -2903,7 +2940,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "lavo",
@@ -2950,7 +2988,8 @@
           "url": "https://www.nps.gov/places/devastated-area.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "maca",
@@ -2992,7 +3031,8 @@
           "url": "https://www.nps.gov/places/mammoth-cave-park-store.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "meve",
@@ -3086,7 +3126,8 @@
       ],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "mora",
@@ -3149,7 +3190,8 @@
           "url": "https://www.nps.gov/places/white-river-picnic-area.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "neri",
@@ -3182,7 +3224,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "noca",
@@ -3220,7 +3263,8 @@
           "url": "https://www.nps.gov/places/gorge-creek-falls.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "olym",
@@ -3481,7 +3525,8 @@
           "url": "https://www.nps.gov/places/000/staircase-ranger-station.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "pefo",
@@ -3621,7 +3666,8 @@
           "url": "https://www.nps.gov/places/tawa-point.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "pinn",
@@ -3659,7 +3705,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "romo",
@@ -3683,7 +3730,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "sagu",
@@ -3745,7 +3793,8 @@
           "url": "https://www.nps.gov/places/you-are-here-poetry-in-parks-at-mica-view-picnic-area.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "seki",
@@ -3998,7 +4047,8 @@
           "url": "https://www.nps.gov/places/moro-rock-shuttle-stop.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "shen",
@@ -4130,7 +4180,8 @@
           "url": "https://www.nps.gov/places/000/big-meadows-picnic-grounds.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "thro",
@@ -4172,7 +4223,8 @@
           "url": "https://www.nps.gov/places/skyline-vista.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "viis",
@@ -4223,7 +4275,8 @@
           "url": "https://www.nps.gov/places/maho-beach.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "voya",
@@ -4268,7 +4321,8 @@
       "lodging": [],
       "restrooms": [],
       "general": []
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "whsa",
@@ -4444,7 +4498,8 @@
           "url": "https://www.nps.gov/places/cruise-the-dunes.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "wica",
@@ -4477,7 +4532,8 @@
           "url": "https://www.nps.gov/places/wind-cave-national-park-store.htm"
         }
       ]
-    }
+    },
+    "data_status": "unknown"
   },
   {
     "id": "wrst",
@@ -4527,7 +4583,8 @@
           "url": "https://www.nps.gov/places/exhibit-hall.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "yell",
@@ -4975,7 +5032,8 @@
           "url": "https://www.nps.gov/places/albright-backcountry-office.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "yose",
@@ -5320,7 +5378,8 @@
           "url": "https://www.nps.gov/places/chinese-laundry.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   },
   {
     "id": "zion",
@@ -5387,6 +5446,7 @@
           "url": "https://www.nps.gov/places/a-living-canyon.htm"
         }
       ]
-    }
+    },
+    "data_status": "complete"
   }
 ]

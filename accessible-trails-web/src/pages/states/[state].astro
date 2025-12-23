@@ -4,6 +4,7 @@ import LocationCard from '../../components/LocationCard.astro';
 import FilterPanel from '../../components/FilterPanel.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import SupportWidget from '../../components/SupportWidget.astro';
 import parksData from '../../../../data/parks.json';
 import type { Park } from '../../types';
 
@@ -53,19 +54,28 @@ const jsonLd = {
 
 <Layout title={`Accessible Parks in ${stateName}`} showSidebar={true}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-  <div slot="sidebar" class="space-y-8">
-    <div class="sticky top-24">
+  <div slot="sidebar" class="sticky top-24 space-y-8">
       <FilterPanel />
-      <div class="mt-8">
+      <div>
         <AdSlot id={`sidebar-ad-${stateName}`} format="vertical" />
       </div>
-    </div>
+      <SupportWidget />
   </div>
 
   <div class="mb-6">
     <Breadcrumbs items={breadcrumbs} />
     <h1 class="text-3xl font-bold text-gray-900 mt-4">Accessible Parks in {stateName}</h1>
-    <p class="text-gray-600 mt-2">Found {parks.length} locations</p>
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-2">
+      <p class="text-gray-600">Found {parks.length} locations</p>
+      <div class="flex items-center gap-2">
+        <label for="sort-select" class="text-sm font-medium text-gray-700">Sort by:</label>
+        <select id="sort-select" class="p-2 border border-gray-300 rounded text-sm focus:ring-green-500 focus:border-green-500">
+          <option value="name">A-Z</option>
+          <option value="closest">Closest</option>
+          <option value="accessible">Most Accessible</option>
+        </select>
+      </div>
+    </div>
   </div>
 
   <div class="space-y-6" id="parks-list">
@@ -76,6 +86,9 @@ const jsonLd = {
           data-restrooms={park.accessible_restrooms}
           data-parking={park.accessible_parking}
           data-trails={park.accessible_trails}
+          data-lat={park.lat}
+          data-lon={park.lon}
+          data-name={park.name}
         >
           <LocationCard park={park} />
         </div>
@@ -95,42 +108,146 @@ const jsonLd = {
 </Layout>
 
 <script>
-  function filterParks() {
+  let userLat: number | null = null;
+  let userLon: number | null = null;
+
+  function getDistanceFromLatLonInMiles(lat1: number, lon1: number, lat2: number, lon2: number) {
+    const R = 3958.8; // Radius of the earth in miles
+    const dLat = deg2rad(lat2 - lat1);
+    const dLon = deg2rad(lon2 - lon1);
+    const a =
+      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    const d = R * c; // Distance in miles
+    return d;
+  }
+
+  function deg2rad(deg: number) {
+    return deg * (Math.PI / 180);
+  }
+
+  function filterAndSortParks() {
     const urlParams = new URLSearchParams(window.location.search);
     const requireRestrooms = urlParams.has('accessible_restrooms');
     const requireParking = urlParams.has('accessible_parking');
     const requireTrails = urlParams.has('accessible_trails');
+    const maxDistance = urlParams.get('max_distance') ? parseFloat(urlParams.get('max_distance')!) : null;
+    const sortOption = (document.getElementById('sort-select') as HTMLSelectElement).value;
 
-    const parkItems = document.querySelectorAll('.park-item');
+    const container = document.getElementById('parks-list');
+    if (!container) return;
+
+    // Separate parks and ads
+    const children = Array.from(container.children);
+    const ads = children.filter(c => !c.classList.contains('park-item'));
+    const parkItems = children.filter(c => c.classList.contains('park-item')) as HTMLElement[];
+    
     let visibleCount = 0;
 
-    parkItems.forEach((item) => {
-      const el = item as HTMLElement;
+    // Filter
+    const visibleParks = parkItems.filter((el) => {
       const hasRestrooms = el.dataset.restrooms === 'true';
       const hasParking = el.dataset.parking === 'true';
       const hasTrails = el.dataset.trails === 'true';
+      const lat = parseFloat(el.dataset.lat || '0');
+      const lon = parseFloat(el.dataset.lon || '0');
 
-      let isVisible = true;
-      if (requireRestrooms && !hasRestrooms) isVisible = false;
-      if (requireParking && !hasParking) isVisible = false;
-      if (requireTrails && !hasTrails) isVisible = false;
+      if (requireRestrooms && !hasRestrooms) return false;
+      if (requireParking && !hasParking) return false;
+      if (requireTrails && !hasTrails) return false;
 
-      if (isVisible) {
-        el.style.display = 'block';
-        visibleCount++;
-      } else {
-        el.style.display = 'none';
+      if (maxDistance !== null && userLat !== null && userLon !== null) {
+        const distance = getDistanceFromLatLonInMiles(userLat, userLon, lat, lon);
+        if (distance > maxDistance) return false;
       }
+
+      return true;
     });
 
+    // Sort
+    visibleParks.sort((a, b) => {
+      if (sortOption === 'name') {
+        return (a.dataset.name || '').localeCompare(b.dataset.name || '');
+      } else if (sortOption === 'closest') {
+        if (userLat === null || userLon === null) return 0;
+        const latA = parseFloat(a.dataset.lat || '0');
+        const lonA = parseFloat(a.dataset.lon || '0');
+        const latB = parseFloat(b.dataset.lat || '0');
+        const lonB = parseFloat(b.dataset.lon || '0');
+        const distA = getDistanceFromLatLonInMiles(userLat, userLon, latA, lonA);
+        const distB = getDistanceFromLatLonInMiles(userLat, userLon, latB, lonB);
+        return distA - distB;
+      } else if (sortOption === 'accessible') {
+        const scoreA = (a.dataset.restrooms === 'true' ? 1 : 0) + (a.dataset.parking === 'true' ? 1 : 0) + (a.dataset.trails === 'true' ? 1 : 0);
+        const scoreB = (b.dataset.restrooms === 'true' ? 1 : 0) + (b.dataset.parking === 'true' ? 1 : 0) + (b.dataset.trails === 'true' ? 1 : 0);
+        return scoreB - scoreA;
+      }
+      return 0;
+    });
+
+    // Re-construct DOM
+    // We detach all parks first (ads are already detached from our list logic effectively if we clear container)
+    // Actually, to preserve ad state, we should try not to remove them if possible, but re-ordering requires it.
+    // Let's just clear and re-append.
+    
+    // Hide all parks first (so we don't lose them if we don't append them)
+    parkItems.forEach(p => p.style.display = 'none');
+    
+    // We need to put them back in order.
+    // We can't easily "clear" without losing the elements references if we are not careful.
+    // But we have references in `parkItems` and `ads`.
+    
+    // Let's try to just re-order the visible parks and hide the invisible ones.
+    // And we'll leave ads where they are? No, that looks bad.
+    
+    // Let's go with the "re-append" strategy.
+    // Note: This might reload ads.
+    
+    // Remove all children from container
+    while (container.firstChild) {
+      container.removeChild(container.firstChild);
+    }
+    
+    let adIndex = 0;
+    visibleParks.forEach((park, index) => {
+      park.style.display = 'block';
+      container.appendChild(park);
+      visibleCount++;
+      
+      // Insert ad every 5 items
+      if ((index + 1) % 5 === 0 && adIndex < ads.length) {
+        container.appendChild(ads[adIndex]);
+        adIndex++;
+      }
+    });
+    
+    // Append remaining ads? No, usually ads are interspersed.
+    // If we have fewer results, we show fewer ads.
+    
     const noResults = document.getElementById('no-results');
     if (noResults) {
       noResults.style.display = visibleCount === 0 ? 'block' : 'none';
     }
   }
 
+  // Initialize
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition((position) => {
+      userLat = position.coords.latitude;
+      userLon = position.coords.longitude;
+      filterAndSortParks();
+    }, (error) => {
+      console.log("Geolocation not available or denied", error);
+    });
+  }
+
   // Run on load
-  filterParks();
+  filterAndSortParks();
+
+  // Event listeners
+  document.getElementById('sort-select')?.addEventListener('change', filterAndSortParks);
 
   // Handle clear filters button
   document.getElementById('clear-filters')?.addEventListener('click', () => {

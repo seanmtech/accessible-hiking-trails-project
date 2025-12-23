@@ -1,0 +1,118 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LocationCard from '../components/LocationCard.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import parksData from '../../../data/parks.json';
+import type { Park } from '../types';
+
+const parks = parksData as Park[];
+
+// Filter for top accessible parks
+const topParks = parks.filter(p => 
+  p.accessible_restrooms && 
+  p.accessible_parking && 
+  p.accessible_trails
+).sort((a, b) => a.name.localeCompare(b.name));
+
+// Extract unique states for filter
+const allStates = new Set<string>();
+topParks.forEach(p => {
+  p.state.split(',').forEach(s => allStates.add(s.trim()));
+});
+const states = Array.from(allStates).sort();
+
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Top Accessible Parks', href: '/top-accessible-parks', current: true }
+];
+---
+
+<Layout title="Top Accessible Parks - Fully Accessible Locations">
+  <div class="max-w-4xl mx-auto">
+    <Breadcrumbs items={breadcrumbs} />
+    
+    <div class="mb-8 mt-4">
+      <h1 class="text-3xl font-bold text-gray-900">Top Accessible Parks</h1>
+      <p class="text-gray-600 mt-2 text-lg">
+        These parks feature accessible restrooms, parking, AND trails. 
+        They are the most wheelchair-friendly destinations in our database.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+        <p class="text-sm text-gray-700 font-medium" id="count-display">Found {topParks.length} locations</p>
+        
+        <div class="flex items-center gap-2">
+          <label for="state-filter" class="text-sm font-medium text-gray-700 whitespace-nowrap">Filter by State:</label>
+          <select id="state-filter" class="w-full sm:w-auto p-2 border border-gray-300 rounded text-sm focus:ring-green-500 focus:border-green-500 bg-white">
+            <option value="all">All States</option>
+            {states.map(state => (
+              <option value={state}>{state}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-6" id="parks-list">
+      {topParks.map(park => (
+        <div class="park-item" data-state={park.state}>
+          <LocationCard park={park} />
+        </div>
+      ))}
+    </div>
+    
+    <div id="no-results" class="hidden text-center py-12 bg-gray-50 rounded-lg mt-6">
+      <p class="text-gray-600">No top-rated parks found for this state.</p>
+      <button id="clear-filter" class="mt-2 text-green-600 font-medium hover:underline">Show all parks</button>
+    </div>
+    
+    {topParks.length === 0 && (
+      <div class="text-center py-12 bg-gray-50 rounded-lg">
+        <p class="text-gray-600">No parks currently meet all criteria. Check back soon as we verify more locations!</p>
+      </div>
+    )}
+  </div>
+</Layout>
+
+<script>
+  const stateFilter = document.getElementById('state-filter') as HTMLSelectElement;
+  const parkItems = document.querySelectorAll('.park-item');
+  const countDisplay = document.getElementById('count-display');
+  const noResults = document.getElementById('no-results');
+  const clearBtn = document.getElementById('clear-filter');
+
+  function filterParks() {
+    const selectedState = stateFilter.value;
+    let visibleCount = 0;
+
+    parkItems.forEach(item => {
+      const el = item as HTMLElement;
+      const parkStates = el.dataset.state || '';
+      
+      // Check if the selected state is present in the park's state list (handles "CA, NV")
+      if (selectedState === 'all' || parkStates.includes(selectedState)) {
+        el.style.display = 'block';
+        visibleCount++;
+      } else {
+        el.style.display = 'none';
+      }
+    });
+
+    if (countDisplay) {
+      countDisplay.textContent = `Found ${visibleCount} locations`;
+    }
+    
+    if (noResults) {
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+  }
+
+  stateFilter?.addEventListener('change', filterParks);
+  
+  clearBtn?.addEventListener('click', () => {
+    if (stateFilter) {
+      stateFilter.value = 'all';
+      filterParks();
+    }
+  });
+</script>

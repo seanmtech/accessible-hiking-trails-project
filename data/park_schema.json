@@ -36,6 +36,11 @@
       "type": "boolean",
       "description": "Has paved or wheelchair-friendly trails"
     },
+    "data_status": {
+      "type": "string",
+      "enum": ["complete", "partial", "unknown"],
+      "description": "Completeness of accessibility data"
+    },
     "accessibility_details": {
       "type": "object",
       "properties": {

@@ -32,41 +32,132 @@ const { park } = Astro.props;
 
   <div class="grid grid-cols-3 gap-2 text-center mb-4">
     <!-- Restrooms -->
-    <div class={`flex flex-col items-center p-2 rounded ${park.accessible_restrooms ? 'bg-green-50 text-green-800' : 'bg-gray-50 text-gray-400'}`} title={park.accessible_restrooms ? "Accessible Restrooms Available" : "Restroom accessibility unknown or unavailable"}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
-        <path d="M9 11V6a3 3 0 1 1 6 0v5"/><path d="M6 11v-2a4 4 0 0 1 8 0v2"/><path d="M6 11h8"/><path d="M9 11v10"/><path d="M15 11v10"/>
-      </svg>
-      <span class="text-xs font-medium">Restrooms</span>
-    </div>
+    {(() => {
+      const val = park.accessible_restrooms;
+      const style = val === true ? 'bg-green-50 text-green-800 border-green-200' : 
+                    val === false ? 'bg-red-50 text-red-800 border-red-200' : 
+                    'bg-yellow-50 text-yellow-800 border-yellow-200';
+      const title = val === true ? 'Accessible Restrooms Available' : 
+                    val === false ? 'No Accessible Restrooms' : 
+                    'Restroom accessibility unknown';
+      
+      return (
+        <div class={`flex flex-col items-center p-2 rounded border ${style}`} title={title}>
+          <div class="relative">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
+              <path d="M9 11V6a3 3 0 1 1 6 0v5"/><path d="M6 11v-2a4 4 0 0 1 8 0v2"/><path d="M6 11h8"/><path d="M9 11v10"/><path d="M15 11v10"/>
+            </svg>
+            <div class="absolute -top-1 -right-2 bg-white rounded-full p-0.5 shadow-sm">
+              {val === true && <svg class="w-3 h-3 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>}
+              {val === false && <svg class="w-3 h-3 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>}
+              {(val === null || val === undefined) && <svg class="w-3 h-3 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>}
+            </div>
+          </div>
+          <span class="text-xs font-medium">Restrooms</span>
+        </div>
+      );
+    })()}
 
     <!-- Parking -->
-    <div class={`flex flex-col items-center p-2 rounded ${park.accessible_parking ? 'bg-green-50 text-green-800' : 'bg-gray-50 text-gray-400'}`} title={park.accessible_parking ? "Accessible Parking Available" : "Parking accessibility unknown or unavailable"}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
-        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/>
-      </svg>
-      <span class="text-xs font-medium">Parking</span>
-    </div>
+    {(() => {
+      const val = park.accessible_parking;
+      const style = val === true ? 'bg-green-50 text-green-800 border-green-200' : 
+                    val === false ? 'bg-red-50 text-red-800 border-red-200' : 
+                    'bg-yellow-50 text-yellow-800 border-yellow-200';
+      const title = val === true ? 'Accessible Parking Available' : 
+                    val === false ? 'No Accessible Parking' : 
+                    'Parking accessibility unknown';
+
+      return (
+        <div class={`flex flex-col items-center p-2 rounded border ${style}`} title={title}>
+          <div class="relative">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/>
+            </svg>
+            <div class="absolute -top-1 -right-2 bg-white rounded-full p-0.5 shadow-sm">
+              {val === true && <svg class="w-3 h-3 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>}
+              {val === false && <svg class="w-3 h-3 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>}
+              {(val === null || val === undefined) && <svg class="w-3 h-3 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>}
+            </div>
+          </div>
+          <span class="text-xs font-medium">Parking</span>
+        </div>
+      );
+    })()}
 
     <!-- Trails -->
-    <div class={`flex flex-col items-center p-2 rounded ${park.accessible_trails ? 'bg-green-50 text-green-800' : 'bg-gray-50 text-gray-400'}`} title={park.accessible_trails ? "Accessible Trails Available" : "Trail accessibility unknown or unavailable"}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
-        <path d="M13.73 21a2 2 0 0 1-3.46 0l-8-14A2 2 0 0 1 4 4h16a2 2 0 0 1 1.73 3l-8 14z"/>
-      </svg>
-      <span class="text-xs font-medium">Trails</span>
-    </div>
+    {(() => {
+      const val = park.accessible_trails;
+      const style = val === true ? 'bg-green-50 text-green-800 border-green-200' : 
+                    val === false ? 'bg-red-50 text-red-800 border-red-200' : 
+                    'bg-yellow-50 text-yellow-800 border-yellow-200';
+      const title = val === true ? 'Accessible Trails Available' : 
+                    val === false ? 'No Accessible Trails' : 
+                    'Trail accessibility unknown';
+
+      return (
+        <div class={`flex flex-col items-center p-2 rounded border ${style}`} title={title}>
+          <div class="relative">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mb-1">
+              <path d="M13.73 21a2 2 0 0 1-3.46 0l-8-14A2 2 0 0 1 4 4h16a2 2 0 0 1 1.73 3l-8 14z"/>
+            </svg>
+            <div class="absolute -top-1 -right-2 bg-white rounded-full p-0.5 shadow-sm">
+              {val === true && <svg class="w-3 h-3 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>}
+              {val === false && <svg class="w-3 h-3 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>}
+              {(val === null || val === undefined) && <svg class="w-3 h-3 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>}
+            </div>
+          </div>
+          <span class="text-xs font-medium">Trails</span>
+        </div>
+      );
+    })()}
   </div>
 
   <DistanceBadge lat={park.lat} lon={park.lon} />
 
-  <div class="mt-4 pt-3 border-t border-gray-100 flex justify-between items-center">
+  <div class="mt-4 pt-3 border-t border-gray-100 flex justify-between items-center feedback-container">
     <span class="text-xs text-gray-400">Was this helpful?</span>
     <div class="flex gap-2">
-      <button class="text-gray-400 hover:text-green-600 transition-colors" aria-label="Thumbs up">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+      <button class="text-gray-400 hover:text-green-600 transition-colors" aria-label="Thumbs up" data-vote="up" data-park-id={park.id}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pointer-events-none"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
       </button>
-      <button class="text-gray-400 hover:text-red-600 transition-colors" aria-label="Thumbs down">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg>
+      <button class="text-gray-400 hover:text-red-600 transition-colors" aria-label="Thumbs down" data-vote="down" data-park-id={park.id}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pointer-events-none"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"/></svg>
       </button>
     </div>
   </div>
 </article>
+
+<script>
+  // Use event delegation to handle clicks on any feedback button
+  document.addEventListener('click', async (e) => {
+    const target = e.target as HTMLElement;
+    const button = target.closest('button[data-vote]');
+    
+    if (!button) return;
+    
+    const parkId = button.getAttribute('data-park-id');
+    const vote = button.getAttribute('data-vote');
+    
+    if (!parkId || !vote) return;
+    
+    // Find the container to update UI
+    const container = button.closest('.feedback-container');
+    if (container) {
+      const buttonsContainer = container.querySelector('.flex');
+      if (buttonsContainer) {
+        buttonsContainer.innerHTML = '<span class="text-xs text-green-600 font-medium animate-pulse">Thanks!</span>';
+      }
+    }
+    
+    try {
+      await fetch('/api/feedback', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ parkId, vote })
+      });
+    } catch (err) {
+      console.error('Failed to send feedback', err);
+    }
+  });
+</script>

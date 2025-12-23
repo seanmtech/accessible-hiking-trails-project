@@ -10,14 +10,15 @@
 **Status:** ✅ Implemented
 
 **Implementation Details:**
+- **Location:** The filter interface appears on **State Listing Pages** (e.g., `/states/California`) in the sidebar.
 - **UI Component:** `FilterPanel.astro` provides a clean interface with checkboxes for:
   - Accessible Restrooms
   - Accessible Parking
   - Accessible Trails
-- **Logic:** Filtering is handled client-side in `[state].astro`.
-  - It reads URL search parameters (e.g., `?accessible_restrooms=true`).
-  - It toggles the visibility of `LocationCard` components based on their data attributes (`data-restrooms`, etc.).
-  - This ensures that users can share filtered views via URL.
+- **Logic:**
+  - Users select filters (e.g., "Accessible Restrooms").
+  - The page reloads with updated URL parameters (e.g., `?accessible_restrooms=true`), allowing for shareable links.
+  - A client-side script on the State Page reads these parameters and hides/shows park cards based on their data attributes (`data-restrooms`, etc.).
 
 ## 2. Location-Aware, Accessibility-Filtered List Views
 

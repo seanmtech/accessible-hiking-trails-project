@@ -57,17 +57,18 @@ const jsonLd = {
   </section>
 
   <!-- Category Grid -->
-  <section class="grid md:grid-cols-3 gap-6 mb-16">
+  <section class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
     {[
-      { title: 'National Parks', icon: '🌲', desc: 'Verified accessibility data for 60+ parks.' },
-      { title: 'Accessible Trails', icon: '🥾', desc: 'Paved and boardwalk trails with grade info.' },
-      { title: 'Campgrounds', icon: '⛺', desc: 'Wheelchair-friendly sites and restrooms.' }
+      { title: 'National Parks', icon: '🌲', desc: 'Verified accessibility data for 60+ parks.', href: '/states/CA' }, // Defaulting to CA for now or maybe a full list later
+      { title: 'Top Rated', icon: '🏆', desc: 'The most accessible parks with all amenities.', href: '/top-accessible-parks' },
+      { title: 'Accessible Trails', icon: '🥾', desc: 'Paved and boardwalk trails with grade info.', href: '#' },
+      { title: 'Campgrounds', icon: '⛺', desc: 'Wheelchair-friendly sites and restrooms.', href: '#' }
     ].map(cat => (
-      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-green-200 transition-all text-center group">
+      <a href={cat.href} class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-green-200 transition-all text-center group block">
         <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">{cat.icon}</div>
         <h3 class="text-xl font-bold text-gray-900 mb-2">{cat.title}</h3>
         <p class="text-gray-600">{cat.desc}</p>
-      </div>
+      </a>
     ))}
   </section>
 
