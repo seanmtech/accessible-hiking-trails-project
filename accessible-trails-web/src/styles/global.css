@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+html {
+  font-size: 18px; /* Base font size for readability */
+  line-height: 1.6;
+}
+
+body {
+  @apply text-gray-800 bg-gray-50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-gray-900 font-bold;
+  line-height: 1.2;
+}

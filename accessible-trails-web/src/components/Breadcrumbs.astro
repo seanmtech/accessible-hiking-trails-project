@@ -1,0 +1,44 @@
+---
+interface Props {
+  items: {
+    label: string;
+    href: string;
+  }[];
+}
+
+const { items } = Astro.props;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": items.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.label,
+    "item": `https://accessibleoutdoors.com${item.href}` // Replace with actual domain later
+  }))
+};
+---
+
+<nav aria-label="Breadcrumb" class="mb-4">
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <ol class="flex flex-wrap items-center gap-2 text-sm text-gray-600">
+    <li>
+      <a href="/" class="hover:text-green-700 hover:underline transition-colors">Home</a>
+    </li>
+    {items.map((item, index) => (
+      <li class="flex items-center gap-2">
+        <span class="text-gray-400" aria-hidden="true">/</span>
+        {index === items.length - 1 ? (
+          <span class="font-medium text-gray-900" aria-current="page">
+            {item.label}
+          </span>
+        ) : (
+          <a href={item.href} class="hover:text-green-700 hover:underline transition-colors">
+            {item.label}
+          </a>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>

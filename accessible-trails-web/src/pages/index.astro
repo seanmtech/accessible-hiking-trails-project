@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import AdSlot from '../components/AdSlot.astro';
 import parksData from '../../../data/parks.json';
 import type { Park } from '../types';
 
@@ -10,27 +11,130 @@ parks.forEach(park => {
   parkStates.forEach(s => allStates.add(s));
 });
 const sortedStates = Array.from(allStates).sort();
+
+// Pick a featured park (e.g., Yosemite if available, or just the first verified one)
+const featuredPark = parks.find(p => p.id === 'yose') || parks.find(p => p.status === 'verified') || parks[0];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Accessible Outdoors",
+  "description": "Discover wheelchair-accessible national parks, trails, and campgrounds in the United States.",
+  "url": Astro.url.origin
+};
 ---
 
-<Layout>
-  <main class="container mx-auto px-4 py-12 max-w-4xl">
-    <h1 class="text-4xl font-bold text-gray-900 mb-6 text-center">Accessible Outdoor Directory</h1>
-    <p class="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-      Discover wheelchair-accessible national parks, trails, and campgrounds.
+<Layout showSidebar={false}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <!-- Hero Section -->
+  <section class="text-center py-16 md:py-24 bg-gradient-to-b from-green-50 to-white rounded-3xl mb-12">
+    <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 tracking-tight">
+      The Outdoors is for <span class="text-green-700">Everyone</span>.
+    </h1>
+    <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+      Find verified wheelchair-accessible trails, campgrounds, and parking in U.S. National Parks.
     </p>
-
-    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-      <h2 class="text-2xl font-semibold mb-6">Browse by State</h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {sortedStates.map(state => (
-          <a 
-            href={`/states/${state}`}
-            class="flex items-center justify-center p-4 rounded-lg bg-gray-50 hover:bg-green-50 hover:text-green-700 hover:border-green-200 border border-transparent transition-all font-medium text-lg"
-          >
-            {state}
-          </a>
-        ))}
+    
+    <!-- Hero Search (State Dropdown for MVP) -->
+    <div class="max-w-md mx-auto relative">
+      <label for="state-search" class="sr-only">Find a park by state</label>
+      <div class="relative">
+        <select 
+          id="state-search" 
+          onchange="if(this.value) window.location.href='/states/'+this.value"
+          class="w-full p-4 pl-6 pr-12 rounded-full border-2 border-gray-200 shadow-lg text-lg appearance-none focus:border-green-500 focus:ring-green-500 bg-white cursor-pointer hover:border-green-300 transition-colors"
+        >
+          <option value="">Select a State to Explore...</option>
+          {sortedStates.map(state => (
+            <option value={state}>{state}</option>
+          ))}
+        </select>
+        <div class="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none text-green-700">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </div>
       </div>
     </div>
-  </main>
+  </section>
+
+  <!-- Category Grid -->
+  <section class="grid md:grid-cols-3 gap-6 mb-16">
+    {[
+      { title: 'National Parks', icon: '🌲', desc: 'Verified accessibility data for 60+ parks.' },
+      { title: 'Accessible Trails', icon: '🥾', desc: 'Paved and boardwalk trails with grade info.' },
+      { title: 'Campgrounds', icon: '⛺', desc: 'Wheelchair-friendly sites and restrooms.' }
+    ].map(cat => (
+      <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-green-200 transition-all text-center group">
+        <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">{cat.icon}</div>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">{cat.title}</h3>
+        <p class="text-gray-600">{cat.desc}</p>
+      </div>
+    ))}
+  </section>
+
+  <!-- Featured Slot & Ad -->
+  <section class="grid lg:grid-cols-12 gap-8 mb-16">
+    <!-- Featured Card (8 cols) -->
+    <div class="lg:col-span-8">
+      <div class="bg-gray-900 rounded-2xl overflow-hidden relative text-white shadow-xl h-full min-h-[300px] flex flex-col justify-end group">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10"></div>
+        <!-- Placeholder Image (Use a real one in prod) -->
+        <div class="absolute inset-0 bg-gray-800 group-hover:scale-105 transition-transform duration-700"></div> 
+        
+        <div class="relative z-20 p-8">
+          <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-3 inline-block">Featured Destination</span>
+          <h3 class="text-3xl font-bold mb-2">{featuredPark.name}</h3>
+          <p class="text-gray-300 mb-6 max-w-xl line-clamp-2">
+            Explore accessible trails, parking, and amenities in {featuredPark.state}. Verified data available.
+          </p>
+          <a href={`/location/${featuredPark.id}`} class="inline-flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-lg font-bold hover:bg-green-50 transition-colors">
+            View Accessibility Guide
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Display Ad (4 cols) -->
+    <div class="lg:col-span-4 flex flex-col justify-center">
+      <div class="bg-gray-50 rounded-xl p-4 border border-gray-100 h-full flex items-center justify-center">
+        <AdSlot slotId="home-featured-sidebar" format="rectangle" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Signals -->
+  <section class="bg-green-50 rounded-2xl p-8 md:p-12 mb-16 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-green-900 mb-6">Why Trust Our Data?</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="text-green-600 font-bold text-xl mb-2">NPS API Integration</div>
+        <p class="text-green-800 text-sm">We fetch data directly from the National Park Service's official database.</p>
+      </div>
+      <div>
+        <div class="text-green-600 font-bold text-xl mb-2">Python Enriched</div>
+        <p class="text-green-800 text-sm">Our algorithms parse thousands of amenity records to find hidden accessibility details.</p>
+      </div>
+      <div>
+        <div class="text-green-600 font-bold text-xl mb-2">Open Source</div>
+        <p class="text-green-800 text-sm">Our code is open for audit. We believe in transparency for accessibility.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse by State -->
+  <section>
+    <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+      <span class="text-green-600">📍</span> Browse by State
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+      {sortedStates.map(state => (
+        <a 
+          href={`/states/${state}`}
+          class="flex items-center justify-center p-3 rounded-lg bg-white border border-gray-200 hover:border-green-500 hover:shadow-md hover:text-green-700 transition-all font-medium"
+        >
+          {state}
+        </a>
+      ))}
+    </div>
+  </section>
 </Layout>

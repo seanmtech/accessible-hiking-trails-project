@@ -1,4 +1,6 @@
 ---
+import SkeletonLoader from './SkeletonLoader.astro';
+
 interface Props {
   slotId: string;
   format?: 'auto' | 'fluid' | 'rectangle';
@@ -11,10 +13,10 @@ const isDev = import.meta.env.DEV;
 
 {
   isDev ? (
-    <div class={`bg-gray-100 border-2 border-dashed border-gray-300 rounded p-4 text-center text-gray-500 text-sm ${className}`}>
-      <p class="font-mono text-xs mb-1">Ad Slot: {slotId}</p>
-      <p>Ads are hidden in development mode.</p>
-    </div>
+    <SkeletonLoader 
+      label={`Ad Slot: ${slotId}`} 
+      className={className}
+    />
   ) : (
     <div class={`ad-container ${className}`}>
       <ins class="adsbygoogle"

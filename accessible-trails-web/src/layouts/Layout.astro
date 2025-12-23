@@ -1,14 +1,17 @@
 ---
 import '../styles/global.css';
+import AdSlot from '../components/AdSlot.astro';
 
 interface Props {
   title?: string;
   description?: string;
+  showSidebar?: boolean;
 }
 
 const { 
   title = "Accessible Outdoor Recreation Directory",
-  description = "Discover wheelchair-accessible national parks, trails, and campgrounds."
+  description = "Discover wheelchair-accessible national parks, trails, and campgrounds.",
+  showSidebar = true
 } = Astro.props;
 ---
 <!doctype html>
@@ -24,17 +27,188 @@ const {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Silktide Cookie Consent -->
+    <link rel="stylesheet" id="silktide-consent-manager-css" href="/cookie-banner/silktide-consent-manager.css">
+    <script is:inline src="/cookie-banner/silktide-consent-manager.js"></script>
+    <script is:inline>
+      // Initialize dataLayer for GA4 (prevents errors if GA4 loads later)
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+
+      silktideCookieBannerManager.updateCookieBannerConfig({
+        background: {
+          showBackground: false
+        },
+        cookieIcon: {
+          position: "bottomLeft"
+        },
+        cookieTypes: [
+          {
+            id: "necessary",
+            name: "Necessary",
+            description: "<p>These cookies are necessary for the website to function properly and cannot be switched off. They help with things like logging in and setting your privacy preferences.</p>",
+            required: true,
+            onAccept: function() {
+              console.log('Add logic for the required Necessary here');
+            }
+          },
+          {
+            id: "analytics",
+            name: "Analytics",
+            description: "<p>These cookies help us improve the site by tracking which pages are most popular and how visitors move around the site.</p>",
+            defaultValue: true,
+            onAccept: function() {
+              gtag('consent', 'update', {
+                analytics_storage: 'granted',
+              });
+              dataLayer.push({
+                'event': 'consent_accepted_analytics',
+              });
+            },
+            onReject: function() {
+              gtag('consent', 'update', {
+                analytics_storage: 'denied',
+              });
+            }
+          },
+          {
+            id: "advertising",
+            name: "Advertising",
+            description: "<p>These cookies provide extra features and personalization to improve your experience. They may be set by us or by partners whose services we use.</p>",
+            onAccept: function() {
+              gtag('consent', 'update', {
+                ad_storage: 'granted',
+                ad_user_data: 'granted',
+                ad_personalization: 'granted',
+              });
+              dataLayer.push({
+                'event': 'consent_accepted_advertising',
+              });
+            },
+            onReject: function() {
+              gtag('consent', 'update', {
+                ad_storage: 'denied',
+                ad_user_data: 'denied',
+                ad_personalization: 'denied',
+              });
+            }
+          }
+        ],
+        text: {
+          banner: {
+            description: "<p>We use cookies on our site to enhance your user experience, provide personalized content, and analyze our traffic. <a href=\"/privacy\" target=\"_blank\">Privacy Policy.</a></p>",
+            acceptAllButtonText: "Accept all",
+            acceptAllButtonAccessibleLabel: "Accept all cookies",
+            rejectNonEssentialButtonText: "Reject non-essential",
+            rejectNonEssentialButtonAccessibleLabel: "Reject non-essential",
+            preferencesButtonText: "Preferences",
+            preferencesButtonAccessibleLabel: "Toggle preferences"
+          },
+          preferences: {
+            title: "Customize your cookie preferences",
+            description: "<p>We respect your right to privacy. You can choose not to allow some types of cookies. Your cookie preferences will apply across our website.</p>",
+            creditLinkText: "Get this banner for free",
+            creditLinkAccessibleLabel: "Get this banner for free"
+          }
+        },
+        position: {
+          banner: "bottomLeft"
+        }
+      });
+    </script>
+    <style is:global>
+      /* Force high contrast for Silktide buttons */
+      #silktide-consent-manager button,
+      .silktide-wrapper .st-button {
+        color: #ffffff !important;
+      }
+      /* Optional: Ensure links are visible on dark background */
+      #silktide-consent-manager a,
+      .silktide-wrapper a {
+        color: #60a5fa !important; /* Tailwind blue-400 */
+        text-decoration: underline;
+      }
+      /* Override the root variable for text color if Silktide uses it */
+      :root {
+        --textColor: #f3f4f6; /* Ensure main text is light gray */
+      }
+    </style>
 	</head>
-	<body>
-		<slot />
+	<body class="min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+      <div class="container mx-auto px-4 h-16 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold text-green-800 flex items-center gap-2">
+          <span class="text-2xl">🌲</span> Accessible Outdoors
+        </a>
+        <nav class="hidden md:flex gap-6 text-sm font-medium">
+          <a href="/" class="hover:text-green-700">Home</a>
+          <a href="/about" class="hover:text-green-700">About</a>
+          <a href="/contact" class="hover:text-green-700">Suggest a Park</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content Layout -->
+    <div class="container mx-auto px-4 py-8 flex-grow">
+      <div class={`grid gap-8 ${showSidebar ? 'lg:grid-cols-12' : ''}`}>
+        
+        <!-- Main Column (65% roughly = col-span-8) -->
+        <main class={`${showSidebar ? 'lg:col-span-8' : 'w-full'}`}>
+          <slot />
+        </main>
+
+        <!-- Sidebar Column (35% roughly = col-span-4) -->
+        {showSidebar && (
+          <aside class="lg:col-span-4 space-y-8">
+            <!-- Sticky Container -->
+            <div class="sticky top-24 space-y-8">
+              
+              <!-- Ad Unit 1 -->
+              <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+                <span class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 block">Advertisement</span>
+                <AdSlot id="sidebar-sticky-1" />
+              </div>
+
+              <!-- Optional: "Support Us" or Affiliate Widget -->
+              <div class="bg-green-50 p-6 rounded-xl border border-green-100">
+                <h3 class="font-bold text-green-900 mb-2">Support This Project</h3>
+                <p class="text-sm text-green-800 mb-4">
+                  We rely on community support to keep this data free and verified.
+                </p>
+                <a href="#" class="block w-full text-center bg-green-700 text-white py-2 rounded-lg font-medium hover:bg-green-800 transition-colors">
+                  Donate or Contribute
+                </a>
+              </div>
+
+            </div>
+          </aside>
+        )}
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 mt-auto">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+          <div class="text-center md:text-left">
+            <p class="font-bold text-white text-lg mb-2">Accessible Outdoors</p>
+            <p class="text-sm text-gray-400">&copy; {new Date().getFullYear()} All rights reserved.</p>
+          </div>
+          
+          <nav class="flex flex-wrap justify-center gap-6 text-sm">
+            <a href="/privacy" class="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="/terms" class="hover:text-white transition-colors">Terms of Service</a>
+            <a href="/accessibility" class="hover:text-white transition-colors">Accessibility Statement</a>
+            <a href="/contact" class="hover:text-white transition-colors">Contact</a>
+          </nav>
+        </div>
+        
+        <div class="mt-8 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
+          <p>Disclaimer: Trail conditions can change rapidly. Always verify accessibility with the official park service before traveling.</p>
+        </div>
+      </div>
+    </footer>
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>

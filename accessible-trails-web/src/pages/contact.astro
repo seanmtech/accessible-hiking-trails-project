@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "Contact Us - Accessible Outdoors";
+const description = "Contact Accessible Outdoors to suggest a park, report an issue, or get in touch.";
+---
+
+<Layout title={title} description={description} showSidebar={false}>
+  <div class="max-w-3xl mx-auto py-12">
+    <div class="prose prose-green prose-lg mb-12">
+      <h1>Contact Us</h1>
+      <p class="lead">Help us improve the accessibility map.</p>
+      
+      <p>
+        We rely on community feedback to keep our data accurate. If you've found an error in our trail descriptions, 
+        want to suggest a new accessible location, or just want to say hello, please use the form below.
+      </p>
+    </div>
+
+    <!-- Form Placeholder -->
+    <div class="bg-gray-50 border-2 border-dashed border-gray-300 rounded-xl p-12 text-center">
+      <div class="max-w-md mx-auto">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        </svg>
+        <h3 class="text-lg font-medium text-gray-900 mb-2">Contact Form Coming Soon</h3>
+        <p class="text-gray-500 mb-6">
+          We are currently integrating a submission form for easier reporting.
+        </p>
+        
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 text-left">
+          <p class="font-medium text-gray-900 mb-2">In the meantime, please email us directly:</p>
+          <a href="mailto:hello@accessibleoutdoors.com" class="text-green-700 font-bold text-lg hover:underline">
+            hello@accessibleoutdoors.com
+          </a>
+          <p class="text-sm text-gray-500 mt-4">
+            <strong>For corrections:</strong> Please include the name of the park and the specific trail.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Section (Optional but helpful for contact pages) -->
+    <div class="mt-16 prose prose-green prose-lg">
+      <h2>Frequently Asked Questions</h2>
+      
+      <h3>How do you define "accessible"?</h3>
+      <p>
+        We primarily use the Architectural Barriers Act (ABA) Accessibility Standards for outdoor developed areas as a guideline, 
+        but we also rely on official park designations. We try to note specific surface types, grades, and widths whenever possible 
+        so you can decide if a trail meets your specific needs.
+      </p>
+
+      <h3>Can I submit photos?</h3>
+      <p>
+        Yes! Photos of trailheads, surfaces, and obstacles are incredibly helpful. Please email them to us with the location name.
+      </p>
+    </div>
+  </div>
+</Layout>

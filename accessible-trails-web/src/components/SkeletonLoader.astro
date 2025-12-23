@@ -1,0 +1,19 @@
+---
+interface Props {
+  width?: string;
+  height?: string;
+  className?: string;
+  label?: string;
+}
+
+const { width = "w-full", height = "h-64", className = "", label = "Advertisement" } = Astro.props;
+---
+
+<div 
+  class={`bg-gray-100 animate-pulse rounded-lg flex items-center justify-center text-gray-400 text-sm font-medium border-2 border-dashed border-gray-200 ${width} ${height} ${className}`}
+  role="status"
+  aria-label={label}
+>
+  <span class="sr-only">Loading...</span>
+  <span aria-hidden="true">{label}</span>
+</div>
