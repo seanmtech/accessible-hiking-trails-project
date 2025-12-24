@@ -21,12 +21,12 @@ export interface Park {
   accessible_restrooms: boolean | null;
   accessible_parking: boolean | null;
   accessible_trails: boolean | null;
-  source: 'nps' | 'manual' | 'osm';
-  affiliate_links: {
+  source: string | string[];
+  affiliate_links?: {
     gear: string | null;
     lodging: string | null;
   };
-  status: 'verified' | 'needs_review';
+  status: 'verified' | 'needs_review' | 'partial' | 'enriched' | 'unknown';
   reviewer_notes?: string;
   accessibility_details?: AccessibilityDetails;
 }

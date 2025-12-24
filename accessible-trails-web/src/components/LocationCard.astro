@@ -17,12 +17,22 @@ const { park } = Astro.props;
           {park.name}
         </a>
       </h2>
-      {park.status === 'verified' && (
-        <span class="shrink-0 bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded border border-blue-200 flex items-center gap-1" title="Manually verified for accessibility">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          Verified
-        </span>
-      )}
+      <div class="flex flex-wrap gap-1 shrink-0 justify-end">
+        {park.status === 'verified' && (
+          <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded border border-blue-200 flex items-center gap-1" title="Manually verified for accessibility">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Verified
+          </span>
+        )}
+        {(() => {
+           const sources = Array.isArray(park.source) ? park.source : [park.source];
+           return sources.map(s => {
+             if (s === 'nps') return <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded border border-green-200">NPS</span>;
+             if (s === 'osm') return <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded border border-purple-200">OSM</span>;
+             return null;
+           });
+        })()}
+      </div>
     </div>
     <p class="text-gray-500 text-sm mt-1 flex items-center gap-1">
       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
