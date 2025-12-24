@@ -72,7 +72,7 @@
     },
     "source": {
       "type": "string",
-      "enum": ["nps", "manual", "osm"],
+      "enum": ["nps", "manual"],
       "description": "Data source"
     },
     "affiliate_links": {

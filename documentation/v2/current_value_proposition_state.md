@@ -54,7 +54,7 @@
   - `scripts/fetch_nps.py` fetches official data directly from the National Park Service (NPS) API.
   - Data is normalized into a standard schema (`data/park_schema.json`).
 - **Transparency:**
-  - The `Park` schema includes a `source` field (`nps`, `manual`, `osm`).
+  - The `Park` schema includes a `source` field (`nps`, `manual`).
   - The project `README.md` explicitly documents these data sources.
 
 ## 5. Negative Results / Hard Nos

@@ -28,7 +28,6 @@ const { park } = Astro.props;
            const sources = Array.isArray(park.source) ? park.source : [park.source];
            return sources.map(s => {
              if (s === 'nps') return <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded border border-green-200">NPS</span>;
-             if (s === 'osm') return <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded border border-purple-200">OSM</span>;
              return null;
            });
         })()}
